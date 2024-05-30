@@ -1,11 +1,43 @@
 {
-  "dependencies": {},
-  "devDependencies": {
-    "vitepress": "^1.2.2"
+  "name": "lectures",
+  "version": "1.0.0",
+  "description": "Explore an extensive repository of publicly accessible personal notebooks on machine learning engineering, data science analytics, artificial intelligence, and more.",
+  "readme": "README.md",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cogxen/lectures"
+  },
+  "keywords": [
+    "machine-learning",
+    "data-science",
+    "artificial-intelligence",
+    "engineering",
+    "analytics",
+    "notebooks",
+    "lectures"
+  ],
+  "author": {
+    "name": "CogXen",
+    "email": "hello@cogxen.quest"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/cogxen/lectures/issues"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": { "@vitejs/plugin-vue": "^5.0.4", "vite": "^5.2.12", "vue": "^3.4.27" },
+  "devDependencies": {
+    "@nolebase/markdown-it-bi-directional-links": "^2.0.0",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.0.0",
+    "@types/node": "^20.12.13",
+    "prettier": "^3.2.5",
+    "vitepress": "^1.2.2",
+    "vitepress-plugin-npm-commands": "^0.6.0",
+    "vitepress-plugin-tabs": "^0.5.0"
   }
 }
