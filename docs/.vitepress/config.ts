@@ -1,4 +1,5 @@
 import { defineConfigWithTheme } from "vitepress"
+import vue from "@vitejs/plugin-vue"
 
 /** Extensions */
 import sidebar from "./config/sidebar"
@@ -58,5 +59,6 @@ export default defineConfigWithTheme({
         cachedChecks: false,
       },
     },
+    plugins: [vue()],
   },
 })
