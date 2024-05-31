@@ -1,17 +1,27 @@
-// https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
-import type { Theme } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import './style.css'
+import { h } from "vue"
+import type { Theme as ThemeConfig } from "vitepress"
+import DefaultTheme from "vitepress/theme"
+
+/** Plugins */
+import { enhanceAppWithTabs } from "vitepress-plugin-tabs/client"
+import {
+  NolebaseEnhancedReadabilitiesMenu,
+  NolebaseEnhancedReadabilitiesScreenMenu,
+} from "@nolebase/vitepress-plugin-enhanced-readabilities/client"
+import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css"
+
+/** Sylesheet */
+import "./style.css"
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      "nav-bar-content-after": () => h(NolebaseEnhancedReadabilitiesMenu),
+      "nav-screen-content-after": () => h(NolebaseEnhancedReadabilitiesScreenMenu),
     })
   },
-  enhanceApp({ app, router, siteData }) {
-    // ...
-  }
-} satisfies Theme
+  enhanceApp({ app }) {
+    enhanceAppWithTabs(app)
+  },
+} satisfies ThemeConfig
