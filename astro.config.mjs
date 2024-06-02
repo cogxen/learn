@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config"
 import starlight from "@astrojs/starlight"
-
 import sidebar from "./src/config/sidebar"
+import netlify from "@astrojs/netlify"
 
 export default defineConfig({
   integrations: [
@@ -27,4 +27,6 @@ export default defineConfig({
       sidebar: sidebar,
     }),
   ],
+  output: "server",
+  adapter: netlify(),
 })
