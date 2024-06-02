@@ -1,0 +1,9 @@
+:root {
+  --primany-color: #ffbf00;
+  --sl-font: "Space Mono", serif;
+}
+
+strong,
+strong > a {
+  color: var(--primany-color) !important;
+}
