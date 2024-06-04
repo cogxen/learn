@@ -23,29 +23,31 @@ We've included a variety of datasets from different domains, ensuring you can fi
 
 ## Featured Websites
 
-<div class="flex flex-col gap-4 pb-20">
+<div class="flex flex-col gap-4">
   <Card 
     title="Kaggle" 
-    description="A valuable resource for anyone interested in data science and machine learning,
+    description="Resources for anyone interested in data science and machine learning,
  whether you're a beginner looking to learn or a seasoned professional looking to develop your skills further." 
     redirect_url="https://www.kaggle.com" 
     img_url="https://i.imgur.com/Zsd2eDX.png"
   />
   <Card 
     title="Tidy Tuesday" 
-    description="A fun and educational way for people to develop their R skills in data manipulation and visualization, especially for those in the R for Data Science." 
+    description="Fun and educational way for people to develop their R skills in data manipulation and visualization, especially for those in the R for Data Science." 
     redirect_url="https://github.com/rfordatascience/tidytuesday/tree/master/data" 
     img_url="https://i.imgur.com/Qg2G6EP.png"
   />
   <Card 
     title="Google Dataset Search" 
-    description=" a valuable resource for anyone looking for data to use in their projects.
+    description="Resources for anyone looking for data to use in their projects.
  It offers a convenient way to explore the vast amount of data available online and can be a great starting point for your data discovery process." 
     redirect_url="https://datasetsearch.research.google.com/" 
-    img_url="https://i.imgur.com/jISUcyB.png"
+    img_url="https://i.imgur.com/TONf4lD.png"
   />
 </div>
 
+<br />
+
 ::: tip NOTE
-We are constantly updating this list with new datasets, so be sure to check back regularly for fresh data to work with.
+We are constantly updating this list with new websites that offer valuable datasets for data science projects. If you have any suggestions, feel free to reach out to us by sending us an email to [hello@cogxen.quest](mailto:hello@cogxen.quest).
 :::
