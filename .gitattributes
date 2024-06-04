@@ -1,2 +1,4 @@
 *.md linguist-detectable=true
 *.md linguist-language=mdx
+*.ts linguist-detectable=true
+*.ts linguist-language=typescript
