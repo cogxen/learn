@@ -1,7 +1,23 @@
 ---
-title: Introduction
-description: Explore an extensive repository of publicly accessible personal notebooks on machine learning engineering, data science analytics, artificial intelligence, and more.
+title: Cogxen
+description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
+head:
+  - - meta
+    - name: description
+    - content: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
+  - - meta
+    - name: keywords
+      content: data data science machine learning AI data analysis data-driven data enthusiasts data practitioners
+lastUpdated: false
+editLink: false
+footer: false
+prev: false
+next: false
 ---
+
+# Welcome to Cogxen!
+
+![banner](/img/banner.png)
 
 Have you ever felt like there's a whole universe of data knowledge out there, just waiting to be explored? Well, you're absolutely right! That's where we come in.
 
