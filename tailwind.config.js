@@ -6,6 +6,7 @@ module.exports = {
     "./docs/.vitepress/**/*.ts",
     "./docs/**/*.md",
   ],
+  darkMode: "class",
   options: {
     safelist: ["html", "body"],
   },
