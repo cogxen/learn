@@ -1,9 +1,8 @@
+import insideTheMindOfAnAspiringDataScientist from "./lectures/inside-the-mind-of-an-aspiring-data-scientist"
+
 export default [
   {
     text: "Lectures",
-    children: [
-      { text: "Lecture 1", link: "/lectures/lecture-1" },
-      { text: "Lecture 2", link: "/lectures/lecture-2" },
-    ],
+    items: [insideTheMindOfAnAspiringDataScientist],
   },
 ]

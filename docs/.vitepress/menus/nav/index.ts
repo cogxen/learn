@@ -1,4 +1,4 @@
 export default [
   { text: "Home", link: "/" },
-  { text: "Lectures", link: "/lectures" },
+  { text: "Lectures", link: "/lectures/" },
 ]
