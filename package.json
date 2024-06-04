@@ -1,21 +1,30 @@
 {
-  "name": "lectures",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+  "name": "@cogxen",
+  "description": "Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.",
+  "author": {
+    "name": "Cogxen",
+    "email": "hello@cogxen.quest",
+    "url": "https://cogxen.quest"
   },
-  "dependencies": {
-    "@astrojs/check": "^0.7.0",
-    "@astrojs/netlify": "^5.2.1",
-    "@astrojs/starlight": "^0.23.2",
-    "@fontsource/space-mono": "^5.0.20",
-    "astro": "^4.8.6",
-    "sharp": "^0.32.5",
-    "typescript": "^5.4.5"
+  "version": "1.0.0",
+  "dependencies": { "lucide-vue-next": "^0.383.0" },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.0",
+    "tailwindcss": "^3.4.3",
+    "vitepress": "^1.2.2"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
   }
 }
