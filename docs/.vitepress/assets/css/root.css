@@ -171,13 +171,13 @@ a {
 
 :root {
   --vp-c-border: #c2c2c4;
-  --vp-c-divider: #e2e2e300;
+  --vp-c-divider: #e2e2e3;
   --vp-c-gutter: #e2e2e3;
 }
 
 .dark {
   --vp-c-border: #3c3f44;
-  --vp-c-divider: #2e2e3200;
+  --vp-c-divider: #2e2e32;
   --vp-c-gutter: #000000;
 }
 

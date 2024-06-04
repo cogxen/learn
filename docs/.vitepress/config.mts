@@ -6,8 +6,11 @@ import sidebar from "./menus/sidebar"
 
 export default defineConfigWithTheme({
   title: "Cogxen",
-  description: "A VitePress Site",
+  description:
+    "Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.",
   themeConfig: {
+    /** Logo */
+    logo: "/img/logo/logo.png",
     /** Menus */
     nav: nav,
     sidebar: sidebar,
@@ -20,14 +23,23 @@ export default defineConfigWithTheme({
       provider: "local",
     },
 
+    /** Footer */
     footer: {
       message: "Collaborate, Innovate, and Create Together!",
       copyright: "Copyright © 2024 Cogxen",
     },
+
+    /** Outline */
+    outlineTitle: "Page contents",
+    outline: "deep",
+
+    returnToTopLabel: "Go to Top",
+    sidebarMenuLabel: "Menu",
   },
 
   /** Configurations */
   cleanUrls: true,
+  lastUpdated: true,
   markdown: {
     image: {
       lazyLoading: true,
