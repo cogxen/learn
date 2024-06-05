@@ -1,8 +1,8 @@
 /** Menus (Modularized) */
 import home from "./menus/home"
-import lectures from "./menus/lectures"
+import blueprintToADataScienceCareer from "./menus/lectures/blueprint-to-a-data-science-career"
 
 export default {
   "/": home,
-  "/lectures/": lectures,
+  "/lectures/blueprint-to-a-data-science-career/": blueprintToADataScienceCareer,
 }
