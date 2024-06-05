@@ -21,7 +21,7 @@ Welcome to the Cogxen Lectures! Here, we empower data enthusiasts and practition
 
 ## Lectures
 
-- Inside the Mind of an Aspiring Data Scientist <CustomBadge text="Newly upload" type="new" />
+- Blueprint to a Data Science Career <CustomBadge text="Newly upload" type="new" />
 
 <br />
 
