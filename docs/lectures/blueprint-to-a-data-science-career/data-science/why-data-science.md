@@ -72,6 +72,8 @@ Why Data Scientists Earn Well:
 - **Skills**: Data scientists use special skills and tools that not everyone knows.
 - **Impact**: The insights from data scientists can help a company grow and succeed.
 
-::: info
+<br />
+
+::: info CONCLUSION
 Choosing a career in data science is a smart move. It's always relevant, there are plenty of jobs, and it pays well. Plus, you're already doing some data science in your everyday life by analyzing information to make decisions.
 :::
