@@ -27,7 +27,7 @@
 
 <script setup lang="ts">
 import { BadgeCheck, Link2 } from "lucide-vue-next"
-import { defineProps, computed } from "vue"
+import { computed } from "vue"
 
 const props = defineProps({
   title: {
