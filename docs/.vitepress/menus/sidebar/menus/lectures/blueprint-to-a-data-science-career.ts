@@ -51,6 +51,44 @@ export default {
           text: "Start with Research",
           link: "/lectures/blueprint-to-a-data-science-career/data-science-and-you/start-with-research",
         },
+        {
+          text: "Your Data Science Goal",
+          link: "/lectures/blueprint-to-a-data-science-career/data-science-and-you/your-data-science-goal",
+        },
+      ],
+    },
+    {
+      text: "Learning Data Science",
+      items: [
+        {
+          text: "Asking Questions",
+          link: "/lectures/blueprint-to-a-data-science-career/learning-data-science/asking-questions",
+        },
+        {
+          text: "Getting Hands-on",
+          link: "/lectures/blueprint-to-a-data-science-career/learning-data-science/getting-hands-on",
+        },
+        {
+          text: "Participating in Competitions",
+          link: "/lectures/blueprint-to-a-data-science-career/learning-data-science/participating-in-competitions",
+        },
+        {
+          text: "Join a Community",
+          link: "/lectures/blueprint-to-a-data-science-career/learning-data-science/join-a-community",
+        },
+      ],
+    },
+    {
+      text: "Creating your Resume",
+      items: [
+        {
+          text: "Resume With No Experience",
+          link: "/lectures/blueprint-to-a-data-science-career/creating-your-resume/resume-with-no-experience",
+        },
+        {
+          text: "Highlighting Your Expertise",
+          link: "/lectures/blueprint-to-a-data-science-career/creating-your-resume/highlighting-your-expertise",
+        },
       ],
     },
   ],
