@@ -35,7 +35,6 @@ All about what it’s like to be a data scientist. Think of a data scientist as 
 - **Knowing Your Why**: Before starting any adventure, it's important to know why you're doing it. It’s like asking, "Why do I want to be a pirate?" Knowing your reason will make your journey even more exciting.
 - **Finding Your Tribe**: You’ll learn how to find friends who love data science too. It’s like joining a club where everyone shares your interests.
 - **Creating Your First Resume**: This is like making a cool poster about yourself to show what you can do.
-- **Building Your Brand**: Learn how to tell the world about your superpowers using social media, just like sharing your amazing art on the fridge.
 
 ## Super Skills You’ll Gain
 

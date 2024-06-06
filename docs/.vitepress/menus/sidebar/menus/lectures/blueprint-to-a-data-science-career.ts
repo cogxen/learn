@@ -79,7 +79,7 @@ export default {
       ],
     },
     {
-      text: "Creating your Resume",
+      text: "Creating Your Resume",
       items: [
         {
           text: "Resume With No Experience",
