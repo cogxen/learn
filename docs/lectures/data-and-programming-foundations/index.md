@@ -1,5 +1,5 @@
 ---
-title: How to Contribute? | Cogxen
+title: Data and Programming Foundations | Lectures | Cogxen
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -15,6 +15,13 @@ prev: false
 next: false
 ---
 
-# How to Contribute?
+<ImageCard 
+  img_url="https://i.imgur.com/Xbdc6li.png" 
+  alt="Vector Addition" 
+/>
 
-As we offers a comprehensive collection of lectures, notes, and resources on a variety of topics including data science, analytics, engineering, artificial intelligence, machine learning, deep learning, and more. We will open the platform for the community to contribute and expand the collection **very very soon**! Stay tuned for updates.
+<div class="text-center">
+
+Stay tuned! We'll be adding **Data and Programming Foundations**, soon!
+
+</div>
