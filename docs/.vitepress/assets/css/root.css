@@ -11,6 +11,22 @@ a {
   text-decoration: none !important;
 }
 
+main img {
+  border-radius: 5px;
+}
+
+.group {
+  border-top: none !important;
+}
+
+.nav {
+  border-top: none !important;
+}
+
+.title {
+  border-bottom: none !important;
+}
+
 /**
  * Colors: Solid
  * -------------------------------------------------------------------------- */
@@ -143,7 +159,7 @@ a {
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-bg: #fefded;
+  --vp-c-bg: #ffffff;
   --vp-c-bg-alt: #f6f5f2;
   --vp-c-bg-elv: #ffffff;
   --vp-c-bg-soft: #f6f6f7;
