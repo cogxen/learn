@@ -20,10 +20,12 @@ export default [
       {
         text: "Datasets",
         link: "/resources/datasets",
+        icon: "DatabaseZap",
       },
       {
         text: "Tools",
         link: "/resources/tools",
+        icon: "Hammer",
       },
     ],
   },
@@ -32,6 +34,7 @@ export default [
     items: [
       {
         text: "Fundamentals",
+        icon: "Box",
         collapsed: false,
         items: [
           {
@@ -39,11 +42,27 @@ export default [
             link: "/lectures/blueprint-to-a-data-science-career/introduction",
             badge: { type: "gradient", text: "New", custom: "" },
           },
+          {
+            text: "Data and Programming Foundations",
+            link: "/lectures/data-and-programming-foundations/",
+            badge: { type: "success", text: "Soon", custom: "" },
+          },
+          {
+            text: "Data Science Foundation",
+            link: "/lectures/data-science-foundation/",
+            badge: { type: "success", text: "Soon", custom: "" },
+          },
+          {
+            text: "AI Foundations: Machine Learning",
+            link: "/lectures/ai-foundations-machine-learning/",
+            badge: { type: "success", text: "Soon", custom: "" },
+          },
         ],
       },
       {
         text: "Statistics",
         collapsed: false,
+        icon: "BarChart2",
         items: [
           {
             text: "Linear Algebra in Data Science",

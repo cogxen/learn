@@ -7,7 +7,6 @@ export default {
         {
           text: "Introduction",
           link: "/lectures/linear-algebra-in-data-science/introduction",
-          badge: { type: "gradient", text: "New", custom: "" },
         },
       ],
     },
