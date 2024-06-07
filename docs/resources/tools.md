@@ -1,5 +1,5 @@
 ---
-title: Cogxen - Resources
+title: Tools | Resources | Cogxen
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -17,4 +17,8 @@ next: false
 
 ![Image 1](https://i.imgur.com/Xbdc6li.png)
 
-We'll be adding **tools** here soon! Stay tuned!
+<div class="text-center">
+
+Stay tuned! We'll be adding **Tools**, soon!
+
+</div>
