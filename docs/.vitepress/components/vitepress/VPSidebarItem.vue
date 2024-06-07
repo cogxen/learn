@@ -52,28 +52,29 @@ function onCaretClick() {
   <component :is="sectionTag" class="VPSidebarItem" :class="classes">
     <div
       v-if="item.text"
-      class="item"
+      class="item flex flex-row items-center gap-2"
       :role="itemRole"
       v-on="item.items ? { click: onItemInteraction, keydown: onItemInteraction } : {}"
       :tabindex="item.items && 0"
     >
+      <div
+        class="border p-1 border-slate-300 bg-slate-200 text-slate-800 rounded-md dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700"
+        v-if="iconComponent"
+      >
+        <component :is="iconComponent" class="w-4 h-4" />
+      </div>
+
       <div class="indicator" />
 
       <VPLink
         v-if="item.link"
         :tag="linkTag"
-        class="link flex flex-row items-center gap-2"
+        class="link flex flex-row items-center gap-1"
         :href="item.link"
         :rel="item.rel"
         :target="item.target"
       >
-        <div
-          class="border p-1 border-slate-300 bg-slate-200 text-slate-800 rounded-md dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700"
-          v-if="iconComponent"
-        >
-          <component :is="iconComponent" class="w-4 h-4" />
-        </div>
-        <component :is="textTag" class="text" v-html="item.text" />
+        <component :is="textTag" class="text line-clamp-2" v-html="item.text" />
         <span
           v-if="item.badge"
           :class="[
@@ -92,7 +93,7 @@ function onCaretClick() {
           v-text="item.badge.text"
         ></span>
       </VPLink>
-      <component v-else :is="textTag" class="text" v-html="item.text" />
+      <component v-else :is="textTag" class="text line-clamp-2" v-html="item.text" />
 
       <div
         v-if="item.collapsed != null && item.items && item.items.length"
@@ -160,8 +161,8 @@ function onCaretClick() {
 .text {
   flex-grow: 1;
   padding: 4px 0;
-  line-height: 24px;
   font-size: 14px;
+  line-height: 24px;
   transition: color 0.25s;
 }
 
