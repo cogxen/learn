@@ -44,5 +44,6 @@ export default defineConfigWithTheme({
     image: {
       lazyLoading: true,
     },
+    math: true,
   },
 })
