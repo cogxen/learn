@@ -1,4 +1,3 @@
-import { h } from "vue"
 import type { Theme as ThemeConfig } from "vitepress"
 import DefaultTheme from "vitepress/theme"
 
