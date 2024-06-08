@@ -47,7 +47,17 @@ Angles and trigonometry are all about understanding shapes and how they move.
 
 ### Angles
 
-Angles are like slices of a pizza. They show how much you need to turn to go from one direction to another. You measure angles in degrees. For example:
+Angles are like slices of a pizza. They show how much you need to turn to go from one direction to another. You measure angles in degrees.
+
+<ImageCard
+img_url="https://i.imgur.com/DRhyPyo.png"
+alt="Angels"
+caption="Angels"
+copyright_owner="en.wikipedia.org"
+:bordered="true"
+/>
+
+For example:
 
 - **A full circle**: $360^\circ$.
 - **A right angle**: $90^\circ$ (like the corner of a square).
@@ -68,6 +78,14 @@ Norm is like measuring how long a vector (your arrow) is. It's the length of the
 
 Euclidean distance measures how far apart two points are. Imagine you and a friend are standing on a big piece of paper. You both draw arrows to different spots. The Euclidean distance is how far you'd have to walk to get from your friend's arrow to yours.
 
+<ImageCard
+img_url="https://i.imgur.com/jAqSubd.png"
+alt="Euclidean Distance"
+caption="Euclidean Distance"
+copyright_owner="en.wikipedia.org"
+:bordered="true"
+/>
+
 ## Pythagorean Theorem and Orthogonality
 
 These might sound like big words, but they're very helpful concepts.
@@ -76,13 +94,37 @@ These might sound like big words, but they're very helpful concepts.
 
 The Pythagorean Theorem helps you figure out the length of the sides of a right triangle. It's like a magical formula: $a^2+b^2=c^2$
 
+<ImageCard
+img_url="https://i.imgur.com/ebpFnhJ.png"
+alt="Pythagorean Theorem"
+caption="Pythagorean Theorem"
+copyright_owner="en.wikipedia.org"
+:bordered="true"
+/>
+
 ### Orthogonality
 
 Orthogonality is when two vectors (arrows) are at a right angle (90 degrees) to each other. It's like how the corner of a piece of paper is perfectly square.
 
+<ImageCard
+img_url="https://i.imgur.com/dLlLfk7.png"
+alt="Orthogonality"
+caption="Orthogonality"
+copyright_owner="en.wikipedia.org"
+:bordered="true"
+/>
+
 ## Cartesian Coordinate System
 
 The Cartesian Coordinate System helps you visualize vectors and understand their geometric properties.
+
+<ImageCard
+img_url="https://i.imgur.com/txdOOMr.png"
+alt="Cartesian Coordinate Plane"
+caption="Cartesian Coordinate Plane"
+copyright_owner="en.wikipedia.org"
+:bordered="true"
+/>
 
 ### Visualizing Vectors
 

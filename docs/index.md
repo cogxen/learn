@@ -17,7 +17,10 @@ next: false
 
 # Welcome to Cogxen!
 
-![banner](/img/banner.png)
+<ImageCard 
+  img_url="/img/banner.png" 
+  alt="Cogxen Banner" 
+/>
 
 Have you ever felt like there's a whole universe of data knowledge out there, just waiting to be explored? Well, you're absolutely right! That's where we come in.
 

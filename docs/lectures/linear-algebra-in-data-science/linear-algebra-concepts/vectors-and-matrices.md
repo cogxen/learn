@@ -23,6 +23,14 @@ Imagine you have a list of your favorite toys. This list is like a vector. Now, 
 
 Vectors are lists of numbers. Think of them as your secret codes that can represent anything:
 
+<ImageCard
+img_url="https://i.imgur.com/HN7Ryae.png"
+alt="Vectors"
+caption="Vectors"
+copyright_owner="en.wikipedia.org"
+:bordered="true"
+/>
+
 - **Customer Characteristics**: Like salary, age, height, income, and purchase history.
 - **Word Embeddings**: These are numerical codes for words, which help computers understand text in natural language processing (NLP).
 

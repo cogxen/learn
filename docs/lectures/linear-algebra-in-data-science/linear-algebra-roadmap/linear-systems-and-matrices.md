@@ -39,9 +39,9 @@ When you have a system of equations, you can use something called Gaussian elimi
 
 <ImageCard 
   img_url="https://i.imgur.com/5a3jPvW.gif" 
-  alt="Gaussian Reduction" 
   caption="Gaussian Reduction" 
   copyright_owner="en.wikipedia.org" 
+  bordered=true
 />
 
 ### Row Echelon Form (REF)
@@ -58,15 +58,11 @@ A matrix is in REF if it has the following properties:
 
 The following is an example of a ${\displaystyle 4\times 5}$ matrix in row echelon form, but not in reduced row echelon form (see below):
 
-<br />
-
 <div align="center">
 
 ${\displaystyle \left[{\begin{array}{ccccc}1&a_{0}&a_{1}&a_{2}&a_{3}\\0&0&2&a_{4}&a_{5}\\0&0&0&1&a_{6}\\0&0&0&0&0\end{array}}\right]}$
 
 </div>
-
-<br />
 
 ### Reduced Row Echelon Form (RREF)
 
@@ -85,10 +81,51 @@ Then the first two conditions imply that the leading $1$ in any row is to the ri
 
 Given a matrix in reduced row echelon form, if one permutes the columns in order to have the leading $1$ of the $ith$ row in the $ith$ column, one gets a matrix of the form.
 
-<br />
-
 <div align="center">
 
 ${\displaystyle {\begin{pmatrix}I&X\\0&0\end{pmatrix}},}$
 
 </div>
+
+## Null Space, Column Space, Basis, and Rank
+
+Understanding these concepts will help you see the bigger picture of your matrix puzzles.
+
+- **Null Space**: This is like finding the pieces of the puzzle that don't change the outcome.
+
+<ImageCard 
+  img_url="https://i.imgur.com/nRtiglu.png" 
+  caption="Null Space" 
+  copyright_owner="en.wikipedia.org" 
+  bordered=true
+/>
+
+- **Column Space**: Think of this as the possible results you can get from your matrix puzzle.
+
+<ImageCard 
+  img_url="https://i.imgur.com/exGWOQo.png" 
+  caption="Column Space" 
+  copyright_owner="en.wikipedia.org" 
+  bordered=true
+/>
+
+- **Basis**: These are the essential pieces you need to solve the puzzle.
+
+<ImageCard 
+  img_url="https://i.imgur.com/MPRMNWH.png" 
+  caption="Basis" 
+  copyright_owner="en.wikipedia.org" 
+  bordered=true
+/>
+
+- **Rank** and **Full Rank**: The rank tells you how many essential pieces you have. If you have all the pieces you need, it's called full rank.
+
+## Algebraic Laws for Matrices with Proofs
+
+To really master matrices, you need to understand the rules they follow, just like learning the rules of a game. Knowing the proofs of these rules helps you see why the rules work the way they do.
+
+<br />
+
+::: info CONCLUSION
+By learning about matrices and how to solve linear systems, you're getting the tools you need to solve bigger and more interesting puzzles in machine learning and artificial intelligence.
+:::

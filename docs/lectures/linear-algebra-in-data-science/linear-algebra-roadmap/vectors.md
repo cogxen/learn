@@ -25,10 +25,10 @@ Imagine a vector as an arrow. It has a direction and a length (also called magni
 
 When you add vectors, it's like taking two trips and combining them into one. If you go 3 steps north and then 4 steps east, where do you end up? That's vector addition!
 
-<ImageCard 
-  img_url="https://i.imgur.com/6rKNZpD.png" 
-  alt="Vector Addition" 
-  caption="Vector Addition" 
+<ImageCard
+img_url="https://i.imgur.com/6rKNZpD.png"
+caption="Vector Addition"
+:bordered="true"
 />
 
 - If **Vector A** is $3$ steps north and **Vector B** is $4$ steps east, adding them gives you a new vector that shows your overall movement.
@@ -38,9 +38,9 @@ When you add vectors, it's like taking two trips and combining them into one. If
 Subtracting vectors is like finding the difference between two trips. If you know where you ended up and where you started, you can figure out the steps you took.
 
 <ImageCard
-  img_url="https://i.imgur.com/1tNSYsq.png" 
-  alt="Vector Subtraction" 
-  caption="Vector Subtraction" 
+img_url="https://i.imgur.com/1tNSYsq.png"
+caption="Vector Subtraction"
+:bordered="true"
 />
 
 - If you end up $3$ steps **north** and $4$ steps **east** from where you started, subtracting these vectors helps you find out the steps you retraced.
@@ -75,9 +75,9 @@ Think of this as unique paths. If two vectors are linearly independent, one path
 
 <ImageCard 
   img_url="https://i.imgur.com/vh1vaWo.png" 
-  alt="Linear Independence" 
   caption="Linear Independence" 
   copyright_owner="en.wikipedia.org" 
+  :bordered="true"
 />
 
 ### Span
@@ -91,15 +91,15 @@ A basis is a set of vectors that can be combined to reach any point in space. Di
 <div class="flex flex-col items-center gap-4">
   <ImageCard 
     img_url="https://i.imgur.com/rgp2vlE.png" 
-    alt="Basis" 
     caption="The same vector can be represented in two different bases" 
     copyright_owner="en.wikipedia.org" 
+    :bordered="true"
   />
   <ImageCard 
     img_url="https://i.imgur.com/LIKv13s.png" 
-    alt="Dimension" 
     caption="A diagram of dimensions 1, 2, 3, and 4" 
     copyright_owner="en.wikipedia.org" 
+    :bordered="true"
   />
 </div>
 
@@ -109,7 +109,11 @@ A basis is a set of vectors that can be combined to reach any point in space. Di
 
 The dot product is a way to multiply two vectors to get a number. It helps you find out how much two vectors point in the same direction.
 
-<ImageCard img_url="https://i.imgur.com/6ltnfui.png" alt="Dot Product" caption="Dot Product" />
+<ImageCard
+  img_url="https://i.imgur.com/6ltnfui.png"
+  caption="Dot Product"
+  :bordered="true"
+/>
 
 - If two vectors point exactly in the same direction, the dot product is large. If they point in opposite directions, the dot product is small or negative.
 

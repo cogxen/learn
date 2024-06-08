@@ -46,6 +46,14 @@ export default {
           text: "Linear Systems and Matrices",
           link: "/lectures/linear-algebra-in-data-science/linear-algebra-roadmap/linear-systems-and-matrices",
         },
+        {
+          text: "Linear Transformations and Matrices",
+          link: "/lectures/linear-algebra-in-data-science/linear-algebra-roadmap/linear-transformations-and-matrices",
+        },
+        {
+          text: "Advanced Topics",
+          link: "/lectures/linear-algebra-in-data-science/linear-algebra-roadmap/advanced-topics",
+        },
       ],
     },
   ],
