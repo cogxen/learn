@@ -57,7 +57,7 @@ LIMIT 10;
 
 <ImageCard
 img_url="https://i.imgur.com/cSSqAbB.png"
-caption="Example of SQL in Action"
+caption="Query Results"
 copyright_owner="codecademy.com"
 :bordered="true"
 />
