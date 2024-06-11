@@ -71,6 +71,24 @@ export default [
           },
         ],
       },
+      {
+        text: "Programming",
+        collapsed: false,
+        icon: "Code",
+        items: [
+          {
+            text: "SQL",
+            collapsed: false,
+            items: [
+              {
+                text: "Analyzing Data",
+                link: "/lectures/programming/sql/analyzing-data/introduction",
+                badge: { text: "New" },
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 ]
