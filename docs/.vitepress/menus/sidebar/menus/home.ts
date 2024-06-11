@@ -33,41 +33,41 @@ export default [
     text: "Lectures",
     items: [
       {
-        text: "Fundamentals",
+        text: "Data Science",
         icon: "Box",
         collapsed: false,
         items: [
           {
             text: "Blueprint to a Data Science Career",
-            link: "/lectures/blueprint-to-a-data-science-career/introduction",
-            badge: { type: "gradient", text: "New", custom: "" },
+            link: "/lectures/data-science/blueprint-to-a-data-science-career/introduction",
+            badge: { text: "New" },
           },
           {
             text: "Data and Programming Foundations",
-            link: "/lectures/data-and-programming-foundations/",
-            badge: { type: "success", text: "Soon", custom: "" },
+            link: "/lectures/data-science/data-and-programming-foundations/",
+            badge: { text: "Soon" },
           },
           {
             text: "Data Science Foundation",
-            link: "/lectures/data-science-foundation/",
-            badge: { type: "success", text: "Soon", custom: "" },
+            link: "/lectures/data-science/data-science-foundation/",
+            badge: { text: "Soon" },
           },
           {
             text: "AI Foundations: Machine Learning",
-            link: "/lectures/ai-foundations-machine-learning/",
-            badge: { type: "success", text: "Soon", custom: "" },
+            link: "/lectures/data-science/ai-foundations-machine-learning/",
+            badge: { text: "Soon" },
           },
         ],
       },
       {
-        text: "Statistics",
+        text: "Math",
         collapsed: false,
-        icon: "BarChart2",
+        icon: "Sigma",
         items: [
           {
-            text: "Linear Algebra in Data Science",
-            link: "/lectures/linear-algebra-in-data-science/introduction",
-            badge: { type: "gradient", text: "New", custom: "" },
+            text: "Linear Algebra",
+            link: "/lectures/math/linear-algebra/introduction",
+            badge: { text: "New" },
           },
         ],
       },

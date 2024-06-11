@@ -17,4 +17,8 @@ next: false
 
 # How to Contribute?
 
-As we offers a comprehensive collection of lectures, notes, and resources on a variety of topics including data science, analytics, engineering, artificial intelligence, machine learning, deep learning, and more. We will open the platform for the community to contribute and expand the collection **very very soon**! Stay tuned for updates.
+Welcome to our thrilling quest into the fascinating realms of data science, analytics, engineering, artificial intelligence, and beyond! This online space serves as our collective knowledge base, a vibrant and ever-evolving repository of lectures, notes, and resources that we've gathered on this exciting journey. Picture it as a digital notebook brimming with insights, discoveries, and those wonderful "aha!" moments that make learning so exhilarating.
+
+We are here to share our explorations with you, hoping to ignite your curiosity and fuel your own learning adventures. Our journey isn't meant to be a solitary one—it's a collaborative adventure! Soon, this platform will be open for contributions from all of us. Imagine a vast library of knowledge, collaboratively built by a passionate community of learners. By sharing our unique perspectives, experiences, and valuable resources, we can create an even more comprehensive and dynamic learning hub.
+
+Stay tuned, fellow explorers! This is just the beginning. Let's embark on this learning odyssey together and unlock the boundless potential of knowledge!

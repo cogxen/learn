@@ -77,19 +77,7 @@ function onCaretClick() {
         <component :is="textTag" class="text line-clamp-2" v-html="item.text" />
         <span
           v-if="item.badge"
-          :class="[
-            item.badge.custom,
-            'rounded-md',
-            'text-xs',
-            'text-white',
-            'px-2',
-            'py-0.5',
-            item.badge.type === 'success' ? 'bg-green-500' : '',
-            item.badge.type === 'warning' ? 'bg-yellow-500' : '',
-            item.badge.type === 'danger' ? 'bg-red-500' : '',
-            item.badge.type === 'info' ? 'bg-sky-500' : '',
-            item.badge.type === 'gradient' ? 'bg-gradient-to-r from-red-500 to-blue-500' : '',
-          ]"
+          class="rounded-md text-xs text-slate-800 px-2 py-0.5 bg-slate-200 border border-slate-300 dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700"
           v-text="item.badge.text"
         ></span>
       </VPLink>
