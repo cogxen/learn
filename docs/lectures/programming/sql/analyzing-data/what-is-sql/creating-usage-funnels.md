@@ -63,6 +63,8 @@ Here are some strategies that George might recommend:
 
 ## SQL in Action
 
+- Using SQL, George finds that $24\%$ of all users who browse move on to checkout. $89\%$ of those who reach checkout purchase.
+
 ```sql
  SELECT ROUND(
    100.0 * COUNT(DISTINCT c.user_id) /
@@ -79,7 +81,17 @@ Here are some strategies that George might recommend:
  	ON c.user_id = p.user_id;
 ```
 
-- Using SQL, George finds that $24\%$ of all users who browse move on to checkout. $89\%$ of those who reach checkout purchase.
+### SQL Query Explanation
+
+Here's a breakdown of the query:
+
+- `COUNT(DISTINCT c.user_id) / COUNT(DISTINCT b.user_id)`: This calculates the ratio of unique users who have checked out to the unique users who have browsed. Multiplying by $100.0$ converts the ratio to a percentage.
+- `COUNT(DISTINCT p.user_id) / COUNT(DISTINCT c.user_id)`: This calculates the ratio of unique users who have made a purchase to the unique users who have checked out. Again, multiplying by $100.0$ converts the ratio to a percentage.
+- `LEFT JOIN checkout c ON b.user_id = c.user_id`: This joins the `browse` and `checkout` tables on the `user_id` field. The `LEFT JOIN` ensures that all records from the browse table and any matching records from the `checkout` table are included.
+- `LEFT JOIN purchase p ON c.user_id = p.user_id`: This joins the `checkout` and `purchase` tables on the user_id field. The `LEFT JOIN` ensures that all records from the `checkout` table and any matching records from the `purchase` table are included.
+
+NOTE:
+The `ROUND` function is used to round the resulting percentages to the nearest whole number.
 
 <ImageCard
 img_url="https://i.imgur.com/WQMniRK.png"
