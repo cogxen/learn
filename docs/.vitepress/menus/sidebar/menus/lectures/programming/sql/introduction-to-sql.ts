@@ -15,12 +15,8 @@ export default {
       items: [
         {
           text: "Relational Databases",
-          collapsed: false,
+          link: "/lectures/programming/sql/introduction-to-sql/manupulation/relational-databases",
           items: [
-            {
-              text: "Definition",
-              link: "/lectures/programming/sql/introduction-to-sql/manupulation/relational-databases/definition",
-            },
             {
               text: "Data Types",
               link: "/lectures/programming/sql/introduction-to-sql/manupulation/relational-databases/data-types",
