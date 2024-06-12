@@ -40,22 +40,6 @@ export default [
           {
             text: "Blueprint to a Data Science Career",
             link: "/lectures/data-science/blueprint-to-a-data-science-career/introduction",
-            badge: { text: "New" },
-          },
-          {
-            text: "Data and Programming Foundations",
-            link: "/lectures/data-science/data-and-programming-foundations/",
-            badge: { text: "Soon" },
-          },
-          {
-            text: "Data Science Foundation",
-            link: "/lectures/data-science/data-science-foundation/",
-            badge: { text: "Soon" },
-          },
-          {
-            text: "AI Foundations: Machine Learning",
-            link: "/lectures/data-science/ai-foundations-machine-learning/",
-            badge: { text: "Soon" },
           },
         ],
       },
@@ -67,7 +51,7 @@ export default [
           {
             text: "Linear Algebra",
             link: "/lectures/math/linear-algebra/introduction",
-            badge: { text: "New" },
+            badge: { text: "Working" },
           },
         ],
       },
@@ -81,14 +65,14 @@ export default [
             collapsed: false,
             items: [
               {
-                text: "Introduction to SQL",
+                text: "Introduction",
                 link: "/lectures/programming/sql/introduction-to-sql/introduction",
                 badge: { text: "New" },
               },
               {
                 text: "Analyzing Data",
                 link: "/lectures/programming/sql/analyzing-data/introduction",
-                badge: { text: "New" },
+                badge: { text: "Working" },
               },
             ],
           },

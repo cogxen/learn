@@ -77,7 +77,7 @@ function onCaretClick() {
         <component :is="textTag" class="text line-clamp-2" v-html="item.text" />
         <span
           v-if="item.badge"
-          class="rounded-md text-xs text-slate-800 px-2 py-0.5 bg-slate-200 border border-slate-300 dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700"
+          class="rounded-md text-[10px] text-slate-800 px-2 py-0.5 bg-slate-200 border border-slate-300 dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700"
           v-text="item.badge.text"
         ></span>
       </VPLink>
