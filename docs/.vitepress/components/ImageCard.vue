@@ -10,9 +10,9 @@
     <div class="absolute top-2 left-2 bg-slate-700 text-white text-[10px] px-2 py-1 rounded-lg">
       {{ copyright_owner }}
     </div>
-  </div>
-  <div class="flex pt-1 flex-col items-center">
-    <div class="text-sm text-slate-400">{{ caption }}</div>
+    <div class="flex pt-1 flex-col items-center">
+      <div class="text-sm text-slate-400">{{ caption }}</div>
+    </div>
   </div>
 </template>
 
