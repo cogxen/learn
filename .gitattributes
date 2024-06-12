@@ -1,4 +1,5 @@
-*.ts linguist-detectable=true
-*.ts linguist-language=ts
+docs/.vitepress/**/*.ts linguist-detectable=true
+docs/.vitepress/**/*.ts linguist-language=TypeScript
+docs/.vitepress/**/*.ts linguist-vendored=false
 
 * text=auto eol=lf
