@@ -44,16 +44,16 @@ export default {
               link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/select",
             },
             {
+              text: "ALTER",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/alter",
+            },
+            {
               text: "UPDATE",
               link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/update",
             },
             {
               text: "DELETE",
               link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/delete",
-            },
-            {
-              text: "ALTER",
-              link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/alter",
             },
           ],
         },
