@@ -59,3 +59,14 @@ Rows are individual records within a table. Each row is a single entry that cont
 - **age**: 22
 
 Each row is like a book on our shelf, with its own unique story (data).
+
+## Why Use Relational Databases?
+
+Relational databases are incredibly powerful because they allow for efficient data management and retrieval. By organizing data into tables, we can quickly access and manipulate the information we need. This structure also supports relationships between different sets of data, enabling complex queries and insights.
+
+### Advantages
+
+- **Consistency**: Ensures data is consistently stored and retrieved.
+- **Accuracy**: Reduces data redundancy and maintains data integrity.
+- **Flexibility**: Allows complex queries and relationships between tables.
+- **Scalability**: Handles large volumes of data effectively.
