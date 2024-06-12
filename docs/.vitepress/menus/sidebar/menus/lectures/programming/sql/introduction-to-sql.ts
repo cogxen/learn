@@ -57,6 +57,36 @@ export default {
             },
           ],
         },
+        {
+          text: "Constraints",
+          link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints",
+          items: [
+            {
+              text: "NOT NULL",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/not-null",
+            },
+            {
+              text: "UNIQUE",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/unique",
+            },
+            {
+              text: "PRIMARY KEY",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/primary-key",
+            },
+            {
+              text: "FOREIGN KEY",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/foreign-key",
+            },
+            {
+              text: "CHECK",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/check",
+            },
+            {
+              text: "DEFAULT",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/default",
+            },
+          ],
+        },
       ],
     },
   ],
