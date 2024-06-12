@@ -12,7 +12,6 @@ import MathExampleCard from "../components/MathExampleCard.vue"
 import CustomLayout from "../components/CustomLayout.vue"
 import CustomBadge from "../components/CustomBadge.vue"
 import VPSidebarItem from "../components/vitepress/VPSidebarItem.vue"
-import VPLink from "../components/vitepress/VPLink.vue"
 
 export default {
   ...DefaultTheme,
@@ -22,7 +21,6 @@ export default {
     app.component("CustomBadge", CustomBadge)
     app.component("ImageCard", ImageCard)
     app.component("VPSidebarItem", VPSidebarItem)
-    app.component("VPLink", VPLink)
   },
   Layout: CustomLayout,
 } satisfies ThemeConfig
