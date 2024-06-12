@@ -81,6 +81,11 @@ export default [
             collapsed: false,
             items: [
               {
+                text: "Introduction to SQL",
+                link: "/lectures/programming/sql/introduction-to-sql/introduction",
+                badge: { text: "New" },
+              },
+              {
                 text: "Analyzing Data",
                 link: "/lectures/programming/sql/analyzing-data/introduction",
                 badge: { text: "New" },
