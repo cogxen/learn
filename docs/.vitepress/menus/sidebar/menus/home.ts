@@ -81,7 +81,7 @@ export default [
             collapsed: false,
             items: [
               {
-                text: "Introductin to SQL",
+                text: "Introduction to SQL",
                 link: "/lectures/programming/sql/introduction-to-sql/introduction",
                 badge: { text: "New" },
               },
