@@ -3,6 +3,7 @@ import home from "./menus/home"
 import blueprintToADataScienceCareer from "./menus/lectures/data-science/blueprint-to-a-data-science-career"
 import linearAlgebra from "./menus/lectures/math/linear-algebra"
 import analyzingData from "./menus/lectures/programming/sql/analyzing-data"
+import introductionToSql from "./menus/lectures/programming/sql/introduction-to-sql"
 
 export default {
   "/": home,
@@ -14,4 +15,5 @@ export default {
 
   /** Programming */
   "/lectures/programming/sql/analyzing-data/": analyzingData,
+  "/lectures/programming/sql/introduction-to-sql": introductionToSql,
 }
