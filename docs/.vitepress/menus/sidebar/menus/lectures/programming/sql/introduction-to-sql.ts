@@ -85,5 +85,46 @@ export default {
         },
       ],
     },
+    {
+      text: "Queries",
+      items: [
+        {
+          text: "SELECT",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/select",
+        },
+        {
+          text: "AS",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/as",
+        },
+        {
+          text: "DISTINCT",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/distinct",
+        },
+        {
+          text: "WHERE",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/where",
+        },
+        {
+          text: "LIKE",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/like",
+        },
+        {
+          text: "IS NULL",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/is-null",
+        },
+        {
+          text: "BETWEEN",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/between",
+        },
+        {
+          text: "AND",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/and",
+        },
+        {
+          text: "OR",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/or",
+        },
+      ],
+    },
   ],
 }
