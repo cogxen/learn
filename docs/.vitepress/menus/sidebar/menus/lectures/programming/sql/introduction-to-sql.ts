@@ -85,5 +85,26 @@ export default {
         },
       ],
     },
+    {
+      text: "Queries",
+      items: [
+        {
+          text: "SELECT",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/select",
+        },
+        {
+          text: "AS",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/as",
+        },
+        {
+          text: "DISTINCT",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/distinct",
+        },
+        {
+          text: "WHERE",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/where",
+        },
+      ],
+    },
   ],
 }
