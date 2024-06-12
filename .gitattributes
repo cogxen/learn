@@ -1,0 +1,4 @@
+*.ts linguist-detectable=true
+*.ts linguist-language=ts
+
+* text=auto eol=lf
