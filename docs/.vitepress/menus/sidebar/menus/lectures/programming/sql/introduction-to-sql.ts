@@ -44,6 +44,10 @@ export default {
               link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/select",
             },
             {
+              text: "ALTER",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/alter",
+            },
+            {
               text: "UPDATE",
               link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/update",
             },
@@ -51,9 +55,35 @@ export default {
               text: "DELETE",
               link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/delete",
             },
+          ],
+        },
+        {
+          text: "Constraints",
+          link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints",
+          items: [
             {
-              text: "ALTER",
-              link: "/lectures/programming/sql/introduction-to-sql/manupulation/statements/alter",
+              text: "NOT NULL",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/not-null",
+            },
+            {
+              text: "UNIQUE",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/unique",
+            },
+            {
+              text: "PRIMARY KEY",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/primary-key",
+            },
+            {
+              text: "FOREIGN KEY",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/foreign-key",
+            },
+            {
+              text: "CHECK",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/check",
+            },
+            {
+              text: "DEFAULT",
+              link: "/lectures/programming/sql/introduction-to-sql/manupulation/constraints/default",
             },
           ],
         },
