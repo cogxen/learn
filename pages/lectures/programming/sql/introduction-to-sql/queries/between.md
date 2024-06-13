@@ -23,7 +23,7 @@ The `BETWEEN` operator is an incredibly handy tool in SQL, used within a WHERE c
 
 Let’s break it down with an example. Suppose we have a database of movies, and we want to find movies released between the years 1990 and 1999. Here’s how we would write that query:
 
-```sql
+```sql twoslash
 SELECT *
 FROM movies
 WHERE year BETWEEN 1990 AND 1999;
