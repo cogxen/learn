@@ -34,12 +34,23 @@ export default [
     items: [
       {
         text: "Data Science",
-        icon: "Box",
+        icon: "TestTubeDiagonal",
         collapsed: false,
         items: [
           {
             text: "Blueprint to a Data Science Career",
             link: "/lectures/data-science/blueprint-to-a-data-science-career/introduction",
+          },
+        ],
+      },
+      {
+        text: "Analytics",
+        icon: "BarChart2",
+        collapsed: false,
+        items: [
+          {
+            text: "What is Business Analysis?",
+            link: "/lectures/analytics/what-is-business-analysis/introduction",
           },
         ],
       },
