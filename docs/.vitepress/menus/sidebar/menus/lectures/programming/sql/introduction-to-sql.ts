@@ -124,6 +124,18 @@ export default {
           text: "OR",
           link: "/lectures/programming/sql/introduction-to-sql/queries/or",
         },
+        {
+          text: "ORDER BY",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/order-by",
+        },
+        {
+          text: "LIMIT",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/limit",
+        },
+        {
+          text: "CASE",
+          link: "/lectures/programming/sql/introduction-to-sql/queries/case",
+        },
       ],
     },
   ],

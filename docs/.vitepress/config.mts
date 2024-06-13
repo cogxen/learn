@@ -1,4 +1,5 @@
 import { defineConfigWithTheme } from "vitepress"
+import { transformerTwoslash } from "@shikijs/vitepress-twoslash"
 
 /** Menus (Modularized) */
 import nav from "./menus/nav"
@@ -8,6 +9,7 @@ export default defineConfigWithTheme({
   title: "Cogxen",
   description:
     "Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.",
+  lang: "en-US",
   themeConfig: {
     /** Logo */
     logo: "/img/logo/logo.png",
@@ -45,5 +47,9 @@ export default defineConfigWithTheme({
       lazyLoading: true,
     },
     math: true,
+    codeTransformers: [transformerTwoslash()],
   },
+  srcDir: "../pages",
+  srcExclude: ["**/node_modules/**", "**/README.md", "**/TODO.md"],
+  metaChunk: true,
 })

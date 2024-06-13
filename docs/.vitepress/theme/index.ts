@@ -1,5 +1,8 @@
 import type { Theme as ThemeConfig } from "vitepress"
+import type { EnhanceAppContext } from "vitepress"
 import DefaultTheme from "vitepress/theme"
+import TwoslashFloatingVue from "@shikijs/vitepress-twoslash/client"
+import "@shikijs/vitepress-twoslash/style.css"
 
 /** Stylesheets */
 import "../assets/css/root.css"
@@ -15,12 +18,13 @@ import VPSidebarItem from "../components/vitepress/VPSidebarItem.vue"
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app }) {
+  enhanceApp({ app }: EnhanceAppContext) {
     app.component("Card", Card)
     app.component("MathExampleCard", MathExampleCard)
     app.component("CustomBadge", CustomBadge)
     app.component("ImageCard", ImageCard)
     app.component("VPSidebarItem", VPSidebarItem)
+    app.use(TwoslashFloatingVue)
   },
   Layout: CustomLayout,
 } satisfies ThemeConfig
