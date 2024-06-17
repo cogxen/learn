@@ -2,7 +2,7 @@
 import { computed } from "vue"
 import { useSidebarControl } from "vitepress/dist/client/theme-default/composables/sidebar.js"
 import VPLink from "vitepress/dist/client/theme-default/components/VPLink.vue"
-import type { CustomSidebarItem } from "../../../../types/sidebar"
+import type { CustomSidebarItem, ExtendedIcons } from "../../../../sidebar"
 import * as Icons from "lucide-vue-next"
 
 const props = defineProps<{
@@ -11,7 +11,8 @@ const props = defineProps<{
 }>()
 
 const iconComponent = computed(() => {
-  return props.item.icon ? Icons[props.item.icon] : null
+  const extendedIcons: ExtendedIcons = Icons
+  return props.item.icon ? extendedIcons[props.item.icon] : null
 })
 
 const { collapsed, collapsible, isLink, isActiveLink, hasActiveLink, hasChildren, toggle } =
@@ -58,7 +59,7 @@ function onCaretClick() {
       :tabindex="item.items && 0"
     >
       <div
-        class="border p-1 border-slate-300 bg-slate-200 text-slate-800 rounded-md dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700"
+        class="border p-1 border-slate-300 bg-slate-200 text-slate-800 rounded-md dark:bg-emerald-800 dark:text-emerald-200 dark:border-emerald-700"
         v-if="iconComponent"
       >
         <component :is="iconComponent" class="w-4 h-4" />
@@ -77,9 +78,23 @@ function onCaretClick() {
         <component :is="textTag" class="text line-clamp-2" v-html="item.text" />
         <span
           v-if="item.badge"
-          class="rounded-md text-[10px] text-slate-800 px-2 py-0.5 bg-slate-200 border border-slate-300 dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700"
+          class="rounded-md text-[10px] text-slate-800 px-2 py-0.5 bg-slate-200 border border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
           v-text="item.badge.text"
         ></span>
+        <span
+          v-if="item.difficulty"
+          class="rounded-md text-[10px] px-2 py-0.5 border"
+          :class="{
+            'text-slate-800 bg-slate-200 border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700':
+              item.difficulty.level === 'Easy',
+            'text-yellow-800 bg-yellow-200 border-yellow-300 dark:bg-yellow-900 dark:text-yellow-200 dark:border-yellow-700':
+              item.difficulty.level === 'Medium',
+            'text-red-800 bg-red-200 border-red-300 dark:bg-red-900 dark:text-red-200 dark:border-red-700':
+              item.difficulty.level === 'Hard',
+          }"
+        >
+          {{ item.difficulty.level.charAt(0) }}
+        </span>
       </VPLink>
       <component v-else :is="textTag" class="text line-clamp-2" v-html="item.text" />
 
