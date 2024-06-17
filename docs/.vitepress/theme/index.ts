@@ -1,16 +1,8 @@
-import { h } from "vue"
 import type { Theme as ThemeConfig } from "vitepress"
 import type { EnhanceAppContext } from "vitepress"
 import DefaultTheme from "vitepress/theme"
 import TwoslashFloatingVue from "@shikijs/vitepress-twoslash/client"
 import "@shikijs/vitepress-twoslash/style.css"
-
-/** Nolebase Plugins */
-import {
-  NolebaseEnhancedReadabilitiesMenu,
-  NolebaseEnhancedReadabilitiesScreenMenu,
-} from "@nolebase/vitepress-plugin-enhanced-readabilities/client"
-import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css"
 
 /** Stylesheets */
 import "../assets/css/root.css"
@@ -37,10 +29,5 @@ export default {
     app.component("CustomAccordion", CustomAccordion)
     app.use(TwoslashFloatingVue)
   },
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      "nav-bar-content-after": () => h(NolebaseEnhancedReadabilitiesMenu),
-      "nav-screen-content-after": () => h(NolebaseEnhancedReadabilitiesScreenMenu),
-    })
-  },
+  Layout: CustomLayout,
 } satisfies ThemeConfig
