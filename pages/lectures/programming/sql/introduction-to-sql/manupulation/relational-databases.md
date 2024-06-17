@@ -21,7 +21,7 @@ At its core, a relational database is a system that organizes information into o
 
 To make this more concrete, let’s consider the `celebs` table. This table is a collection of data organized into rows and columns, much like a spreadsheet.
 
-```sql
+```sql :line-numbers
 SELECT * FROM celebs;
 ```
 
@@ -29,12 +29,12 @@ This simple line of code retrieves all the information from the `celebs` table. 
 
 For reference, here’s a snapshot of the `celebs` table:
 
-<ImageCard
-img_url="https://i.imgur.com/d2rovgy.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+> | --- | --------------- | --- |
+> | id | name | age |
+> | 1 | Justin Bieber | 29 |
+> | 2 | Beyoncé Knowles | 42 |
+> | 3 | Jeremy Lin | 35 |
+> | 4 | Taylor Swift | 33 |
 
 ## Understanding Tables
 

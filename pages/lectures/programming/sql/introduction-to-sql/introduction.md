@@ -31,15 +31,18 @@ Now, let's jump right into the action with a fun activity! We're going to enter 
 
 Write the following SQL command:
 
-```sql
+```sql :line-numbers
 SELECT * FROM celebs;
 ```
 
-Once you've typed that in, hit "Enter" and see what happens. You've just executed your first SQL command! How cool is that?
+Once you've typed that in, hit [[Enter]] and see what happens.
 
-<ImageCard
-img_url="https://i.imgur.com/d2rovgy.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+> |     |                 |     |
+> | --- | --------------- | --- |
+> | id  | name            | age |
+> | 1   | Justin Bieber   | 29  |
+> | 2   | Beyoncé Knowles | 42  |
+> | 3   | Jeremy Lin      | 35  |
+> | 4   | Taylor Swift    | 33  |
+
+You've just executed your first SQL command! How cool is that?

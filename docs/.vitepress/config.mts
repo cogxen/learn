@@ -1,5 +1,6 @@
 import { defineConfigWithTheme } from "vitepress"
 import { transformerTwoslash } from "@shikijs/vitepress-twoslash"
+import { addMarkdownPlugins } from "./theme/plugins/markdown"
 
 /** Menus (Modularized) */
 import nav from "./menus/nav"
@@ -48,6 +49,9 @@ export default defineConfigWithTheme({
     },
     math: true,
     codeTransformers: [transformerTwoslash()],
+    config: (md) => {
+      addMarkdownPlugins(md as any)
+    },
   },
   srcDir: "../pages",
   srcExclude: ["**/node_modules/**", "**/README.md", "**/TODO.md"],

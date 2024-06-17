@@ -29,12 +29,12 @@ All data in a relational database is of a certain data type. This ensures that t
 
 For reference, here’s a snapshot of the `celebs` table:
 
-<ImageCard
-img_url="https://i.imgur.com/d2rovgy.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+> | --- | --------------- | --- |
+> | id | name | age |
+> | 1 | Justin Bieber | 29 |
+> | 2 | Beyoncé Knowles | 42 |
+> | 3 | Jeremy Lin | 35 |
+> | 4 | Taylor Swift | 33 |
 
 In our celebs table:
 
