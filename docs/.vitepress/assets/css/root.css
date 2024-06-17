@@ -33,9 +33,9 @@ main img {
   border-bottom: none !important;
 }
 
-table:nth-of-type(1) {
-  display: table;
-  width: 100%;
+table {
+  display: table !important;
+  width: 100% !important;
 }
 
 kbd {
