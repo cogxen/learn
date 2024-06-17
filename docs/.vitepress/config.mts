@@ -52,4 +52,13 @@ export default defineConfigWithTheme({
   srcDir: "../pages",
   srcExclude: ["**/node_modules/**", "**/README.md", "**/TODO.md"],
   metaChunk: true,
+
+  vite: {
+    optimizeDeps: {
+      exclude: ["@nolebase/vitepress-plugin-enhanced-readabilities/client"],
+    },
+    ssr: {
+      noExternal: ["@nolebase/vitepress-plugin-enhanced-readabilities"],
+    },
+  },
 })
