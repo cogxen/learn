@@ -6,14 +6,6 @@ import nav from "./menus/nav"
 import sidebar from "./menus/sidebar"
 
 export default defineConfigWithTheme({
-  vite: {
-    optimizeDeps: {
-      exclude: ["@nolebase/vitepress-plugin-enhanced-readabilities/client"],
-    },
-    ssr: {
-      noExternal: ["@nolebase/vitepress-plugin-enhanced-readabilities"],
-    },
-  },
   title: "Cogxen",
   description:
     "Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.",
