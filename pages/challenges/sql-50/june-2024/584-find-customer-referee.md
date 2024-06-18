@@ -19,15 +19,15 @@ footer: false
 
 Table: `Customers`
 
-> | Column Name | Type    |
-> | ----------- | ------- |
-> | id          | int     |
-> | name        | varchar |
-> | referee_id  | int     |
+| Column Name | Type    |
+| ----------- | ------- |
+| id          | int     |
+| name        | varchar |
+| referee_id  | int     |
 
-In SQL, `id` is the `primary key` column for this table.
-
-Each row of this table indicates the `id` of a customer, their name, and the id (`referee_id`) of the customer who referred them.
+> In SQL, `id` is the `primary key` column for this table.
+>
+> Each row of this table indicates the `id` of a customer, their name, and the id (`referee_id`) of the customer who referred them.
 
 ## Instructions
 
@@ -39,23 +39,23 @@ Each row of this table indicates the `id` of a customer, their name, and the id 
 
 **Input:** `Customers` table
 
-> | id  | name | referee_id |
-> | --- | ---- | ---------- |
-> | 1   | Will | null       |
-> | 2   | Jane | null       |
-> | 3   | Alex | 2          |
-> | 4   | Bill | null       |
-> | 5   | Zack | 1          |
-> | 6   | Mark | 2          |
+| id  | name | referee_id |
+| --- | ---- | ---------- |
+| 1   | Will | null       |
+| 2   | Jane | null       |
+| 3   | Alex | 2          |
+| 4   | Bill | null       |
+| 5   | Zack | 1          |
+| 6   | Mark | 2          |
 
 **Output:**
 
-> | name |
-> | ---- |
-> | Will |
-> | Jane |
-> | Bill |
-> | Zack |
+| name |
+| ---- |
+| Will |
+| Jane |
+| Bill |
+| Zack |
 
 ## Solutions
 
@@ -70,7 +70,7 @@ WHERE referee_id != 2 OR referee_id IS NULL;
 ```python [Pandas] :line-numbers
 import pandas as pd
 
-def find_customer_referee(customer: pd.DataFrame) -> pd.DataFrame:
+def find_customer_referee(customer: pd.DataFrame) -pd.DataFrame:
     return customer[(customer['referee_id'] != 2) | (customer['referee_id'].isnull())][['name']]
 ```
 
@@ -92,7 +92,7 @@ def find_customer_referee(customer: pd.DataFrame) -> pd.DataFrame:
 <CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library and gives it the alias pd. Pandas is a powerful data manipulation library in Python that provides data structures and functions needed for manipulating structured data.
-- `def find_customer_referee(customer: pd.DataFrame) -> pd.DataFrame:`: This line defines a function called `find_customer_referee` that takes a pandas DataFrame `customer` as input and returns a pandas DataFrame. A DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It's similar to a spreadsheet or SQL table, or a dictionary of Series objects.
+- `def find_customer_referee(customer: pd.DataFrame) -pd.DataFrame:`: This line defines a function called `find_customer_referee` that takes a pandas DataFrame `customer` as input and returns a pandas DataFrame. A DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It's similar to a spreadsheet or SQL table, or a dictionary of Series objects.
 - `return customer[(customer['referee_id'] != 2) | (customer['referee_id'].isnull())][['name']]`:
 
   This line does several things:
