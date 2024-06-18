@@ -23,7 +23,7 @@ The `BETWEEN` operator is an incredibly handy tool in SQL, used within a WHERE c
 
 Let’s break it down with an example. Suppose we have a database of movies, and we want to find movies released between the years 1990 and 1999. Here’s how we would write that query:
 
-```sql twoslash
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year BETWEEN 1990 AND 1999;
@@ -35,7 +35,7 @@ In this case, `BETWEEN` filters the results to include only those movies release
 
 **BETWEEN** isn’t just for numbers. It can also filter data within an alphabetical range. Imagine we want to list movies whose names start with the letter ‘A’ and go up to, but not including, those that start with ‘J’. Here’s our query:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE name BETWEEN 'A' AND 'J';
@@ -47,7 +47,7 @@ This will include movie names starting with ‘A’, ‘B’, ‘C’, etc., up 
 
 The versatility of `BETWEEN` shines when working with dates. Let’s say we want to find movies released in the 1970s. The query would look like this:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year BETWEEN 1970 AND 1979;
@@ -63,18 +63,13 @@ Now, let’s put this knowledge to the test with some practical exercises.
 
 Write a query using the `BETWEEN` operator to select all information about movies whose names begin with the letters ‘D’, ‘E’, and ‘F’.
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE name BETWEEN 'D' AND 'G';
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/8txSfmb.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-between.md-->
 
 Here, we start at ‘D’ and go up to, but not including, ‘G’. This ensures we get all movies starting with ‘D’, ‘E’, and ‘F’.
 
@@ -82,17 +77,12 @@ Here, we start at ‘D’ and go up to, but not including, ‘G’. This ensures
 
 Using the `BETWEEN` operator, write a query to select all information about movies released in the 1970s.
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year BETWEEN 1970 AND 1979;
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/om2VSGH.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-between-2.md-->
 
 This query effectively filters our movie database to include only those released during the vibrant decade of the 1970s.

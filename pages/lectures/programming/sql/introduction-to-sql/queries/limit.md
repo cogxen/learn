@@ -23,7 +23,7 @@ Picture this: You've been working with a small table, maybe fewer than 250 rows.
 
 Imagine you just want to see a few examples of records from your movies table. Here’s how you can do it:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 LIMIT 10;
@@ -41,7 +41,7 @@ Now, let’s kick it up a notch! Imagine you want to combine the power of `LIMIT
 
 For example, let’s say you want to see the top 5 highest-grossing movies from your table. Here’s how you can do it:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 ORDER BY revenue DESC
@@ -56,19 +56,14 @@ Now it’s your turn to practice! Let’s dive into a hands-on activity to reinf
 
 Here's a fun activity for you. Let’s say you want to return the top 3 highest-rated movies from your database. You’d want to see all the columns of these top movies. How would you do it? Here’s a query that accomplishes this:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 ORDER BY imdb_rating DESC
 LIMIT 3;
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/wPq67WW.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-limit.md-->
 
 In this query:
 
