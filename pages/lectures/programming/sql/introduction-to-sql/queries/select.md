@@ -21,7 +21,7 @@ Previously, we touched upon the importance of the `SELECT` statement. Every time
 
 When you use `SELECT` in its most basic form, with an asterisk (`*`), you're asking the database to return all the columns from a table. It's like saying, _"Give me everything you've got!"_ For example:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM table_name;
 ```
@@ -32,7 +32,7 @@ This is incredibly useful when you need a broad overview of the data. However, w
 
 Suppose we're only interested in two columns from our table. We can specify these columns by their names, separated by a comma. This makes our query more efficient and our results more readable.
 
-```sql
+```sql :line-numbers
 SELECT column1, column2
 FROM table_name;
 ```
@@ -47,19 +47,14 @@ Now it's time to put theory into practice! Let's dive into a hands-on activity t
 
 Select the `name` and `genre` columns from the movies table.
 
-```sql
+```sql :line-numbers
 SELECT name, genre
 FROM movies;
 ```
 
 This will retrieve only the `name` and `genre` of each movie, making our results more focused and easier to analyze.
 
-<ImageCard
-img_url="https://i.imgur.com/THVZqR9.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-select-2.md-->
 
 ### Adding More Columns
 
@@ -67,16 +62,11 @@ Now, let's expand our query to include a third column.
 
 Edit your query so that it returns the `name`, `genre`, and `year` columns from the movies table. Update your code to:
 
-```sql
+```sql :line-numbers
 SELECT name, genre, year
 FROM movies;
 ```
 
 This modification allows us to see not only the `name` and `genre` of each movie but also the `year` it was released, giving us a richer dataset to work with.
 
-<ImageCard
-img_url="https://i.imgur.com/Qaxd1MF.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-select-3.md-->

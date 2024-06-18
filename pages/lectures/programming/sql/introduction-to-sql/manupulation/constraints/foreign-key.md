@@ -38,7 +38,7 @@ In this case, the `customer_id` column in the `orders` table must match a `custo
 
 <div class="flex flex-col items-center gap-4">
 
-<!--@include: ../../_includes/tables/query-results-from-foreign-key-1.md-->
+<!--@include: ../../_includes/tables/query-results-from-foreign-key.md-->
 
 <!--@include: ../../_includes/tables/query-results-from-foreign-key-2.md-->
 

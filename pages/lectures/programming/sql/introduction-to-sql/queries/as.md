@@ -19,7 +19,7 @@ next: false
 
 Imagine you have a list of movies and you want to rename the column headings to make them more readable or relevant for your query results. This is where the `AS` keyword shines. Here's a simple example to illustrate:
 
-```sql
+```sql :line-numbers
 SELECT name AS 'Titles'
 FROM movies;
 ```
@@ -46,34 +46,24 @@ Let's put this knowledge into practice with a couple of fun activities.
 
 First, let's showcase what the AS keyword does. Select the `name` column from the `movies` table and rename it with an alias of your choosing. Here's the template to get you started:
 
-```sql
+```sql :line-numbers
 SELECT name AS 'YourAlias'
 FROM movies;
 ```
 
 NOTE: Replace `'YourAlias'` with any name you prefer. Once you run the query, observe how the column name in the result set changes to your chosen alias.
 
-<ImageCard
-img_url="https://i.imgur.com/3mTo1Ph.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-as.md-->
 
 ### Rename Another Column
 
 Now, let's take it a step further. Instead of selecting and renaming the `name` column, let's select the `imdb_rating` column and rename it as `IMDb`. Here's how you can do it:
 
-```sql
+```sql :line-numbers
 SELECT imdb_rating AS 'IMDb'
 FROM movies;
 ```
 
 After running this query, you'll see the `imdb_rating` column is now displayed as `IMDb` in your results.
 
-<ImageCard
-img_url="https://i.imgur.com/A3uZKiE.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-as-2.md-->

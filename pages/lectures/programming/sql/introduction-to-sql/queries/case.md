@@ -31,7 +31,7 @@ Let’s say you have a column in your table that contains the age of each person
 
 Let’s explore an example where we want to condense movie ratings into three distinct levels: Fantastic, Poorly Received, and Avoid at All Costs. Here’s how we can achieve that:
 
-```sql
+```sql :line-numbers
 SELECT name,
  CASE
   WHEN imdb_rating > 8 THEN 'Fantastic'
@@ -41,12 +41,7 @@ SELECT name,
 FROM movies;
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/TJVy6qZ.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-case.md-->
 
 In this query:
 
@@ -61,7 +56,7 @@ This structure allows us to categorize movie ratings efficiently, providing a cl
 
 Sometimes, the results can have long or unwieldy column names. SQL lets us rename these columns using the `AS` keyword to make them more readable:
 
-```sql
+```sql :line-numbers
 SELECT name,
  CASE
   WHEN imdb_rating > 8 THEN 'Fantastic'
@@ -71,12 +66,7 @@ SELECT name,
 FROM movies;
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/R20EiFI.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-case-2.md-->
 
 Now, instead of scrolling to find the end of a long column name, we have a neat and tidy 'Review' column. This small tweak enhances the readability of your results, making your data presentation much more professional.
 
@@ -92,7 +82,7 @@ Select the name column and use a CASE statement to create a second column based 
 - Output 'Intense' for all other genres.
 - Optionally, rename this CASE statement output to ‘Mood’ using `AS`.
 
-```sql
+```sql :line-numbers
 SELECT name,
  CASE
   WHEN genre = 'romance' THEN 'Chill'
@@ -102,9 +92,4 @@ SELECT name,
 FROM movies;
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/Cri3WFF.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-case-3.md-->

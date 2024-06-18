@@ -62,7 +62,12 @@ FROM movies;
 
 This query will return a list of unique genres from the `movies` table. Analyzing these unique genres can help you understand the variety of movies available.
 
-<!--@include: ../_includes/tables/query-results-from-distinct-3.md-->
+<ImageCard
+img_url="https://i.imgur.com/Yl7XdOO.png"
+caption="Query Results"
+copyright_owner="codecademy.com"
+:bordered="true"
+/>
 
 ### Identify Unique Years
 
@@ -75,4 +80,9 @@ FROM movies;
 
 This query will give you a list of unique years in which movies were released, providing a historical perspective on your movie database.
 
-<!--@include: ../_includes/tables/query-results-from-distinct-4.md-->
+<ImageCard
+img_url="https://i.imgur.com/an771mi.png"
+caption="Query Results"
+copyright_owner="codecademy.com"
+:bordered="true"
+/>

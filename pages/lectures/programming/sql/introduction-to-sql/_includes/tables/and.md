@@ -81,7 +81,12 @@ WHERE year < 1985
   AND genre = 'horror';
 ```
 
-<!--@include: ../_includes/tables/query-results-from-and-2.md-->
+<ImageCard
+img_url="https://i.imgur.com/EelW9FE.png"
+caption="Query Results"
+copyright_owner="codecademy.com"
+:bordered="true"
+/>
 
 In this query:
 

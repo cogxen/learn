@@ -19,7 +19,7 @@ next: false
 
 Imagine you have a table of movies, and you notice two films with titles that are strikingly similar: "Se7en" and "Seven". How would you go about selecting all movies that start with 'Se', end with 'en', and have exactly one character in the middle? This is where the LIKE operator shines!
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE name LIKE 'Se_en';
@@ -41,22 +41,17 @@ Let's put your newfound knowledge to the test with a hands-on activity!
 
 Suppose you have a table of movies and you want to find all the movies that have a title starting with 'Se', followed by any single character, and ending with 'en'. Use the `LIKE` operator to search for this pattern.
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE name LIKE 'Se_en';
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/qYmEU9b.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-like.md-->
 
 The percentage sign (`%`) is another wildcard character used with `LIKE`. It matches zero or more characters in the pattern, making it a powerful tool for broader searches.
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE name LIKE 'A%';
@@ -72,7 +67,7 @@ Let's break down what `%` can do:
 - `%a` matches all movies that end with 'a'.
 - `%man%` matches any movie that contains the word 'man' in its name.
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE name LIKE '%man%';
@@ -84,32 +79,22 @@ This query returns movies like "Batman" and "Man of Steel". It's important to no
 
 Suppose you want to find all movies that contain the word 'man'. Use the `LIKE` operator to search for this pattern.
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE name LIKE '%man%';
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/00qrdnr.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-like-2.md-->
 
 ### Selecting Titles Beginning with 'The'
 
 Let's take it a step further. Modify your query to select all the information about movies that begin with the word 'The'. Remember, you might need to include a space!
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE name LIKE 'The %';
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/nYZ3h5J.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-like-3.md-->
