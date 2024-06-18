@@ -19,22 +19,17 @@ next: false
 
 All data in a relational database is of a certain data type. This ensures that the data is stored and processed efficiently. Some common data types include:
 
-- **INTEGER**: Represents positive or negative whole numbers.
-- **TEXT**: Represents text strings.
-- **DATE**: Represents dates formatted as YYYY-MM-DD.
-- **REAL**: Represents decimal values.
-- **BLOB**: Represents binary large objects like images or audio files.
+- `INTEGER`: Represents positive or negative whole numbers.
+- `TEXT`: Represents text strings.
+- `DATE`: Represents dates formatted as `YYYY-MM-DD`.
+- `REAL`: Represents decimal values.
+- `BLOB`: Represents binary large objects like images or audio files.
 
 ## Example
 
 For reference, here’s a snapshot of the `celebs` table:
 
-> | --- | --------------- | --- |
-> | id | name | age |
-> | 1 | Justin Bieber | 29 |
-> | 2 | Beyoncé Knowles | 42 |
-> | 3 | Jeremy Lin | 35 |
-> | 4 | Taylor Swift | 33 |
+<!--@include: ../../_includes/tables/query-results-from-rdb.md-->
 
 In our celebs table:
 

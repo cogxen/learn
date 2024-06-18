@@ -29,12 +29,7 @@ This simple line of code retrieves all the information from the `celebs` table. 
 
 For reference, here’s a snapshot of the `celebs` table:
 
-> | --- | --------------- | --- |
-> | id | name | age |
-> | 1 | Justin Bieber | 29 |
-> | 2 | Beyoncé Knowles | 42 |
-> | 3 | Jeremy Lin | 35 |
-> | 4 | Taylor Swift | 33 |
+<!--@include: ../_includes/tables/query-results-from-rdb.md-->
 
 ## Understanding Tables
 

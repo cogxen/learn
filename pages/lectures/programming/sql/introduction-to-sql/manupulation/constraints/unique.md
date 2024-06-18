@@ -19,7 +19,7 @@ next: false
 
 The `UNIQUE` constraint ensures that all values in a column are unique. This means that no two rows in the table can have the same value for that column. For example, consider a table `students` with a column `student_id` that should be unique. The `UNIQUE` constraint can be applied as follows:
 
-```sql
+```sql :line-numbers
 CREATE TABLE students (
     student_id INT UNIQUE,
     first_name VARCHAR(50),
@@ -29,10 +29,6 @@ CREATE TABLE students (
 
 In this case, the `student_id` column must have a unique value for every row in the `students` table.
 
-<ImageCard
-img_url="https://i.imgur.com/h7qOTyy.png"
-caption="UNIQUE"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-unique.md-->
 
 In the table above, each row has a unique value for the `student_id` column, as required by the `UNIQUE` constraint.
