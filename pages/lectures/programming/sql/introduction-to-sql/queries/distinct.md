@@ -23,35 +23,25 @@ In SQL, the `DISTINCT` keyword is used to return only unique values from a speci
 
 Imagine you have an inventory database that tracks the tools available in a workshop. The table might look something like this:
 
-```sql
+```sql :line-numbers
 SELECT tools
 FROM inventory;
 ```
 
 This query could produce a result like:
 
-<ImageCard
-img_url="https://i.imgur.com/yP9ckoA.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-distinct.md-->
 
 As you can see, "Nails" appears multiple times. If we want to know just the unique tools available, we can use `DISTINCT`:
 
-```sql
+```sql :line-numbers
 SELECT DISTINCT tools
 FROM inventory;
 ```
 
 Now, the result would be:
 
-<ImageCard
-img_url="https://i.imgur.com/5RXpeNL.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-distinct-2.md-->
 
 By using `DISTINCT`, we quickly filter out the duplicates and see that the unique tools in our inventory are "Hammer" and "Nails".
 
@@ -65,34 +55,24 @@ Let's put this into practice with a hands-on activity!
 
 Open your SQL editor and type the following query:
 
-```sql
+```sql :line-numbers
 SELECT DISTINCT genre
 FROM movies;
 ```
 
 This query will return a list of unique genres from the `movies` table. Analyzing these unique genres can help you understand the variety of movies available.
 
-<ImageCard
-img_url="https://i.imgur.com/Yl7XdOO.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-distinct-3.md-->
 
 ### Identify Unique Years
 
 Now, let's modify the query to find unique years instead of genres. Change your code to:
 
-```sql
+```sql :line-numbers
 SELECT DISTINCT year
 FROM movies;
 ```
 
 This query will give you a list of unique years in which movies were released, providing a historical perspective on your movie database.
 
-<ImageCard
-img_url="https://i.imgur.com/an771mi.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-distinct-4.md-->

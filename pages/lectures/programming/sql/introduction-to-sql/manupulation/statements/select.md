@@ -21,7 +21,7 @@ Imagine you have a magical book that can show you any information you need from 
 
 In SQL, the SELECT statement is used to fetch data from a database. Let’s break down a simple example:
 
-```sql
+```sql :line-numbers
 SELECT name FROM celebs;
 ```
 
@@ -37,7 +37,7 @@ So, this statement asks the database: _"Hey, show me all the data in the name co
 
 But what if you want to see all the information in a table, not just one column? That's where the wildcard character `*` comes in handy. It tells the database, _"Give me everything!"_
 
-```sql
+```sql :line-numbers
 SELECT * FROM celebs;
 ```
 
@@ -56,32 +56,22 @@ Let's put our knowledge into practice with a couple of activities!
 
 Imagine you want to know the names of all the celebrities in your `celebs` table. Here's the SQL command to retrieve this information:
 
-```sql
+```sql :line-numbers
 SELECT name FROM celebs;
 ```
 
 This will fetch all the names from the `celebs` table. Simple, right? Let’s see what names are in our celebrity database!
 
-<ImageCard
-img_url="https://i.imgur.com/8jW6t0N.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-select.md-->
 
 ### Retrieving All Data
 
 Now, let’s try something different. First, delete the previous `SELECT` statement from your code editor. We’re going to use the wildcard character `*` to select all the data from the celebs table.
 
-```sql
+```sql :line-numbers
 SELECT * FROM celebs;
 ```
 
 This command will fetch all the columns and rows in the `celebs` table. Think of it as looking at the entire library rather than just a single book.
 
-<ImageCard
-img_url="https://i.imgur.com/hRRkRgG.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-rdb.md-->

@@ -21,7 +21,7 @@ The `UPDATE` statement in SQL is like a magic wand for your database. It allows 
 
 Let’s break down the components of the `UPDATE` statement using a practical example. Imagine we want to update the Twitter handle of a celebrity in our database. Here’s the SQL code that accomplishes this:
 
-```sql
+```sql :line-numbers
 UPDATE celebs
 SET twitter_handle = '@taylorswift13'
 WHERE id = 4;
@@ -45,7 +45,7 @@ Let’s dissect this command to understand it better:
 
 To make this more concrete, let's walk through an example. We have a table named `celebs` with various celebrity records. Our task is to update Taylor Swift's Twitter handle. The `id` of her record is `4`. So, our SQL statement looks like this:
 
-```sql
+```sql :line-numbers
 UPDATE celebs
 SET twitter_handle = '@taylorswift13'
 WHERE id = 4;
@@ -57,18 +57,8 @@ Here's the expected output after running these commands:
 
 From this:
 
-<ImageCard
-img_url="https://i.imgur.com/ksHIytW.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-alter.md-->
 
 To this:
 
-<ImageCard
-img_url="https://i.imgur.com/dexmRJd.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-update.md-->

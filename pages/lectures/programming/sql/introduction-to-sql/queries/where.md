@@ -21,7 +21,7 @@ In SQL, the `WHERE` clause is your best friend when you want to restrict your qu
 
 Let's start with a simple example. Suppose we want to filter our movie database to show only the top-rated films. We can do this with the following SQL statement:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE imdb_rating > 8;
@@ -52,7 +52,7 @@ Now, let's apply what we've learned with a couple of hands-on activities. Roll u
 
 Suppose we want to identify all the not-so-well-received movies in our database. Here's how you can do it:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE imdb_rating < 5;
@@ -60,18 +60,13 @@ WHERE imdb_rating < 5;
 
 This query filters the movies to show only those with an IMDb rating less than 5. Ouch, these are the ones that didn't quite hit the mark!
 
-<ImageCard
-img_url="https://i.imgur.com/gnz15Kk.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-where.md-->
 
 ### Retrieving Recent Movies
 
 Next, let's retrieve all the movies released after 2014. This will help us see the more recent additions to our collection. Use the following query:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year > 2014;
@@ -79,9 +74,4 @@ WHERE year > 2014;
 
 By specifying `year > 2014`, we're filtering our dataset to include only movies released after the year 2014. This is a great way to focus on the latest content.
 
-<ImageCard
-img_url="https://i.imgur.com/9Z2u1vZ.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-where-2.md-->

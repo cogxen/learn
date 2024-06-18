@@ -19,7 +19,7 @@ next: false
 
 The `CHECK` constraint allows you to specify a condition that must be satisfied for the data in a column. This constraint is used to enforce domain integrity by limiting the values that can be inserted into a column. For example, consider a table `employees` with a column `salary` that should be greater than or equal to 0. The `CHECK` constraint can be applied as follows:
 
-```sql
+```sql :line-numbers
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -30,10 +30,6 @@ CREATE TABLE employees (
 
 In this case, the `CHECK` constraint ensures that the `salary` column in the `employees` table contains only values greater than or equal to 0.
 
-<ImageCard
-img_url="https://i.imgur.com/Uczg0Ya.png"
-caption="CHECK"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-check.md-->
 
 In the table above, the `salary` column in the `employees` table is constrained by the `CHECK` constraint to have values greater than or equal to 0.

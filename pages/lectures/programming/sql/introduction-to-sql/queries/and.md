@@ -23,7 +23,7 @@ When working with SQL, we often need to refine our queries to extract more speci
 
 Let's consider an example where we want to retrieve all romance movies released in the 1990s. Here's how we can do it:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year BETWEEN 1990 AND 1999
@@ -55,19 +55,14 @@ Now, let's put this into practice with some activities. These exercises will hel
 
 In our previous exercise, we retrieved all movies released in the 1970s. Let's take it a step further and filter for movies that are also well-received, with an IMDb rating greater than 8. Here's the query:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year BETWEEN 1970 AND 1979
   AND imdb_rating > 8;
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/pq9NZ3Y.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-and.md-->
 
 In this query:
 
@@ -79,19 +74,14 @@ In this query:
 
 For the next exercise, let's imagine we have a picky friend who only wants to watch old horror films. We need to write a query that selects all movies made prior to 1985 that are also in the horror genre. Here’s how we can do it:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year < 1985
   AND genre = 'horror';
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/EelW9FE.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-and-2.md-->
 
 In this query:
 

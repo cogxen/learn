@@ -52,18 +52,13 @@ Let's dive into an example to see how `IS NOT NULL` and `IS NULL` works in pract
 
 Imagine you have a table named `movies` with various columns, including `imdb_rating`. To filter out movies that do have an IMDb rating, you would use:
 
-```sql
+```sql :line-numbers
 SELECT name
 FROM movies
 WHERE imdb_rating IS NOT NULL;
 ```
 
-<ImageCard
-img_url="https://i.imgur.com/ezoVRyb.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-is-null.md-->
 
 This query retrieves the names of all movies with a known IMDb rating.
 
@@ -71,7 +66,7 @@ This query retrieves the names of all movies with a known IMDb rating.
 
 Now, let's do the opposite. Let's find all the movies that do not have an IMDb rating. This is where we use the `IS NULL` operator. Ready? Here we go!
 
-```sql
+```sql :line-numbers
 SELECT name
 FROM movies
 WHERE imdb_rating IS NULL;
@@ -79,9 +74,4 @@ WHERE imdb_rating IS NULL;
 
 This query will return the names of all movies with missing IMDb ratings. It's like shining a spotlight on the data we don't have!
 
-<ImageCard
-img_url="https://i.imgur.com/ZUpr2rZ.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-is-null-2.md-->

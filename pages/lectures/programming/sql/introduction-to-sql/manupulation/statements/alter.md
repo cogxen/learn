@@ -5,8 +5,7 @@ head:
   - - meta
     - name: description
     - content: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
-  - - meta
-    - name: keywords
+  - - meta - name: keywords
       content: data data science machine learning AI data analysis data-driven data enthusiasts data practitioners
 lastUpdated: false
 editLink: false
@@ -27,7 +26,7 @@ The `ALTER TABLE` statement is your key to modifying existing tables in your dat
 
 When you want to add a new column to a table, you use the `ALTER TABLE` statement. Here's a practical example: suppose you have a table named celebs, and you want to add a new column for storing Twitter handles. The SQL command looks like this:
 
-```sql
+```sql :line-numbers
 ALTER TABLE celebs
 ADD COLUMN twitter_handle TEXT;
 ```
@@ -51,7 +50,7 @@ When you add a new column to an existing table, the existing rows won't have val
 
 To solidify your understanding, let's get hands-on with an activity. Type the following commands:
 
-```sql
+```sql :line-numbers
 ALTER TABLE celebs
 ADD COLUMN twitter_handle TEXT;
 
@@ -62,9 +61,4 @@ These commands will add the `twitter_handle` column to your `celebs` table and t
 
 Here's the expected output after running these commands:
 
-<ImageCard
-img_url="https://i.imgur.com/ksHIytW.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-alter.md-->

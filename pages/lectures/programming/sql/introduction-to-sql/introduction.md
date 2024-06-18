@@ -31,15 +31,12 @@ Now, let's jump right into the action with a fun activity! We're going to enter 
 
 Write the following SQL command:
 
-```sql
+```sql :line-numbers
 SELECT * FROM celebs;
 ```
 
-Once you've typed that in, hit "Enter" and see what happens. You've just executed your first SQL command! How cool is that?
+Once you've typed that in, hit [[Enter]] and see what happens.
 
-<ImageCard
-img_url="https://i.imgur.com/d2rovgy.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ./_includes/tables/query-results-from-rdb.md-->
+
+You've just executed your first SQL command! How cool is that?

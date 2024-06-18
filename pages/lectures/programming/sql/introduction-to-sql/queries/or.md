@@ -26,7 +26,7 @@ Simple, right? But let’s see it in action to truly grasp its power!
 
 Imagine you’re browsing a movie database, and you’re open to watching either a new movie or something action-packed. Here’s how you can use the OR operator to get a list of movies that meet either of these criteria:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year > 2014
@@ -55,7 +55,7 @@ Now that you understand the `OR` operator, let’s put it to the test with a han
 
 ### Filtering New or Action-Packed Movies
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE year > 2014
@@ -64,18 +64,13 @@ WHERE year > 2014
 
 Run this query, and you’ll see a list of movies that are either new (post-2014) or action-packed. Exciting, isn’t it? You now have a powerful tool to broaden your search results with just a simple `OR`.
 
-<ImageCard
-img_url="https://i.imgur.com/gOFk1Lf.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-or.md-->
 
 ### Filtering Romantic or Comedy Movies
 
 Imagine you’re in the mood for a good laugh or a good cry. You want to find movies that are either a romance or a comedy. Here’s how you can do it:
 
-```sql
+```sql :line-numbers
 SELECT *
 FROM movies
 WHERE genre = 'romance'
@@ -84,9 +79,4 @@ WHERE genre = 'romance'
 
 Run this query, and voilà! You’ll get a list of movies that will either tickle your funny bone or tug at your heartstrings.
 
-<ImageCard
-img_url="https://i.imgur.com/jFr3qrJ.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-or-2.md-->

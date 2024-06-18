@@ -21,7 +21,7 @@ Constraints are rules applied to database columns to control the type of data th
 
 Here’s a SQL statement that creates a table named celebs with several constraints:
 
-```sql
+```sql :line-numbers
 CREATE TABLE celebs (
    id INTEGER PRIMARY KEY,
    name TEXT UNIQUE,
@@ -43,7 +43,7 @@ CREATE TABLE celebs (
 
 Now, let’s apply what we’ve learned. We’re going to create a new table called awards with specific constraints:
 
-```sql
+```sql :line-numbers
 CREATE TABLE awards (
    id INTEGER PRIMARY KEY,
    recipient TEXT NOT NULL,
@@ -53,11 +53,7 @@ CREATE TABLE awards (
 
 In this table, the recipient column cannot be `NULL`, and the `award_name` column defaults to 'Grammy' if no value is provided during an `INSERT` operation.
 
-<ImageCard
-img_url="https://i.imgur.com/DRh3Awf.png"
-caption="Query Result"
-:bordered="true"
-/>
+<!--@include: ../_includes/tables/query-results-from-constraints.md-->
 
 ## Why Are Constraints Important?
 

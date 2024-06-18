@@ -21,7 +21,7 @@ The `INSERT` statement is your go-to command when you want to add new records to
 
 Let's break down the syntax step-by-step with an example to make it crystal clear. Suppose we want to add a new celebrity, Justin Bieber, to our `celebs` table. Here’s how we do it:
 
-```sql
+```sql :line-numbers
 INSERT INTO celebs (id, name, age)
 VALUES (1, 'Justin Bieber', 29);
 ```
@@ -48,44 +48,34 @@ Now, let's put theory into practice with a hands-on activity.
 
 First, let’s add **Justin Bieber** to our `celebs` table. Here’s the SQL command to insert this record:
 
-```sql
+```sql :line-numbers
 INSERT INTO celebs (id, name, age)
 VALUES (1, 'Justin Bieber', 29);
 ```
 
-After running this command, check the Database Schema to see the new row added to the celebs table. How many rows are there now? As you can see from the Database Schema, the `celebs` table now has one row.
+After running this command, check the Database Schema to see the new row added to the celebs table. How many rows are there now? There should be one row in total. Because we only added one record.
 
-<ImageCard
-img_url="https://i.imgur.com/RFFCAJd.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-create.md-->
 
 ### Adding Multiple Records
 
 Next, we will add three more celebrities to the table. Beneath your previous INSERT statement, type the following commands:
 
-```sql
+```sql :line-numbers
 INSERT INTO celebs (id, name, age)
 VALUES (2, 'Beyonce Knowles', 42);
 ```
 
-```sql
+```sql :line-numbers
 INSERT INTO celebs (id, name, age)
 VALUES (3, 'Jeremy Lin', 35);
 ```
 
-```sql
+```sql :line-numbers
 INSERT INTO celebs (id, name, age)
 VALUES (4, 'Taylor Swift', 33);
 ```
 
-Run these commands and check the Database Schema again. How many rows do you see in the celebs table now? You should see four rows in total.
+Run these commands and check the Database Schema again. How many rows do you see in the celebs table now? You should see four rows in total. Because we added four records.
 
-<ImageCard
-img_url="https://i.imgur.com/iY85tVs.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-create.md-->
