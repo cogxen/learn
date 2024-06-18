@@ -21,7 +21,7 @@ Creating tables is a fundamental part of working with databases. Imagine the `CR
 
 The basic syntax for creating a table in SQL is:
 
-```sql
+```sql :line-numbers
 CREATE TABLE table_name (
    column1 datatype,
    column2 datatype,
@@ -36,7 +36,7 @@ This statement tells SQL that we want to create a new table with a specified nam
 
 Creating the `celebs` table, here’s the SQL command to create our `celebs` table:
 
-```sql
+```sql :line-numbers
 CREATE TABLE celebs (
    id INTEGER,
    name TEXT,
@@ -62,7 +62,7 @@ Now, let's apply what we’ve learned with a hands-on activity. This will help s
 
 Before we create our table, we need to ensure the database is empty. Execute the following SQL query:
 
-```sql
+```sql :line-numbers
 SELECT * FROM celebs;
 ```
 
@@ -72,7 +72,7 @@ This query attempts to select all data from the `celebs` table. Since we haven�
 
 With the confirmation that our database is empty, it’s time to create our new `celebs` table. Type the following command:
 
-```sql
+```sql :line-numbers
 CREATE TABLE celebs (
    id INTEGER,
    name TEXT,
@@ -80,13 +80,8 @@ CREATE TABLE celebs (
 );
 ```
 
-Once you’ve entered this command, hit "Enter" to execute it. You’ve just created your first table in SQL! Congratulations!
+Once you’ve entered this command, hit [[Enter]] to execute it. You’ve just created your first table in SQL! Congratulations!
 
 Here's a visual representation of the query results:
 
-<ImageCard
-img_url="https://i.imgur.com/DUdpa5J.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-create.md-->

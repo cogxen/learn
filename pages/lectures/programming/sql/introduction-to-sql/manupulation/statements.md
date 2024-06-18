@@ -21,7 +21,7 @@ At the heart of SQL is the statement. Think of a statement as a sentence that th
 
 Here's an example of an SQL statement:
 
-```sql
+```sql :line-numbers
 CREATE TABLE table_name (
    column_1 data_type,
    column_2 data_type,
@@ -51,13 +51,13 @@ One of the beauties of SQL is its flexibility. The structure of your statements 
 
 Let's see how this flexibility plays out in practice. Here’s our earlier example written on a single line:
 
-```sql
+```sql :line-numbers
 CREATE TABLE table_name (column_1 data_type, column_2 data_type, column_3 data_type);
 ```
 
 And here’s the same statement split across multiple lines:
 
-```sql
+```sql :line-numbers
 CREATE TABLE table_name (
    column_1 data_type,
    column_2 data_type,
@@ -71,7 +71,7 @@ Both are equally valid! As you continue this course, you’ll become more famili
 
 Now, let's get our hands dirty with a practical example.
 
-```sql
+```sql :line-numbers
 SELECT * FROM celebs;
 ```
 

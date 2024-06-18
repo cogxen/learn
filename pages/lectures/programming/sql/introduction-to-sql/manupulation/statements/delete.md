@@ -21,7 +21,7 @@ First, let's understand what the `DELETE FROM` statement is and why it's so impo
 
 Let’s look at a practical example to illustrate this:
 
-```sql
+```sql :line-numbers
 DELETE FROM celebs
 WHERE twitter_handle IS NULL;
 ```
@@ -45,7 +45,7 @@ Delete all rows in the `celebs` table where the `twitter_handle` column is `NULL
 
 First, we need to identify the rows that meet this condition. Run the following query to see the rows that will be deleted:
 
-```sql
+```sql :line-numbers
 DELETE FROM celebs
 WHERE twitter_handle IS NULL;
 
@@ -56,9 +56,4 @@ After executing the `DELETE FROM` statement, the `SELECT * FROM celebs;` command
 
 Here's what you can expect after running these commands:
 
-<ImageCard
-img_url="https://i.imgur.com/mHlwkZV.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<!--@include: ../../_includes/tables/query-results-from-delete.md-->
