@@ -19,15 +19,17 @@ footer: false
 
 Table: `Products`
 
-> | Column Name | Type |
-> | ----------- | ---- |
-> | product_id  | int  |
-> | low_fats    | enum |
-> | recyclable  | enum |
+| Column Name | Type |
+| ----------- | ---- |
+| product_id  | int  |
+| low_fats    | enum |
+| recyclable  | enum |
 
-- `product_id` is the `primary key` (column with unique values) for this table.
-- `low_fats` is an `ENUM` (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
-- `recyclable` is an `ENUM` (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
+> `product_id` is the `primary key` (column with unique values) for this table.
+>
+> `low_fats` is an `ENUM` (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
+>
+> `recyclable` is an `ENUM` (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
 
 ## Instructions
 
@@ -39,20 +41,20 @@ Table: `Products`
 
 **Input:** `Products` table
 
-> | product_id | low_fats | recyclable |
-> | ---------- | -------- | ---------- |
-> | 0          | Y        | N          |
-> | 1          | Y        | Y          |
-> | 2          | N        | Y          |
-> | 3          | Y        | Y          |
-> | 4          | N        | N          |
+| product_id | low_fats | recyclable |
+| ---------- | -------- | ---------- |
+| 0          | Y        | N          |
+| 1          | Y        | Y          |
+| 2          | N        | Y          |
+| 3          | Y        | Y          |
+| 4          | N        | N          |
 
 **Output:**
 
-> | product_id |
-> | ---------- |
-> | 1          |
-> | 3          |
+| product_id |
+| ---------- |
+| 1          |
+| 3          |
 
 **Explanation:**
 
@@ -71,7 +73,7 @@ WHERE low_fats = 'Y' AND recyclable = 'Y';
 ```python [Pandas] :line-numbers
 import pandas as pd
 
-def find_products(products: pd.DataFrame) -> pd.DataFrame:
+def find_products(products: pd.DataFrame) -pd.DataFrame:
     return products.query("low_fats == 'Y' and recyclable == 'Y'")[['product_id']]
 ```
 
@@ -93,7 +95,7 @@ def find_products(products: pd.DataFrame) -> pd.DataFrame:
 <CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library and gives it the alias `pd`. Pandas is a powerful data manipulation library in Python that provides data structures and functions needed for manipulating structured data.
-- `def find_products(products: pd.DataFrame) -> pd.DataFrame:`: This line defines a function called `find_products` that takes a pandas DataFrame `products` as input and returns a pandas DataFrame. A DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It's similar to a spreadsheet or SQL table, or a dictionary of Series objects.
+- `def find_products(products: pd.DataFrame) -pd.DataFrame:`: This line defines a function called `find_products` that takes a pandas DataFrame `products` as input and returns a pandas DataFrame. A DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It's similar to a spreadsheet or SQL table, or a dictionary of Series objects.
 - `return products.query("low_fats == 'Y' and recyclable == 'Y'")[['product_id']]`:
   This line does several things:
   - `products.query("low_fats == 'Y' and recyclable == 'Y'")`: This uses the `query` method of the DataFrame to filter rows. The argument to `query` is a string that defines the filtering condition. In this case, the condition is that the `low_fats` column should be 'Y' and the `recyclable` column should also be 'Y'. This will return a new DataFrame that only includes rows where both conditions are true.
