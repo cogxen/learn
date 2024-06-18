@@ -9,4 +9,14 @@ export default [
     link: "/challenges/sql-50/june-2024/584-find-customer-referee",
     difficulty: { level: "Easy" },
   },
+  {
+    text: "595. Big Countries",
+    link: "/challenges/sql-50/june-2024/595-big-countries",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "570. Managers with at Least 5 Direct Reports",
+    link: "/challenges/sql-50/june-2024/570-managers-with-at-least-5-direct-reports",
+    difficulty: { level: "Medium" },
+  },
 ]
