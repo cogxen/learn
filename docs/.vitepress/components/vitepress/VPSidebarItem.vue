@@ -85,7 +85,7 @@ function onCaretClick() {
           v-if="item.difficulty"
           class="rounded-md text-[10px] px-2 py-0.5 border"
           :class="{
-            'text-slate-800 bg-slate-200 border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700':
+            'text-emerald-800 bg-emerald-200 border-emerald-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700':
               item.difficulty.level === 'Easy',
             'text-yellow-800 bg-yellow-200 border-yellow-300 dark:bg-yellow-900 dark:text-yellow-200 dark:border-yellow-700':
               item.difficulty.level === 'Medium',
