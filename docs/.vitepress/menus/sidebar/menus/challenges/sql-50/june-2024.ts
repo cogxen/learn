@@ -19,4 +19,9 @@ export default [
     link: "/challenges/sql-50/june-2024/570-managers-with-at-least-5-direct-reports",
     difficulty: { level: "Medium" },
   },
+  {
+    text: "1148. Article Views I",
+    link: "/challenges/sql-50/june-2024/1148-article-views-i",
+    difficulty: { level: "Easy" },
+  },
 ]

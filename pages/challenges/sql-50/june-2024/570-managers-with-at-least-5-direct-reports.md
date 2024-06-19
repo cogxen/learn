@@ -100,18 +100,13 @@ In the SQL query, `t1` and `t2` are aliases for the `Employee` table. When you j
 - `import pandas as pd`: This line imports the pandas library, which provides data structures and data analysis tools for Python. It's commonly imported under the alias `pd`.
 - `def find_managers(employee: pd.DataFrame) -> pd.DataFrame:`: This line defines a function named `find_managers` that takes a pandas DataFrame `employee` as input and returns a DataFrame.
 - `managers = employee.groupby('managerId').filter(lambda x: len(x) >= 5)`:
-
-  This line does the following:
-
   - `employee.groupby('managerId')`: This groups the `employee` DataFrame by the `managerId` column. This creates a group for each unique `managerId`.
   - `.filter(lambda x: len(x) >= 5)`: This filters the groups to include only those where the size of the group (i.e., the number of direct reports) is greater than or equal to 5. The result is a DataFrame that includes only the rows from these groups.
-
+  - `managers`: This DataFrame contains the managers with at least 5 direct reports.
 - `return employee[employee['id'].isin(managers['managerId'])][['name']]`:
-
-  This line does the following:
-
   - `employee['id'].isin(managers['managerId'])`: This creates a boolean Series that is `True` for rows in `employee` where the `id` is in the `managerId` column of managers.
   - `employee[...]`: This selects the rows from `employee` where the boolean Series is `True`. This effectively selects the managers with at least 5 direct reports.
   - `[['name']]`: This selects the `name` column from these rows to return as the result.
+  - `return ...`: This returns a DataFrame containing the names of the managers with at least 5 direct reports.
 
 </CustomAccordion>

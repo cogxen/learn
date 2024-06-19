@@ -78,14 +78,14 @@ function onCaretClick() {
         <component :is="textTag" class="text line-clamp-2" v-html="item.text" />
         <span
           v-if="item.badge"
-          class="rounded-md text-[10px] text-slate-800 px-2 py-0.5 bg-slate-200 border border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
+          class="rounded-md text-[10px] text-slate-800 px-2 bg-slate-200 border border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
           v-text="item.badge.text"
         ></span>
         <span
           v-if="item.difficulty"
-          class="rounded-md text-[10px] px-2 py-0.5 border"
+          class="rounded-md text-[10px] px-2 border"
           :class="{
-            'text-slate-800 bg-slate-200 border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700':
+            'text-emerald-800 bg-emerald-200 border-emerald-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700':
               item.difficulty.level === 'Easy',
             'text-yellow-800 bg-yellow-200 border-yellow-300 dark:bg-yellow-900 dark:text-yellow-200 dark:border-yellow-700':
               item.difficulty.level === 'Medium',
