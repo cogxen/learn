@@ -1,4 +1,4 @@
-import june2024 from "./sql-50/june-2024"
+import sql50 from "./sql-50"
 
 export default {
   text: "Challenges",
@@ -9,13 +9,7 @@ export default {
         {
           text: "SQL 50",
           icon: "Code",
-          items: [
-            {
-              text: "June 2024",
-              collapsed: false,
-              items: june2024,
-            },
-          ],
+          items: sql50,
         },
       ],
     },
