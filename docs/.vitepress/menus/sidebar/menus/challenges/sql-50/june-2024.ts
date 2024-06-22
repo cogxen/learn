@@ -34,4 +34,9 @@ export default [
     link: "/challenges/sql-50/june-2024/185-department-top-three-salaries",
     difficulty: { level: "Hard" },
   },
+  {
+    text: "1378. Replace Employee ID With The Unique Identifier",
+    link: "/challenges/sql-50/june-2024/1378-replace-employee-id-with-the-unique-identifier",
+    difficulty: { level: "Easy" },
+  },
 ]
