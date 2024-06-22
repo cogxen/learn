@@ -4,6 +4,7 @@ import { useSidebarControl } from "vitepress/dist/client/theme-default/composabl
 import VPLink from "vitepress/dist/client/theme-default/components/VPLink.vue"
 import type { CustomSidebarItem, ExtendedIcons } from "../../../../sidebar"
 import * as Icons from "lucide-vue-next"
+import { CircleCheck } from "lucide-vue-next"
 
 const props = defineProps<{
   item: CustomSidebarItem
@@ -75,7 +76,12 @@ function onCaretClick() {
         :rel="item.rel"
         :target="item.target"
       >
-        <component :is="textTag" class="text line-clamp-2" v-html="item.text" />
+        <component
+          :is="textTag"
+          class="text"
+          :class="{ 'line-clamp-1': item.difficulty, 'line-clamp-2': !item.difficulty }"
+          v-html="item.text"
+        />
         <span
           v-if="item.badge"
           class="rounded-md text-[10px] text-slate-800 px-2 bg-slate-200 border border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
@@ -83,17 +89,14 @@ function onCaretClick() {
         ></span>
         <span
           v-if="item.difficulty"
-          class="rounded-md text-[10px] px-2 border"
+          class="rounded-md text-[10px] px-2"
           :class="{
-            'text-emerald-800 bg-emerald-200 border-emerald-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700':
-              item.difficulty.level === 'Easy',
-            'text-yellow-800 bg-yellow-200 border-yellow-300 dark:bg-yellow-900 dark:text-yellow-200 dark:border-yellow-700':
-              item.difficulty.level === 'Medium',
-            'text-red-800 bg-red-200 border-red-300 dark:bg-red-900 dark:text-red-200 dark:border-red-700':
-              item.difficulty.level === 'Hard',
+            'text-emerald-500 dark:text-emerald-600': item.difficulty.level === 'Easy',
+            'text-yellow-500  dark:text-yellow-600': item.difficulty.level === 'Medium',
+            'text-red-500 dark:text-red-600': item.difficulty.level === 'Hard',
           }"
         >
-          {{ item.difficulty.level.charAt(0) }}
+          <CircleCheck class="w-4 h-4" />
         </span>
       </VPLink>
       <component v-else :is="textTag" class="text line-clamp-2" v-html="item.text" />

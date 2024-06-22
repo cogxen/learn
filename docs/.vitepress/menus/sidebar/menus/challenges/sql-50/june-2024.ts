@@ -24,4 +24,19 @@ export default [
     link: "/challenges/sql-50/june-2024/1148-article-views-i",
     difficulty: { level: "Easy" },
   },
+  {
+    text: "1683. Invalid Tweets",
+    link: "/challenges/sql-50/june-2024/1683-invalid-tweets",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "185. Department Top Three Salaries",
+    link: "/challenges/sql-50/june-2024/185-department-top-three-salaries",
+    difficulty: { level: "Hard" },
+  },
+  {
+    text: "1378. Replace Employee ID With The Unique Identifier",
+    link: "/challenges/sql-50/june-2024/1378-replace-employee-id-with-the-unique-identifier",
+    difficulty: { level: "Easy" },
+  },
 ]
