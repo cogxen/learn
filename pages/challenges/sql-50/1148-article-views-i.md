@@ -8,7 +8,7 @@ head:
   - - meta
     - name: keywords
       content: data data science machine learning AI data analysis data-driven data enthusiasts data practitioners
-lastUpdated: true
+lastUpdated: false
 editLink: false
 footer: false
 ---
@@ -81,7 +81,7 @@ def article_views(views: pd.DataFrame) -> pd.DataFrame:
 
 :::
 
-## Breaking Down the Solutions
+## Explanations
 
 <CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
 
