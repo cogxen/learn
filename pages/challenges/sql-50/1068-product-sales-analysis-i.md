@@ -120,7 +120,7 @@ def sales_analysis(sales: pd.DataFrame, product: pd.DataFrame) -> pd.DataFrame:
 
 :::
 
-## Breaking Down the Solutions
+## Explanations
 
 <CustomAccordion title="PostgreSQL, MySQL, & MS SQL Server" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
 

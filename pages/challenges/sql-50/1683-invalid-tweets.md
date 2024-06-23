@@ -72,7 +72,7 @@ def invalid_tweets(tweets: pd.DataFrame) -> pd.DataFrame:
 
 :::
 
-## Breaking Down the Solutions
+## Explanations
 
 <CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
 

@@ -139,7 +139,7 @@ def top_three_salaries(employee: pd.DataFrame, department: pd.DataFrame) -> pd.D
 
 :::
 
-## Breaking Down the Solutions
+## Explanations
 
 <CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
 
