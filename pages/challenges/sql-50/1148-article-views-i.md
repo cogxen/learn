@@ -8,7 +8,7 @@ head:
   - - meta
     - name: keywords
       content: data data science machine learning AI data analysis data-driven data enthusiasts data practitioners
-lastUpdated: true
+lastUpdated: false
 editLink: false
 footer: false
 ---
