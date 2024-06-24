@@ -11,6 +11,9 @@ head:
 lastUpdated: false
 editLink: false
 footer: false
+leetcodeStudyPlan:
+  - name: Top SQL 50
+  - link: https://leetcode.com/studyplan/top-sql-50/
 ---
 
 # 185. Department Top Three Salaries

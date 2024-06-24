@@ -11,6 +11,9 @@ head:
 lastUpdated: false
 editLink: false
 footer: false
+leetcodeStudyPlan:
+  - name: Top SQL 50
+  - link: https://leetcode.com/studyplan/top-sql-50/
 ---
 
 # 1378. Replace Employee ID With The Unique Identifier
@@ -107,6 +110,8 @@ def replace_employee_id(employees: pd.DataFrame, employee_uni: pd.DataFrame) -> 
 ```
 
 :::
+
+## Explanations
 
 <CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
 
