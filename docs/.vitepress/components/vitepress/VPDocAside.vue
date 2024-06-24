@@ -7,7 +7,7 @@ import VPDocAsideCarbonAds from "./VPDocAsideCarbonAds.vue"
 
 interface Contributor {
   name: string
-  github_url: string
+  website_url: string
 }
 
 const { frontmatter, theme } = useData()
@@ -31,14 +31,14 @@ const updateContributors = () => {
         if (Array.isArray(group) && group[0] === "detail") {
           return {
             name: group[1]?.name ? group[1].name.charAt(0) : "",
-            github_url: group[2]?.github_url || "",
+            website_url: group[2]?.website_url || "",
           }
         }
         return null
       })
       .filter(
         (contributor: Contributor | null) =>
-          contributor && contributor.name && contributor.github_url,
+          contributor && contributor.name && contributor.website_url,
       )
 
     contributors.value = contributorsDetails
@@ -74,8 +74,8 @@ onContentUpdated(updateContributors)
         <div class="flex flex-row gap-1 items-center">
           <a
             v-for="contributor in contributors"
-            :key="contributor.github_url"
-            :href="contributor.github_url"
+            :key="contributor.website_url"
+            :href="contributor.website_url"
             target="_blank"
             class="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden border border-dashed rounded-lg border-slate-300 dark:border-slate-700"
           >
