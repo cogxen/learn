@@ -58,7 +58,7 @@ Table: `Products`
 
 **Explanation:**
 
-- The products with `id` 1 and 3 are both `low fat` and `recyclable`.
+> The products with `id` 1 and 3 are both `low fat` and `recyclable`.
 
 ## Solutions
 

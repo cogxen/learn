@@ -50,8 +50,9 @@ Table: `Tweets`
 
 **Explanation:**
 
-The content of the tweet with `tweet_id` 1 is "Sunny day" and the number of characters used is $9$ which is **not** strictly greater than $15$.
-The content of the tweet with `tweet_id` 2 is "I love coding" and the number of characters used is $12$ which is **not** strictly greater than $15$.
+> The content of the tweet with `tweet_id` 1 is "Sunny day" and the number of characters used is $9$ which is **not** strictly greater than $15$.
+>
+> The content of the tweet with `tweet_id` 2 is "I love coding" and the number of characters used is $12$ which is **not** strictly greater than $15$.
 
 ## Solutions
 
