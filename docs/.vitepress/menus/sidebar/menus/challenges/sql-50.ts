@@ -44,4 +44,9 @@ export default [
     link: "/challenges/sql-50/1068-product-sales-analysis-i",
     difficulty: { level: "Easy" },
   },
+  {
+    text: "1581. Customer Who Visited but Did Not Make Any Transactions",
+    link: "/challenges/sql-50/1581-customer-who-visited-but-did-not-make-any-transactions",
+    difficulty: { level: "Easy" },
+  },
 ]
