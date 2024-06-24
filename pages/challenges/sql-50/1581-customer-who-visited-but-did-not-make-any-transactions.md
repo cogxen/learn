@@ -14,6 +14,10 @@ footer: false
 leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # 1581. Customer Who Visited but Did Not Make Any Transactions
@@ -125,7 +129,7 @@ def find_customers(visits: pd.DataFrame, transactions: pd.DataFrame) -> pd.DataF
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
 
 - `SELECT v.customer_id, COUNT(v.visit_id) AS count_no_trans`: It selects the `customer_id` and the count of `visit_id` from the `Visits` table.
 - `FROM Visits v`: It selects the `customer_id` from the `Visits` table and assigns it an alias `v`.
@@ -138,7 +142,7 @@ In the query, `v` and `t` are aliases for the `Visits` and `Transactions` tables
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
 
 - `import pandas as pd`: This imports the `pandas` library, which is used for data manipulation and analysis.
 - `def find_customers(visits: pd.DataFrame, transactions: pd.DataFrame) -> pd.DataFrame:`: This function takes two pandas DataFrames as input and returns a DataFrame.

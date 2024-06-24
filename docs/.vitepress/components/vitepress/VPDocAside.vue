@@ -1,12 +1,18 @@
 <script setup lang="ts">
 import { onContentUpdated } from "vitepress"
-import { ref } from "vue"
+import { ref, type Ref } from "vue"
 import { useData } from "vitepress/dist/client/theme-default/composables/data.js"
 import VPDocAsideOutline from "./VPDocAsideOutline.vue"
 import VPDocAsideCarbonAds from "./VPDocAsideCarbonAds.vue"
 
+interface Contributor {
+  name: string
+  website_url: string
+}
+
 const { frontmatter, theme } = useData()
 const leetcodeStudyPlan = ref({ name: "", link: "" })
+const contributors: Ref<Contributor[]> = ref([])
 
 const updateLeetcodeInfo = () => {
   if (frontmatter.value.leetcodeStudyPlan !== undefined) {
@@ -18,7 +24,31 @@ const updateLeetcodeInfo = () => {
   }
 }
 
+const updateContributors = () => {
+  if (frontmatter.value.contributors !== undefined) {
+    const contributorsDetails = frontmatter.value.contributors
+      .map((group: any[]) => {
+        if (Array.isArray(group) && group[0] === "detail") {
+          return {
+            name: group[1]?.name ? group[1].name.charAt(0) : "",
+            website_url: group[2]?.website_url || "",
+          }
+        }
+        return null
+      })
+      .filter(
+        (contributor: Contributor | null) =>
+          contributor && contributor.name && contributor.website_url,
+      )
+
+    contributors.value = contributorsDetails
+  } else {
+    contributors.value = []
+  }
+}
+
 onContentUpdated(updateLeetcodeInfo)
+onContentUpdated(updateContributors)
 </script>
 
 <template>
@@ -39,6 +69,20 @@ onContentUpdated(updateLeetcodeInfo)
           <img src="https://i.imgur.com/cxH56Lt.png" alt="LeetCode" class="w-10 h-10" />
         </div>
       </a>
+      <div class="flex flex-col gap-2 items-start" v-if="contributors.length">
+        <span class="text-xs text-slate-800 dark:text-slate-300">Contributors</span>
+        <div class="flex flex-row gap-1 items-center">
+          <a
+            v-for="contributor in contributors"
+            :key="contributor.website_url"
+            :href="contributor.website_url"
+            target="_blank"
+            class="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden border border-dashed rounded-lg border-slate-300 dark:border-slate-700"
+          >
+            <span class="font-medium text-gray-600 dark:text-gray-300">{{ contributor.name }}</span>
+          </a>
+        </div>
+      </div>
     </slot>
 
     <slot name="aside-outline-before" />

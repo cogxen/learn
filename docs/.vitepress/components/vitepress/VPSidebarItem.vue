@@ -90,7 +90,7 @@ function onCaretClick() {
         <component
           :is="textTag"
           class="text"
-          :class="{ 'line-clamp-3': item.difficulty, 'line-clamp-2': !item.difficulty }"
+          :class="{ 'line-clamp-1': item.difficulty, 'line-clamp-2': !item.difficulty }"
           v-html="item.text"
         />
         <span

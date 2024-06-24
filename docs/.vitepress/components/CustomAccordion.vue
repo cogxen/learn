@@ -11,7 +11,7 @@
           >
             Submitted by
             <a
-              :href="submit_github_url"
+              :href="submit_website_url"
               target="_blank"
               class="text-slate-500 dark:text-slate-400 flex flex-row gap-1 items-center"
               >{{ submitted_by }}
@@ -46,7 +46,7 @@ const props = defineProps({
     type: String,
     required: false,
   },
-  submit_github_url: {
+  submit_website_url: {
     type: String,
     required: false,
   },

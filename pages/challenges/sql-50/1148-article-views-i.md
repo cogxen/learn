@@ -14,6 +14,10 @@ footer: false
 leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # 1148. Article Views I
@@ -86,7 +90,7 @@ def article_views(views: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
 
 - `SELECT DISTINCT author_id AS id`: This part of the statement specifies the column that you want to retrieve from the database. In this case, you're retrieving the `author_id` column and renaming it to `id` using the `AS` keyword. The `DISTINCT` keyword ensures that each `id` in the result set is unique.
 - `FROM Views`: This part of the statement specifies the table from which you want to retrieve the data. Here, `Views` is the table.
@@ -95,7 +99,7 @@ def article_views(views: pd.DataFrame) -> pd.DataFrame:
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library, which provides data structures and data analysis tools for Python. It's commonly imported under the alias `pd`.
 - `def article_views(views: pd.DataFrame) -> pd.DataFrame:`: This line defines a function named `article_views` that takes a pandas DataFrame `views` as input and returns a DataFrame.
