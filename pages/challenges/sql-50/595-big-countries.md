@@ -14,6 +14,10 @@ footer: false
 leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # 595. Big Countries
@@ -82,7 +86,7 @@ def big_countries(world: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
 
 - `SELECT name, population, area`: This part of the statement specifies the columns that you want to retrieve from the database. In this case, you're retrieving the `name`, `population`, and `area` columns.
 - `FROM World`: This part of the statement specifies the table from which you want to retrieve the data. In this case, you're retrieving data from the `World` table.
@@ -90,7 +94,7 @@ def big_countries(world: pd.DataFrame) -> pd.DataFrame:
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library, which provides data structures and data analysis tools for Python. It's commonly imported under the alias `pd`.
 - `def big_countries(world: pd.DataFrame) -> pd.DataFrame:`: This line defines a function named `big_countries` that takes a pandas DataFrame `world` as input and returns a DataFrame.

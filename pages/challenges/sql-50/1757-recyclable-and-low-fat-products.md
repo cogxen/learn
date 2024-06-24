@@ -14,6 +14,10 @@ footer: false
 leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # 1757. Recyclable and Low Fat Products
@@ -84,7 +88,7 @@ def find_products(products: pd.DataFrame) -pd.DataFrame:
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
 
 - `SELECT product_id`: This is the `SELECT` statement, which specifies the data you want to retrieve from the database. In this case, you're selecting the `product_id` column, so the query will return the product IDs.
 - `FROM Products`: This is the `FROM` clause, which specifies the table you want to retrieve data from. In this case, you're retrieving data from the `Products` table.
@@ -95,7 +99,7 @@ def find_products(products: pd.DataFrame) -pd.DataFrame:
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library and gives it the alias `pd`. Pandas is a powerful data manipulation library in Python that provides data structures and functions needed for manipulating structured data.
 - `def find_products(products: pd.DataFrame) -pd.DataFrame:`: This line defines a function called `find_products` that takes a pandas DataFrame `products` as input and returns a pandas DataFrame. A DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It's similar to a spreadsheet or SQL table, or a dictionary of Series objects.

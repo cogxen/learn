@@ -14,6 +14,10 @@ footer: false
 leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # 1378. Replace Employee ID With The Unique Identifier
@@ -113,7 +117,7 @@ def replace_employee_id(employees: pd.DataFrame, employee_uni: pd.DataFrame) -> 
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
 
 - `SELECT emuni.unique_id, em.name`: Select the `unique_id` and `name` columns from the `Employee` with and alias `em` and `EmployeeUNI` with an alias `emuni`.
 - `FROM Employees em`: Select the `Employees` table and alias it as `em`.
@@ -123,7 +127,7 @@ In summary, this query is designed to list all employees by name along with thei
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_github_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library, which provides data structures and data analysis tools for Python. It's commonly imported under the alias `pd`.
 - `def replace_employee_id(employees: pd.DataFrame, employee_uni: pd.DataFrame) -> pd.DataFrame`: This function takes two pandas DataFrames as input: `employees` and `employee_uni`. It returns a DataFrame with the `unique_id` and `name` columns.
