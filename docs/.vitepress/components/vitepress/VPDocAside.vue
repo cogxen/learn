@@ -6,25 +6,15 @@ import VPDocAsideOutline from "./VPDocAsideOutline.vue"
 import VPDocAsideCarbonAds from "./VPDocAsideCarbonAds.vue"
 
 const { frontmatter, theme } = useData()
-const leetcodeInfo = ref({ name: "", link: "" })
+const leetcodeStudyPlan = ref({ name: "", link: "" })
 
 const updateLeetcodeInfo = () => {
-  leetcodeInfo.value = { name: "", link: "" }
-
-  if (frontmatter.value.links) {
-    const links = frontmatter.value.links
-    const leetcodeArray = links.find((linkArray: any) => linkArray[0] === "leetcode")
-    console.log("LeetCode Array:", leetcodeArray)
-    if (leetcodeArray) {
-      const leetcodeName = leetcodeArray[1].name
-      const leetcodeLink = leetcodeArray[2].link
-      console.log("LeetCode Name:", leetcodeName)
-      console.log("LeetCode Link:", leetcodeLink)
-      if (leetcodeLink && leetcodeName) {
-        leetcodeInfo.value = { name: leetcodeName, link: leetcodeLink }
-        return
-      }
-    }
+  if (frontmatter.value.leetcodeStudyPlan !== undefined) {
+    const lcspName = frontmatter.value.leetcodeStudyPlan[0].name
+    const lcspLink = frontmatter.value.leetcodeStudyPlan[1].link
+    leetcodeStudyPlan.value = { name: lcspName, link: lcspLink }
+  } else {
+    leetcodeStudyPlan.value = { name: "", link: "" }
   }
 }
 
@@ -35,20 +25,18 @@ onContentUpdated(updateLeetcodeInfo)
   <div class="VPDocAside gap-4">
     <slot name="aside-top">
       <a
-        v-if="leetcodeInfo.name && leetcodeInfo.link"
-        :href="leetcodeInfo.link"
+        v-if="leetcodeStudyPlan.name && leetcodeStudyPlan.link"
+        :href="leetcodeStudyPlan.link"
         target="_blank"
-        class="px-4 py-2 bg-[#f6f5f2] rounded-lg"
+        class="px-4 py-2 border border-dashed rounded-lg border-slate-300 dark:border-slate-700"
       >
         <div class="flex flex-row gap-2 justify-between items-center">
-          <span class="text-sm text-black font-space-grotesk font-medium line-clamp-1">
-            {{ leetcodeInfo.name }}
+          <span
+            class="text-sm text-slate-800 font-space-grotesk font-medium line-clamp-1 dark:text-slate-300"
+          >
+            {{ leetcodeStudyPlan.name }}
           </span>
-          <img
-            src="https://cdn.iconscout.com/icon/free/png-512/free-leetcode-3628885-3030025.png?f=webp&w=256"
-            alt="LeetCode"
-            class="w-6 h-6"
-          />
+          <img src="https://i.imgur.com/cxH56Lt.png" alt="LeetCode" class="w-10 h-10" />
         </div>
       </a>
     </slot>
