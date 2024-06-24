@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./docs/.vitepress/**/*.js",
@@ -11,7 +10,11 @@ module.exports = {
     safelist: ["html", "body"],
   },
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "space-grotesk": ['"Space Grotesk"', "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }

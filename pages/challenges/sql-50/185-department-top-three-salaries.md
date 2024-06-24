@@ -11,6 +11,9 @@ head:
 lastUpdated: false
 editLink: false
 footer: false
+leetcodeStudyPlan:
+  - name: Top SQL 50
+  - link: https://leetcode.com/studyplan/top-sql-50/
 ---
 
 # 185. Department Top Three Salaries
@@ -81,17 +84,17 @@ Table: `Department`
 
 **Explanation:**
 
-In the `IT` department:
-
-- Max earns the highest unique salary.
-- Joe and Randy earn the second and third highest unique salary.
-- Will earns the fourth highest salary.
-
-In the `Sales` department:
-
-- Henry earns the highest unique salary.
-- Sam earns the second highest unique salary.
-- There is no third highest salary as there are only two employees in the department.
+> In the `IT` department:
+>
+> - Max earns the highest unique salary.
+> - Joe and Randy earn the second and third highest unique salary.
+> - Will earns the fourth highest salary.
+>
+> In the `Sales` department:
+>
+> - Henry earns the highest unique salary.
+> - Sam earns the second highest unique salary.
+> - There is no third highest salary as there are only two employees in the department.
 
 ## Solutions
 

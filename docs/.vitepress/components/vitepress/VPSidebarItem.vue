@@ -76,17 +76,6 @@ function onCaretClick() {
         :rel="item.rel"
         :target="item.target"
       >
-        <component
-          :is="textTag"
-          class="text"
-          :class="{ 'line-clamp-1': item.difficulty, 'line-clamp-2': !item.difficulty }"
-          v-html="item.text"
-        />
-        <span
-          v-if="item.badge"
-          class="rounded-md text-[10px] text-slate-800 px-2 bg-slate-200 border border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
-          v-text="item.badge.text"
-        ></span>
         <span
           v-if="item.difficulty"
           class="rounded-md text-[10px] px-2"
@@ -98,6 +87,17 @@ function onCaretClick() {
         >
           <CircleCheck class="w-4 h-4" />
         </span>
+        <component
+          :is="textTag"
+          class="text"
+          :class="{ 'line-clamp-3': item.difficulty, 'line-clamp-2': !item.difficulty }"
+          v-html="item.text"
+        />
+        <span
+          v-if="item.badge"
+          class="rounded-md text-[10px] text-slate-800 px-2 bg-slate-200 border border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
+          v-text="item.badge.text"
+        ></span>
       </VPLink>
       <component v-else :is="textTag" class="text line-clamp-2" v-html="item.text" />
 

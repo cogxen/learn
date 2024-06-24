@@ -1,8 +1,6 @@
 import type { Theme as ThemeConfig } from "vitepress"
 import type { EnhanceAppContext } from "vitepress"
 import DefaultTheme from "vitepress/theme"
-import TwoslashFloatingVue from "@shikijs/vitepress-twoslash/client"
-import "@shikijs/vitepress-twoslash/style.css"
 
 /** Stylesheets */
 import "../assets/css/root.css"
@@ -16,6 +14,9 @@ import CustomAccordion from "../components/CustomAccordion.vue"
 import CustomLayout from "../components/CustomLayout.vue"
 import CustomBadge from "../components/CustomBadge.vue"
 import VPSidebarItem from "../components/vitepress/VPSidebarItem.vue"
+import VPDocAside from "../components/vitepress/VPDocAside.vue"
+import VPDocAsideOutline from "../components/vitepress/VPDocAsideOutline.vue"
+import VPDoc from "../components/vitepress/VPDoc.vue"
 
 export default {
   ...DefaultTheme,
@@ -24,10 +25,12 @@ export default {
     app.component("MathExampleCard", MathExampleCard)
     app.component("CustomBadge", CustomBadge)
     app.component("ImageCard", ImageCard)
+    app.component("VPDoc", VPDoc)
     app.component("VPSidebarItem", VPSidebarItem)
+    app.component("VPDocAside", VPDocAside)
+    app.component("VPDocAsideOutline", VPDocAsideOutline)
     app.component("CustomLayout", CustomLayout)
     app.component("CustomAccordion", CustomAccordion)
-    app.use(TwoslashFloatingVue)
   },
   Layout: CustomLayout,
 } satisfies ThemeConfig

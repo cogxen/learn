@@ -8,6 +8,7 @@ import { addMarkdownPlugins } from "./theme/plugins/markdown"
 /** Menus (Modularized) */
 import nav from "./menus/nav"
 import sidebar from "./menus/sidebar"
+import { fileURLToPath, URL } from "url"
 
 const hostname: string = "https://cogxen.quest"
 
@@ -47,7 +48,6 @@ export default defineConfigWithTheme({
 
   /** Configurations */
   cleanUrls: true,
-  lastUpdated: true,
   markdown: {
     image: {
       lazyLoading: true,
@@ -102,5 +102,15 @@ export default defineConfigWithTheme({
     }
 
     writeFileSync(path.join(config.outDir, "feed.rss"), feed.rss2())
+  },
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPDoc\.vue$/,
+          replacement: fileURLToPath(new URL("./components/vitepress/VPDoc.vue", import.meta.url)),
+        },
+      ],
+    },
   },
 })

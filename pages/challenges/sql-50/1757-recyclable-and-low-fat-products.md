@@ -11,6 +11,9 @@ head:
 lastUpdated: false
 editLink: false
 footer: false
+leetcodeStudyPlan:
+  - name: Top SQL 50
+  - link: https://leetcode.com/studyplan/top-sql-50/
 ---
 
 # 1757. Recyclable and Low Fat Products
@@ -58,7 +61,7 @@ Table: `Products`
 
 **Explanation:**
 
-- The products with `id` 1 and 3 are both `low fat` and `recyclable`.
+> The products with `id` 1 and 3 are both `low fat` and `recyclable`.
 
 ## Solutions
 
