@@ -66,7 +66,7 @@ Table: `World`
 | Afghanistan | 25500100   | 652230  |
 | Algeria     | 37100000   | 2381741 |
 
-## Solutions
+## Submissions
 
 ::: code-group
 

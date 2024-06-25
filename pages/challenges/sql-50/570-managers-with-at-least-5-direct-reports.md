@@ -67,7 +67,7 @@ Table: `Employee`
 | ---- |
 | John |
 
-## Solutions
+## Submissions
 
 ::: code-group
 

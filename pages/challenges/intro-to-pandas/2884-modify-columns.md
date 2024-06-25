@@ -62,7 +62,7 @@ DataFrame `employees`
 
 > Every salary has been doubled.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

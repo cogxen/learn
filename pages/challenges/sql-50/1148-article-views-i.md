@@ -67,7 +67,7 @@ Table: `Views`
 | 4   |
 | 7   |
 
-## Solutions
+## Submissions
 
 ::: code-group
 

@@ -66,7 +66,7 @@ DataFrame `players`
 
 > This DataFrame contains 10 rows and 5 columns.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

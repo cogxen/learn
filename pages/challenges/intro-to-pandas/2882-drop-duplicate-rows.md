@@ -64,7 +64,7 @@ DataFrame `customers`
 
 > Alic (`customer_id = 4`) and Finn (`customer_id = 5`) both use **john@example.com**, so only the first occurrence of this email is retained.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

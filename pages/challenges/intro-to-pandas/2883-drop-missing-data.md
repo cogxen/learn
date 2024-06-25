@@ -60,7 +60,7 @@ DataFrame `students`
 
 > Student with `id` 217 havs empty value in the name column, so it will be removed.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

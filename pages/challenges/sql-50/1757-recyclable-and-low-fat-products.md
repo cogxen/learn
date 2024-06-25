@@ -68,7 +68,7 @@ Table: `Products`
 
 > The products with `id` 1 and 3 are both `low fat` and `recyclable`.
 
-## Solutions
+## Submissions
 
 ::: code-group
 
