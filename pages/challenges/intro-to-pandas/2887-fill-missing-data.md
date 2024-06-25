@@ -1,5 +1,5 @@
 ---
-title: 2884. Modify Columns | Challenges | Cogxen
+title: 2887. Fill Missing Data | Challenges | Cogxen
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -21,55 +21,53 @@ contributors:
     - website_url: https://github.com/noeyislearning
 ---
 
-# 2884. Modify Columns
+# 2887. Fill Missing Data
 
-DataFrame `employees`
+DataFrame `products`
 
 | Column Name | Type   |
 | ----------- | ------ |
 | name        | object |
-| salary      | int    |
+| quantity    | int    |
+| price       | int    |
 
 ## Instructions
 
-- A company intends to give its employees a pay rise.
-- Write a solution to modify the `salary` column by multiplying each salary by 2.
+- Write a solution to fill in the missing value as $0$ in the `quantity` column.
 - The result format is in the following example.
 
 ## Example
 
 **Input:**
 
-DataFrame `employees`
-
-| name    | salary |
-| ------- | ------ |
-| Jack    | 19666  |
-| Piper   | 74754  |
-| Mia     | 62509  |
-| Ulysses | 54866  |
+| name            | quantity | price |
+| --------------- | -------- | ----- |
+| Wristwatch      | None     | 135   |
+| WirelessEarbuds | None     | 821   |
+| GolfClubs       | 779      | 9319  |
+| Printer         | 849      | 3051  |
 
 **Output:**
 
-| name    | salary |
-| ------- | ------ |
-| Jack    | 39332  |
-| Piper   | 149508 |
-| Mia     | 125018 |
-| Ulysses | 109732 |
+| name            | quantity | price |
+| --------------- | -------- | ----- |
+| Wristwatch      | 0        | 135   |
+| WirelessEarbuds | 0        | 821   |
+| GolfClubs       | 779      | 9319  |
+| Printer         | 849      | 3051  |
 
 **Explanation:**
 
-> Every salary has been doubled.
+> The quantity for Wristwatch and WirelessEarbuds are filled by $0$.
 
 ## Submissions
 
 ```python :line-numbers
 import pandas as pd
 
-def modifySalaryColumn(employees: pd.DataFrame) -> pd.DataFrame:
-    employees['salary'] = employees['salary'] * 2
-    return employees
+def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:
+    products['quantity'] = products['quantity'].fillna(0)
+    return products
 ```
 
 ## Explanation
@@ -77,8 +75,8 @@ def modifySalaryColumn(employees: pd.DataFrame) -> pd.DataFrame:
 <CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
 
 - `import pandas as pd`: Import the pandas library to work with DataFrames.
-- `def modifySalaryColumn(employees: pd.DataFrame) -> pd.DataFrame:`: Define a function called `modifySalaryColumn` that takes a DataFrame `employees` as input and returns a DataFrame.
-- `employees['salary'] = employees['salary'] * 2`: Modify the `salary` column by multiplying each salary by 2.
-- `return employees`: Return the modified DataFrame `employees`.
+- `def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame`: Define a function that takes a DataFrame as input and returns a DataFrame.
+- `products['quantity'] = products['quantity'].fillna(0)`: Fill the missing values in the `quantity` column with $0$.
+- `return products`: Return the updated DataFrame.
 
 </CustomAccordion>

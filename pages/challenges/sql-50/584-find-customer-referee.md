@@ -65,7 +65,7 @@ Table: `Customers`
 | Bill |
 | Zack |
 
-## Solutions
+## Submissions
 
 ::: code-group
 

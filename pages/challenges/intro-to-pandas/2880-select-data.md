@@ -57,7 +57,7 @@ DataFrame `students`
 
 > Student Ulysses has `student_id = 101`, we select the `name` and `age`.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

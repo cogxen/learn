@@ -69,7 +69,7 @@ DataFrame `students`
 
 > The column names are changed accordingly.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

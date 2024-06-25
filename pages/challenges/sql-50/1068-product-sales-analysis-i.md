@@ -94,7 +94,7 @@ Table: `Product`
 >
 > From `sale_id = 7`, we can conclude that Apple was sold for `9000` in the year 2011.
 
-## Solutions
+## Submissions
 
 ::: code-group
 

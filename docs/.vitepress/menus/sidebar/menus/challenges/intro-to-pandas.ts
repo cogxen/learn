@@ -44,4 +44,34 @@ export default [
     link: "/challenges/intro-to-pandas/2885-rename-columns",
     difficulty: { level: "Easy" },
   },
+  {
+    text: "2886. Change Data Type",
+    link: "/challenges/intro-to-pandas/2886-change-data-type",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "2887. Fill Missing Data",
+    link: "/challenges/intro-to-pandas/2887-fill-missing-data",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "2888. Reshape Data: Concatenate",
+    link: "/challenges/intro-to-pandas/2888-reshape-data-concatenate",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "2889. Reshape Data: Pivot",
+    link: "/challenges/intro-to-pandas/2889-reshape-data-pivot",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "2890. Reshape Data: Melt",
+    link: "/challenges/intro-to-pandas/2890-reshape-data-melt",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "2891. Method Chaining",
+    link: "/challenges/intro-to-pandas/2891-method-chaining",
+    difficulty: { level: "Easy" },
+  },
 ]

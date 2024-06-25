@@ -62,7 +62,7 @@ Table: `Tweets`
 >
 > The content of the tweet with `tweet_id` 2 is "I love coding" and the number of characters used is $12$ which is **not** strictly greater than $15$.
 
-## Solutions
+## Submissions
 
 ::: code-group
 

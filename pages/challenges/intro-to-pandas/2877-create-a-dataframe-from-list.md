@@ -57,7 +57,7 @@ contributors:
 
 > A DataFrame was created on top of `student_data`, with two columns named `student_id` and `age`.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

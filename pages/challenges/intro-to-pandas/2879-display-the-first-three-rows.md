@@ -63,7 +63,7 @@ DataFrame `employees`
 
 > Only the first 3 rows are displayed.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

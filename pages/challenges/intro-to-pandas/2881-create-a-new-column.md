@@ -66,7 +66,7 @@ DataFrame `employees`
 
 > A new column bonus is created by doubling the value in the column salary.
 
-## Solution
+## Submissions
 
 ```python :line-numbers
 import pandas as pd

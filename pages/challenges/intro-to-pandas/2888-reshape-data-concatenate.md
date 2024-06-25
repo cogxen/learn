@@ -1,5 +1,5 @@
 ---
-title: 2883. Drop Missing Data | Challenges | Cogxen
+title: "2888. Reshape Data: Concatenate | Challenges | Cogxen"
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -21,9 +21,17 @@ contributors:
     - website_url: https://github.com/noeyislearning
 ---
 
-# 2883. Drop Missing Data
+# 2888. Reshape Data: Concatenate
 
-DataFrame `students`
+DataFrame `df1`
+
+| Column Name | Type   |
+| ----------- | ------ |
+| student_id  | int    |
+| name        | object |
+| age         | int    |
+
+DataFrame `df2`
 
 | Column Name | Type   |
 | ----------- | ------ |
@@ -33,40 +41,51 @@ DataFrame `students`
 
 ## Instructions
 
-- There are some rows having missing values in the `name` column.
-- Write a solution to remove the rows with missing values.
+- Write a solution to concatenate these two DataFrames **vertically** into one DataFrame.
 - The result format is in the following example.
 
 ## Example
 
 **Input:**
 
+DataFrame `df1`
+
 | student_id | name    | age |
 | ---------- | ------- | --- |
-| 32         | Piper   | 5   |
-| 217        | None    | 19  |
-| 779        | Georgia | 20  |
-| 849        | Willow  | 14  |
+| 1          | Mason   | 8   |
+| 2          | Ava     | 6   |
+| 3          | Taylor  | 15  |
+| 4          | Georgia | 17  |
+
+DataFrame `df2`
+
+| student_id | name | age |
+| ---------- | ---- | --- |
+| 5          | Leo  | 7   |
+| 6          | Alex | 7   |
 
 **Output:**
 
 | student_id | name    | age |
 | ---------- | ------- | --- |
-| 32         | Piper   | 5   |
-| 779        | Georgia | 20  |
-| 849        | Willow  | 14  |
+| 1          | Mason   | 8   |
+| 2          | Ava     | 6   |
+| 3          | Taylor  | 15  |
+| 4          | Georgia | 17  |
+| 5          | Leo     | 7   |
+| 6          | Alex    | 7   |
 
 **Explanation:**
 
-> Student with `id` 217 havs empty value in the name column, so it will be removed.
+> The two DataFramess are stacked vertically, and their rows are combined.
 
 ## Submissions
 
 ```python :line-numbers
 import pandas as pd
 
-def dropMissingData(students: pd.DataFrame) -> pd.DataFrame:
-    return students.dropna(subset=['name'])
+def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
+    return pd.concat([df1, df2], axis=0)
 ```
 
 ## Explanation
@@ -74,7 +93,7 @@ def dropMissingData(students: pd.DataFrame) -> pd.DataFrame:
 <CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
 
 - `import pandas as pd`: Import the pandas library to work with DataFrames.
-- `def dropMissingData(students: pd.DataFrame) -> pd.DataFrame:`: Define a function called `dropMissingData` that takes a DataFrame `students` as input and returns a DataFrame.
-- `return students.dropna(subset=['name'])`: Remove the rows with missing values in the `name` column.
+- `def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame`: Define a function that takes two DataFrames as input and returns a concatenated DataFrame.
+- `return pd.concat([df1, df2], axis=0)`: Concatenate the two DataFrames `df1` and `df2` vertically using the `pd.concat` function with `axis=0`.
 
 </CustomAccordion>

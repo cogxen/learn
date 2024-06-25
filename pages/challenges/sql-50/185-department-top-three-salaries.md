@@ -101,7 +101,7 @@ Table: `Department`
 > - Sam earns the second highest unique salary.
 > - There is no third highest salary as there are only two employees in the department.
 
-## Solutions
+## Submissions
 
 ::: code-group
 

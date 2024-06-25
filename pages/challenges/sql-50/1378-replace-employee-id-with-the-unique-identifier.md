@@ -95,7 +95,7 @@ Table: `EmployeeUNI`
 >
 > The unique ID of Jonathan is 1.
 
-## Solutions
+## Submissions
 
 ::: code-group
 
