@@ -13,6 +13,10 @@ editLink: false
 footer: false
 prev: false
 next: false
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # Protecting Your Domain
@@ -44,5 +48,4 @@ Be strategic about when to bring up these discussions. Review periods are ideal 
 While it's important to advocate for the projects you want, be careful not to appear too rigid. Insisting on only working with the latest algorithms and software can limit your boss's flexibility in assigning tasks. Instead, focus on showcasing your analytical skills through diverse projects, especially those that involve predictive modeling. This approach can help you gain recognition as a serious predictive modeler and increase your chances of landing more exciting and challenging projects.
 
 <br />
-
 Navigating your career in data science requires a blend of proactive communication, strategic planning, and a willingness to adapt. By clearly articulating your goals, suggesting beneficial projects, and timing your discussions appropriately, you can carve out a path that aligns with your interests and advances your career. Remember, while the journey might be challenging, you have the power to shape your role and make your mark in the field of data science.
