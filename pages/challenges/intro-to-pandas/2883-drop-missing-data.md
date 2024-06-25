@@ -12,8 +12,9 @@ lastUpdated: false
 editLink: false
 footer: false
 leetcodeStudyPlan:
-  - name: Intro To Pandas
+  - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
+  - planImg: https://i.imgur.com/WzBPfZB.png
 contributors:
   - - detail
     - name: Noey Ignacio
