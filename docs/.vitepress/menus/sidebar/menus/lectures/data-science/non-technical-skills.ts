@@ -38,6 +38,34 @@ export default {
           text: "Decoding Emotions",
           link: "/lectures/data-science/non-technical-skills/imperative/decoding-emotions",
         },
+        {
+          text: "Embracing Skepticism",
+          link: "/lectures/data-science/non-technical-skills/imperative/embracing-skepticism",
+        },
+        {
+          text: "Uncovering Hidden Truths",
+          link: "/lectures/data-science/non-technical-skills/imperative/uncovering-hidden-truths",
+        },
+        {
+          text: "Dedication to Your Craft",
+          link: "/lectures/data-science/non-technical-skills/imperative/dedication-to-your-craft",
+        },
+        {
+          text: "Navigating Up and Down the Management Ladder",
+          link: "/lectures/data-science/non-technical-skills/imperative/navigating-up-and-down-the-management-ladder",
+        },
+        {
+          text: "Effective Analytics Translator",
+          link: "/lectures/data-science/non-technical-skills/imperative/effective-analytics-translator",
+        },
+        {
+          text: "Navigating Organizational Resistance",
+          link: "/lectures/data-science/non-technical-skills/imperative/navigating-organizational-resistance",
+        },
+        {
+          text: "Mastering the Art of Persuasion",
+          link: "/lectures/data-science/non-technical-skills/imperative/mastering-the-art-of-persuasion",
+        },
       ],
     },
   ],

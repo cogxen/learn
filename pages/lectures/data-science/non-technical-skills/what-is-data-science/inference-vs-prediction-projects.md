@@ -13,6 +13,10 @@ editLink: false
 footer: false
 prev: false
 next: false
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # Inference vs. Prediction Projects
@@ -50,7 +54,6 @@ To excel in your role, it's essential to not only master the technical aspects o
 - **Adapting Your Approach**: Choose the right tools and techniques based on the problem at hand. For prediction, leverage your machine learning skills. For inference, draw on your statistical expertise.
 
 <br />
-
 Let's walk through a couple of hypothetical scenarios to illustrate the difference between inference and prediction projects.
 
 ### Scenario 1: Predictive Model for Customer Offers

@@ -13,6 +13,10 @@ editLink: false
 footer: false
 prev: false
 next: false
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # Befriending the Maybe
@@ -44,5 +48,4 @@ Hitting a roadblock is common. In this case, the lack of individual budgets seem
 Working with the chemical engineers, a creative solution emerged. Without individual budgets, attention turned to the available data – a parts list. The idea was that similar parts lists might indicate similar functions and maintenance needs. If the equipment functions similarly, their maintenance budgets might be comparable. This unconventional approach turned out to be effective.
 
 <br />
-
 Embracing ambiguity in data science means being ready for unexpected challenges and willing to explore new, creative solutions. It's a journey that requires patience, collaboration, and a willingness to think outside the box.

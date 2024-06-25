@@ -13,6 +13,10 @@ editLink: false
 footer: false
 prev: false
 next: false
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # Decoding Emotions
@@ -36,5 +40,4 @@ This analogy captures the essence of cognitive empathy in data science. By obser
 Cognitive empathy plays a crucial role during data preparation. It's not just about interpreting data but ensuring you encode enough information for the model to detect motivations and behaviors. Walking around a store, imagining yourself as a customer, and comparing your observations with the data can reveal behaviors not well-represented in the data. These insights are invaluable for creating more accurate and effective models.
 
 <br />
-
 In your journey as a data scientist, developing cognitive empathy is essential. It enables you to understand the thought processes behind human behavior, which is the cornerstone of effective data analysis and model building. By keenly observing real-world interactions and comparing them with your data, you can create richer, more insightful features that lead to better predictive models. This blend of human observation and data science is what makes your work not just effective but truly impactful.

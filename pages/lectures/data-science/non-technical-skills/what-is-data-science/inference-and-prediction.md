@@ -13,6 +13,10 @@ editLink: false
 footer: false
 prev: false
 next: false
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
 
 # Inference and Prediction
@@ -48,5 +52,4 @@ When interacting with executives, it’s crucial to understand whether they need
 3. **Communicate Clearly**: Explain your approach and the type of analysis you plan to conduct. Make sure they understand whether you're providing an inference or a prediction.
 
 <br />
-
 Data science might seem complex, but breaking it down into inference and prediction can make it more manageable. By understanding these core tasks, you’ll be better equipped to tackle data science projects and communicate effectively with your team and management. So, embrace the journey, and remember that each project, whether it involves inference or prediction, is a step forward in your data science career.
