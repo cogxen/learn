@@ -11,16 +11,17 @@ interface Contributor {
 }
 
 const { frontmatter, theme } = useData()
-const leetcodeStudyPlan = ref({ name: "", link: "" })
+const leetcodeStudyPlan = ref({ name: "", link: "", planImg: "" })
 const contributors: Ref<Contributor[]> = ref([])
 
 const updateLeetcodeInfo = () => {
   if (frontmatter.value.leetcodeStudyPlan !== undefined) {
     const lcspName = frontmatter.value.leetcodeStudyPlan[0].name
     const lcspLink = frontmatter.value.leetcodeStudyPlan[1].link
-    leetcodeStudyPlan.value = { name: lcspName, link: lcspLink }
+    const lcspPlanImg = frontmatter.value.leetcodeStudyPlan[2].planImg
+    leetcodeStudyPlan.value = { name: lcspName, link: lcspLink, planImg: lcspPlanImg }
   } else {
-    leetcodeStudyPlan.value = { name: "", link: "" }
+    leetcodeStudyPlan.value = { name: "", link: "", planImg: "" }
   }
 }
 
@@ -66,7 +67,7 @@ onContentUpdated(updateContributors)
           >
             {{ leetcodeStudyPlan.name }}
           </span>
-          <img src="https://i.imgur.com/cxH56Lt.png" alt="LeetCode" class="w-10 h-10" />
+          <img :src="leetcodeStudyPlan.planImg" alt="LeetCode" class="w-10 h-10" />
         </div>
       </a>
       <div class="flex flex-col gap-2 items-start" v-if="contributors.length">
