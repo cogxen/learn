@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
   - planImg: https://i.imgur.com/cxH56Lt.png
+leetcodeInformation:
+  - number: 595
+  - problemName: Big Countries
+  - link: https://leetcode.com/problems/big-countries/
 contributors:
   - - detail
     - name: Noey Ignacio

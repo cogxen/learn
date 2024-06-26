@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
   - planImg: https://i.imgur.com/cxH56Lt.png
+leetcodeInformation:
+  - number: 1068
+  - problemName: Product Sales Analysis I
+  - link: https://leetcode.com/problems/product-sales-analysis-i/
 contributors:
   - - detail
     - name: Noey Ignacio

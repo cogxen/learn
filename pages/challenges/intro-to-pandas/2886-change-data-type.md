@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2886
+  - problemName: Change Data Type
+  - link: https://leetcode.com/problems/change-data-type/
 contributors:
   - - detail
     - name: Noey Ignacio

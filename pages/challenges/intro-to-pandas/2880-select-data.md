@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2880
+  - problemName: Select Data
+  - link: https://leetcode.com/problems/select-data/
 contributors:
   - - detail
     - name: Noey Ignacio

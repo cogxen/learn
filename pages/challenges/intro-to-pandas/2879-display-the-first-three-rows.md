@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2879
+  - problemName: Display the First Three Rows
+  - link: https://leetcode.com/problems/display-the-first-three-rows/
 contributors:
   - - detail
     - name: Noey Ignacio

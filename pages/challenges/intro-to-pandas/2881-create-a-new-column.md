@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2881
+  - problemName: Create a New Column
+  - link: https://leetcode.com/problems/create-a-new-column/
 contributors:
   - - detail
     - name: Noey Ignacio

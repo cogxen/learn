@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
   - planImg: https://i.imgur.com/cxH56Lt.png
+leetcodeInformation:
+  - number: 1581
+  - problemName: Customer Who Visited but Did Not Make Any Transactions
+  - link: https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/
 contributors:
   - - detail
     - name: Noey Ignacio

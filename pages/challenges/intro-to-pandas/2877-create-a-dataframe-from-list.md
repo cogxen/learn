@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2877
+  - problemName: Create a DataFrame from List
+  - link: https://leetcode.com/problems/create-a-dataframe-from-list/
 contributors:
   - - detail
     - name: Noey Ignacio

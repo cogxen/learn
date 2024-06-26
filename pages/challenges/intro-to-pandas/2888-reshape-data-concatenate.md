@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2888
+  - problemName: "Reshape Data: Concatenate"
+  - link: https://leetcode.com/problems/reshape-data-concatenate/
 contributors:
   - - detail
     - name: Noey Ignacio
