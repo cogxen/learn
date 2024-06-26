@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2890
+  - problemName: "Reshape Data: Melt"
+  - link: https://leetcode.com/problems/reshape-data-melt/
 contributors:
   - - detail
     - name: Noey Ignacio

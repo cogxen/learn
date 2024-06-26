@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2889
+  - problemName: "Reshape Data: Pivot"
+  - link: https://leetcode.com/problems/reshape-data-pivot/
 contributors:
   - - detail
     - name: Noey Ignacio

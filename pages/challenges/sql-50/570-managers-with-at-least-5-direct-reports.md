@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
   - planImg: https://i.imgur.com/cxH56Lt.png
+leetcodeInformation:
+  - number: 570
+  - problemName: Managers with at Least 5 Direct Reports
+  - link: https://leetcode.com/problems/managers-with-at-least-5-direct-reports/
 contributors:
   - - detail
     - name: Noey Ignacio

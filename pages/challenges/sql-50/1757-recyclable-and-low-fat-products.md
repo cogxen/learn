@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
   - planImg: https://i.imgur.com/cxH56Lt.png
+leetcodeInformation:
+  - number: 1757
+  - problemName: Recyclable and Low Fat Products
+  - link: https://leetcode.com/problems/recyclable-and-low-fat-products/
 contributors:
   - - detail
     - name: Noey Ignacio

@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2891
+  - problemName: Method Chaining
+  - link: https://leetcode.com/problems/method-chaining/
 contributors:
   - - detail
     - name: Noey Ignacio

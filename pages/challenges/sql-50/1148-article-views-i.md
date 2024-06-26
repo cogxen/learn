@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
   - planImg: https://i.imgur.com/cxH56Lt.png
+leetcodeInformation:
+  - number: 1148
+  - problemName: Article Views I
+  - link: https://leetcode.com/problems/article-views-i/
 contributors:
   - - detail
     - name: Noey Ignacio

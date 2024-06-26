@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2878
+  - problemName: Get the Size of a DataFrame
+  - link: https://leetcode.com/problems/get-the-size-of-a-dataframe/
 contributors:
   - - detail
     - name: Noey Ignacio

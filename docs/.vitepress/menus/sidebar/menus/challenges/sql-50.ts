@@ -49,4 +49,59 @@ export default [
     link: "/challenges/sql-50/1581-customer-who-visited-but-did-not-make-any-transactions",
     difficulty: { level: "Easy" },
   },
+  {
+    text: "197. Rising Temperature",
+    link: "/challenges/sql-50/197-rising-temperature",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "1661. Average Time of Process per Machine",
+    link: "/challenges/sql-50/1661-average-time-of-process-per-machine",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "577. Employee Bonus",
+    link: "/challenges/sql-50/577-employee-bonus",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "1280. Students and Examinations",
+    link: "/challenges/sql-50/1280-students-and-examinations",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "1934. Confirmation Rate",
+    link: "/challenges/sql-50/1934-confirmation-rate",
+    difficulty: { level: "Medium" },
+  },
+  {
+    text: "620. Not Boring Movies",
+    link: "/challenges/sql-50/620-not-boring-movies",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "1251. Average Selling Price",
+    link: "/challenges/sql-50/1251-average-selling-price",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "1075. Project Employees I",
+    link: "/challenges/sql-50/1075-project-employees-i",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "1633. Percentage of Users Attended a Contest",
+    link: "/challenges/sql-50/1633-percentage-of-users-attended-a-contest",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "1211. Queries Quality and Percentage",
+    link: "/challenges/sql-50/1211-queries-quality-and-percentage",
+    difficulty: { level: "Easy" },
+  },
+  {
+    text: "1193. Monthly Transactions I",
+    link: "/challenges/sql-50/1193-monthly-transactions-i",
+    difficulty: { level: "Medium" },
+  },
 ]

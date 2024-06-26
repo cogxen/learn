@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Top SQL 50
   - link: https://leetcode.com/studyplan/top-sql-50/
   - planImg: https://i.imgur.com/cxH56Lt.png
+leetcodeInformation:
+  - number: 1378
+  - problemName: Replace Employee ID With The Unique Identifier
+  - link: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/
 contributors:
   - - detail
     - name: Noey Ignacio

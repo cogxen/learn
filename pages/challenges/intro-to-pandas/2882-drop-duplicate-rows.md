@@ -15,6 +15,10 @@ leetcodeStudyPlan:
   - name: Intro to Pandas
   - link: https://leetcode.com/studyplan/introduction-to-pandas/
   - planImg: https://i.imgur.com/WzBPfZB.png
+leetcodeInformation:
+  - number: 2882
+  - problemName: Drop Duplicate Rows
+  - link: https://leetcode.com/problems/drop-duplicate-rows/
 contributors:
   - - detail
     - name: Noey Ignacio
