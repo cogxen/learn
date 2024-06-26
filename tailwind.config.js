@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   content: [
     "./docs/.vitepress/**/*.js",
     "./docs/.vitepress/**/*.vue",
