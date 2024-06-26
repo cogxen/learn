@@ -1,5 +1,17 @@
 ![GitHub Banner](.github/assets/img/banner.png)
 
+<div align="center">
+
+![Netlify Status](https://img.shields.io/netlify/09c12b80-f2e2-4dde-9a55-bbb263f6d17f?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+![Vitepress Version](https://img.shields.io/github/package-json/dependency-version/cogxen/learn/dev/vitepress?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+![Static Badge](https://img.shields.io/badge/university:%20HAU-hau_angel_university?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/t/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+![GitHub Issues](https://img.shields.io/github/issues/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+
+</div>
+
 Have you ever felt that surge of excitement when you crack a new data problem, a hidden gem unearthed from the vast data wilderness? That exhilarating "Eureka!" moment that ignites your curiosity and compels you to dig deeper? We have! That's exactly what ignited our journey into the world of data science, and this very website is our shared logbook on this thrilling adventure.
 
 Our story began with a team of passionate software engineers like yourselves. We didn't have the traditional data science background, fancy degrees hanging on the wall, but we did have a burning desire to unlock the secrets hidden within data and leverage its power to make a difference. This website is a testament to that passion, a collaborative space where we openly share and document everything we're learning along the way.
@@ -37,3 +49,10 @@ Email us at [hello@cogxen.quest](mailto:hello@cogxen.quest). We'd love to hear f
 ## 🔥 Activity
 
 ![Alt](https://repobeats.axiom.co/api/embed/7d1c6454ff2d4933f99ff81bcb3dc13b245bc614.svg "Repobeats analytics image")
+
+<div align="center">
+
+![GitHub Languages Count](https://img.shields.io/github/languages/count/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+![GitHub License](https://img.shields.io/github/license/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+
+</div>
