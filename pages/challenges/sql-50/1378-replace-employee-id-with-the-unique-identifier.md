@@ -107,7 +107,7 @@ Table: `EmployeeUNI`
 | 3         | Winston  |
 | 1         | Jonathan |
 
-<ScrollableTableContainer>
+</ScrollableTableContainer>
 
 **Explanation:**
 
