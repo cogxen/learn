@@ -29,12 +29,16 @@ contributors:
 
 Table: `Queries`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | query_name  | varchar |
 | result      | varchar |
 | position    | int     |
 | rating      | int     |
+
+</ScrollableTableContainer>
 
 > This table may have duplicate rows.
 >
@@ -60,6 +64,8 @@ NOTES:
 
 **Input:** `Queries` table
 
+<ScrollableTableContainer>
+
 | query_name | result           | position | rating |
 | ---------- | ---------------- | -------- | ------ |
 | Dog        | Golden Retriever | 1        | 5      |
@@ -69,12 +75,18 @@ NOTES:
 | Cat        | Siamese          | 3        | 3      |
 | Cat        | Sphynx           | 7        | 4      |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | query_name | quality | poor_query_percentage |
 | ---------- | ------- | --------------------- |
 | Dog        | 2.50    | 33.33                 |
 | Cat        | 0.66    | 33.33                 |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

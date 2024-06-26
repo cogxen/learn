@@ -31,10 +31,14 @@ contributors:
 
 Table: `Tweets`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | tweet_id    | int     |
 | content     | varchar |
+
+</ScrollableTableContainer>
 
 > `tweet_id` is the `primary key` for this table.
 > This table contains the all the tweets in a social media app.
@@ -49,16 +53,24 @@ Table: `Tweets`
 
 **Input:** `Tweets` table
 
+<ScrollableTableContainer>
+
 | tweet_id | content         |
 | -------- | --------------- |
 | 1        | "Sunny day"     |
 | 2        | "I love coding" |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | tweet_id |
 | -------- |
 | 2        |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

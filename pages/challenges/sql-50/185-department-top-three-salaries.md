@@ -31,6 +31,8 @@ contributors:
 
 Table: `Employee`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | id          | int     |
@@ -38,16 +40,22 @@ Table: `Employee`
 | salary      | int     |
 | department  | varchar |
 
+</ScrollableTableContainer>
+
 > `id` is the `primary key` for this table.
 > `departmentId` is a foreign key of the ID from the `Deparment` table.
 > Each row of this table indicates the `id`, `name`, `salary`, and `department` of an employee.
 
 Table: `Department`
 
+<div class="scrollable-table-container">
+
 | Column Name | Type    |
 | ----------- | ------- |
 | id          | int     |
 | name        | varchar |
+
+</div>
 
 > `id` is the `primary key` for this table.
 > Each row of this table indicates the `id` and `name` of a department.
@@ -63,6 +71,8 @@ Table: `Department`
 
 **Input:** `Employee` table
 
+<div class="scrollable-table-container">
+
 | id  | name  | salary | department |
 | --- | ----- | ------ | ---------- |
 | 1   | Joe   | 85000  | 1          |
@@ -73,14 +83,22 @@ Table: `Department`
 | 6   | Randy | 85000  | 1          |
 | 7   | Will  | 70000  | 1          |
 
+</div>
+
 **Input:** `Department` table
+
+<div class="scrollable-table-container">
 
 | id  | name  |
 | --- | ----- |
 | 1   | IT    |
 | 2   | Sales |
 
+</div>
+
 **Output:**
+
+<div class="scrollable-table-container">
 
 | Deparment | Employee | Salary |
 | --------- | -------- | ------ |
@@ -90,6 +108,8 @@ Table: `Department`
 | IT        | Will     | 70000  |
 | Sales     | Henry    | 80000  |
 | Sales     | Sam      | 60000  |
+
+</div>
 
 **Explanation:**
 

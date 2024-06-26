@@ -31,11 +31,15 @@ contributors:
 
 Table: `Customers`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | id          | int     |
 | name        | varchar |
 | referee_id  | int     |
+
+</ScrollableTableContainer>
 
 > In SQL, `id` is the `primary key` column for this table.
 >
@@ -51,6 +55,8 @@ Table: `Customers`
 
 **Input:** `Customers` table
 
+<ScrollableTableContainer>
+
 | id  | name | referee_id |
 | --- | ---- | ---------- |
 | 1   | Will | null       |
@@ -60,7 +66,11 @@ Table: `Customers`
 | 5   | Zack | 1          |
 | 6   | Mark | 2          |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | name |
 | ---- |
@@ -68,6 +78,8 @@ Table: `Customers`
 | Jane |
 | Bill |
 | Zack |
+
+</ScrollableTableContainer>
 
 ## Submissions
 

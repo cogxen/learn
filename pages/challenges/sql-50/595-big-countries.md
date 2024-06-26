@@ -31,6 +31,8 @@ contributors:
 
 Table: `World`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | name        | varchar |
@@ -38,6 +40,8 @@ Table: `World`
 | area        | int     |
 | population  | int     |
 | gdp         | big int |
+
+</ScrollableTableContainer>
 
 > `name` is the primary key (column with unique values) for this table.
 >
@@ -55,6 +59,8 @@ Table: `World`
 
 **Input:** `World` table
 
+<ScrollableTableContainer>
+
 | name        | continent | area    | population | gdp          |
 | ----------- | --------- | ------- | ---------- | ------------ |
 | Afghanistan | Asia      | 652230  | 25500100   | 20343000000  |
@@ -63,12 +69,18 @@ Table: `World`
 | Andorra     | Europe    | 468     | 78115      | 3712000000   |
 | Angola      | Africa    | 1246700 | 20609294   | 100990000000 |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | name        | population | area    |
 | ----------- | ---------- | ------- |
 | Afghanistan | 25500100   | 652230  |
 | Algeria     | 37100000   | 2381741 |
+
+</ScrollableTableContainer>
 
 ## Submissions
 

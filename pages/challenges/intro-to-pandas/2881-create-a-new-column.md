@@ -29,10 +29,14 @@ contributors:
 
 DataFrame `employees`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | name        | object |
 | salary      | int.   |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -46,6 +50,8 @@ DataFrame `employees`
 
 DataFrame `employees`
 
+<ScrollableTableContainer>
+
 | name    | salary |
 | ------- | ------ |
 | Piper   | 4548   |
@@ -55,7 +61,11 @@ DataFrame `employees`
 | Finn    | 74576  |
 | Thomas  | 24433  |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | name    | salary | bonus  |
 | ------- | ------ | ------ |
@@ -65,6 +75,8 @@ DataFrame `employees`
 | Willow  | 6593   | 13186  |
 | Finn    | 74576  | 149152 |
 | Thomas  | 24433  | 48866  |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

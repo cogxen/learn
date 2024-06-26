@@ -31,11 +31,15 @@ contributors:
 
 Table: `Products`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | product_id  | int  |
 | low_fats    | enum |
 | recyclable  | enum |
+
+</ScrollableTableContainer>
 
 > `product_id` is the `primary key` (column with unique values) for this table.
 >
@@ -53,6 +57,8 @@ Table: `Products`
 
 **Input:** `Products` table
 
+<ScrollableTableContainer>
+
 | product_id | low_fats | recyclable |
 | ---------- | -------- | ---------- |
 | 0          | Y        | N          |
@@ -61,12 +67,18 @@ Table: `Products`
 | 3          | Y        | Y          |
 | 4          | N        | N          |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | product_id |
 | ---------- |
 | 1          |
 | 3          |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

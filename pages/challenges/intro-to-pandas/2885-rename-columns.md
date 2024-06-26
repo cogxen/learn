@@ -29,12 +29,16 @@ contributors:
 
 DataFrame `students`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | id          | int    |
 | first       | object |
 | last        | object |
 | age         | int    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -51,6 +55,8 @@ DataFrame `students`
 
 **Input:**
 
+<ScrollableTableContainer>
+
 | id  | first   | last     | age |
 | --- | ------- | -------- | --- |
 | 1   | Mason   | King     | 6   |
@@ -59,7 +65,11 @@ DataFrame `students`
 | 4   | Georgia | Thompson | 18  |
 | 5   | Thomas  | Moore    | 10  |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | student_id | first_name | last_name | age_in_years |
 | ---------- | ---------- | --------- | ------------ |
@@ -68,6 +78,8 @@ DataFrame `students`
 | 3          | Taylor     | Hall      | 16           |
 | 4          | Georgia    | Thompson  | 18           |
 | 5          | Thomas     | Moore     | 10           |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

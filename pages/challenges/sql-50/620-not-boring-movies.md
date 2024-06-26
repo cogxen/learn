@@ -29,6 +29,8 @@ contributors:
 
 ## Problem Statement
 
+<ScrollableTableContainer>
+
 Table: `Cinema`
 
 | Column Name | Type    |
@@ -37,6 +39,8 @@ Table: `Cinema`
 | movie       | varchar |
 | description | varchar |
 | rating      | float   |
+
+</ScrollableTableContainer>
 
 > `id` is the primary key (column with unique values) for this table.
 >
@@ -54,6 +58,8 @@ Table: `Cinema`
 
 **Input:** `Cinema` table
 
+<ScrollableTableContainer>
+
 | id  | movie      | description | rating |
 | --- | ---------- | ----------- | ------ |
 | 1   | War        | great 3D    | 8.9    |
@@ -62,12 +68,18 @@ Table: `Cinema`
 | 4   | Ice song   | Fantacy     | 8.6    |
 | 5   | House card | Interesting | 9.1    |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | id  | movie      | description | rating |
 | --- | ---------- | ----------- | ------ |
 | 5   | House card | Interesting | 9.1    |
 | 1   | War        | great 3D    | 8.9    |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

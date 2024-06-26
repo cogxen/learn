@@ -31,11 +31,15 @@ contributors:
 
 Table: `Weather`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | id          | int  |
 | recordDate  | date |
 | temperature | int  |
+
+</ScrollableTableContainer>
 
 > `id` is the column with unique values for this table.
 >
@@ -53,6 +57,8 @@ Table: `Weather`
 
 **Input:** `Weather` table
 
+<ScrollableTableContainer>
+
 | id  | recordDate | temperature |
 | --- | ---------- | ----------- |
 | 1   | 2015-01-01 | 10          |
@@ -60,12 +66,18 @@ Table: `Weather`
 | 3   | 2015-01-03 | 20          |
 | 4   | 2015-01-04 | 30          |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | id  |
 | --- |
 | 2   |
 | 4   |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

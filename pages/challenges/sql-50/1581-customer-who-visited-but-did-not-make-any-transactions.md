@@ -31,10 +31,14 @@ contributors:
 
 Table: `Visits`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | visit_id    | int  |
 | customer_id | int  |
+
+</ScrollableTableContainer>
 
 > `visit_id` is the column with unique values for this table.
 >
@@ -42,11 +46,15 @@ Table: `Visits`
 
 Table: `Transactions`
 
+<ScrollableTableContainer>
+
 | Column Name    | Type |
 | -------------- | ---- |
 | transaction_id | int  |
 | visit_id       | int  |
 | amount         | int  |
+
+</ScrollableTableContainer>
 
 > `transaction_id` is the column with unique values for this table.
 >
@@ -64,6 +72,8 @@ Table: `Transactions`
 
 `Visits` table
 
+<ScrollableTableContainer>
+
 | visit_id | customer_id |
 | -------- | ----------- |
 | 1        | 23          |
@@ -74,7 +84,11 @@ Table: `Transactions`
 | 7        | 54          |
 | 8        | 54          |
 
+</ScrollableTableContainer>
+
 `Transactions` table
+
+<ScrollableTableContainer>
 
 | transaction_id | visit_id | amount |
 | -------------- | -------- | ------ |
@@ -84,13 +98,19 @@ Table: `Transactions`
 | 12             | 1        | 910    |
 | 13             | 2        | 970    |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | customer_id | count_no_trans |
 | ----------- | -------------- |
 | 54          | 2              |
 | 30          | 1              |
 | 96          | 1              |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

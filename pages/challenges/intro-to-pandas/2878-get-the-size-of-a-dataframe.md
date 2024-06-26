@@ -29,6 +29,8 @@ contributors:
 
 DataFrame `players`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | player_id   | int    |
@@ -36,6 +38,8 @@ DataFrame `players`
 | age         | int    |
 | position    | object |
 | ...         | ...    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -46,6 +50,8 @@ DataFrame `players`
 ## Example
 
 **Input:**
+
+<ScrollableTableContainer>
 
 | player_id | name     | age | position    | team               |
 | --------- | -------- | --- | ----------- | ------------------ |
@@ -59,6 +65,8 @@ DataFrame `players`
 | 247       | Thomas   | 27  | Striker     | ParisSaint-Germain |
 | 761       | Jack     | 33  | Midfielder  | ManchesterCity     |
 | 642       | Charlie  | 36  | Center-back | Arsenal            |
+
+</ScrollableTableContainer>
 
 **Output:**
 

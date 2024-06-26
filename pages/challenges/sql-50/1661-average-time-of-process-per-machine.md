@@ -31,12 +31,16 @@ contributors:
 
 Table: `Activity`
 
+<ScrollableTableContainer>
+
 | Column Name   | Type  |
 | ------------- | ----- |
 | machine_id    | int   |
 | process_id    | int   |
 | activity_type | enum  |
 | timestamp     | float |
+
+</ScrollableTableContainer>
 
 > The table shows the user activities for a factory website.
 >
@@ -66,6 +70,8 @@ Table: `Activity`
 
 **Input:** `Activity` table
 
+<ScrollableTableContainer>
+
 | machine_id | process_id | activity_type | timestamp |
 | ---------- | ---------- | ------------- | --------- |
 | 0          | 0          | start         | 0.712     |
@@ -80,6 +86,8 @@ Table: `Activity`
 | 2          | 0          | end           | 4.512     |
 | 2          | 1          | start         | 2.500     |
 | 2          | 1          | end           | 5.000     |
+
+</ScrollableTableContainer>
 
 **Output:**
 

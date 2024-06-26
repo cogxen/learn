@@ -31,12 +31,16 @@ contributors:
 
 Table: `Employee`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | id          | int     |
 | name        | varchar |
 | department  | varchar |
 | managerId   | int     |
+
+</ScrollableTableContainer>
 
 > `id` is the `primary key` (column with unique values) for this table.
 >
@@ -56,6 +60,8 @@ Table: `Employee`
 
 **Input:** `Employee` table
 
+<ScrollableTableContainer>
+
 | id  | name  | department | managerId |
 | --- | ----- | ---------- | --------- |
 | 101 | John  | A          | NULL      |
@@ -65,11 +71,17 @@ Table: `Employee`
 | 105 | Anne  | A          | 101       |
 | 106 | Ron   | B          | 101       |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | name |
 | ---- |
 | John |
+
+</ScrollableTableContainer>
 
 ## Submissions
 

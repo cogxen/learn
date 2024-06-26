@@ -29,6 +29,8 @@ contributors:
 
 DataFrame `report`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | product     | object |
@@ -36,6 +38,8 @@ DataFrame `report`
 | quarter_2   | int    |
 | quarter_3   | int    |
 | quarter_4   | int    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -46,12 +50,18 @@ DataFrame `report`
 
 **Input:**
 
+<ScrollableTableContainer>
+
 | product     | quarter_1 | quarter_2 | quarter_3 | quarter_4 |
 | ----------- | --------- | --------- | --------- | --------- |
 | Umbrella    | 417       | 224       | 379       | 611       |
 | SleepingBag | 800       | 936       | 93        | 875       |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | product     | quarter   | sales |
 | ----------- | --------- | ----- |
@@ -63,6 +73,8 @@ DataFrame `report`
 | SleepingBag | quarter_3 | 93    |
 | Umbrella    | quarter_4 | 611   |
 | SleepingBag | quarter_4 | 875   |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

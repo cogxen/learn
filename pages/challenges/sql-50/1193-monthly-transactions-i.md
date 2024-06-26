@@ -31,6 +31,8 @@ contributors:
 
 Table: `Transactions`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | id          | int     |
@@ -38,6 +40,8 @@ Table: `Transactions`
 | state       | enum    |
 | amount      | int     |
 | trans_date  | date    |
+
+</ScrollableTableContainer>
 
 > The `id` column is the primary key column for this table.
 >
@@ -55,6 +59,8 @@ Table: `Transactions`
 
 **Input:** `Transactions` table
 
+<ScrollableTableContainer>
+
 | id  | country | state    | amount | trans_date |
 | --- | ------- | -------- | ------ | ---------- |
 | 121 | US      | approved | 1000   | 2018-12-18 |
@@ -62,13 +68,19 @@ Table: `Transactions`
 | 123 | US      | approved | 2000   | 2019-01-01 |
 | 124 | DE      | approved | 2000   | 2019-01-07 |
 
+</ScrollableTableContainer>
+
 **Output:**
 
-| month   | country | trans_count | approved... | trans_total... | approved_total... |
-| ------- | ------- | ----------- | ----------- | -------------- | ----------------- |
-| 2018-12 | US      | 2           | 1           | 3000           | 1000              |
-| 2019-01 | US      | 1           | 1           | 2000           | 2000              |
-| 2019-01 | DE      | 1           | 1           | 2000           | 2000              |
+<ScrollableTableContainer>
+
+| month   | country | trans_count | approved_count | trans_total_amount | approved_total_amount |
+| ------- | ------- | ----------- | -------------- | ------------------ | --------------------- |
+| 2018-12 | US      | 2           | 1              | 3000               | 1000                  |
+| 2019-01 | US      | 1           | 1              | 2000               | 2000                  |
+| 2019-01 | DE      | 1           | 1              | 2000               | 2000                  |
+
+</ScrollableTableContainer>
 
 ## Submissions
 
