@@ -33,9 +33,20 @@ main img {
   border-bottom: none !important;
 }
 
+.scrollable-table-container {
+  overflow-x: auto;
+  width: 100%;
+  margin-top: -1rem;
+}
+
 table {
   display: table !important;
   width: 100% !important;
+}
+
+table th,
+table td {
+  min-width: 100px;
 }
 
 kbd {
