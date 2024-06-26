@@ -31,10 +31,14 @@ contributors:
 
 Table: `Project`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | project_id  | int  |
 | employee_id | int  |
+
+</ScrollableTableContainer>
 
 > (`project_id`, `employee_id`) is the primary key of this table.
 >
@@ -44,11 +48,15 @@ Table: `Project`
 
 Table: `Employee`
 
+<ScrollableTableContainer>
+
 | Column Name      | Type    |
 | ---------------- | ------- |
 | employee_id      | int     |
 | name             | varchar |
 | experience_years | int     |
+
+</ScrollableTableContainer>
 
 > `employee_id` is the primary key of this table.
 >
@@ -68,6 +76,8 @@ Table: `Employee`
 
 `Project` table
 
+<ScrollableTableContainer>
+
 | project_id | employee_id |
 | ---------- | ----------- |
 | 1          | 1           |
@@ -76,7 +86,11 @@ Table: `Employee`
 | 2          | 1           |
 | 2          | 4           |
 
+</ScrollableTableContainer>
+
 `Employee` table
+
+<ScrollableTableContainer>
 
 | employee_id | name   | experience_years |
 | ----------- | ------ | ---------------- |
@@ -85,12 +99,18 @@ Table: `Employee`
 | 3           | John   | 1                |
 | 4           | Doe    | 2                |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | project_id | average_years |
 | ---------- | ------------- |
 | 1          | 2.00          |
 | 2          | 2.50          |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

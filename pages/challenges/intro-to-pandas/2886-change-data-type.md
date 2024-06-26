@@ -29,12 +29,16 @@ contributors:
 
 DataFrame `students`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | student_id  | int    |
 | name        | object |
 | age         | int    |
 | grade       | float  |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -48,17 +52,25 @@ DataFrame `students`
 
 DataFrame `students`
 
+<ScrollableTableContainer>
+
 | student_id | name | age | grade |
 | ---------- | ---- | --- | ----- |
 | 1          | Ava  | 6   | 73.0  |
 | 2          | Kate | 15  | 87.0  |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | student_id | name | age | grade |
 | ---------- | ---- | --- | ----- |
 | 1          | Ava  | 6   | 73    |
 | 2          | Kate | 15  | 87    |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

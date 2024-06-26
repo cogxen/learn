@@ -31,12 +31,16 @@ contributors:
 
 Table: `Views`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | article_id  | int  |
 | author_id   | int  |
 | viewer_id   | int  |
 | view_date   | date |
+
+</ScrollableTableContainer>
 
 > There is no `primary key` (column with unique values) for this table, the table may have duplicate rows.
 >
@@ -54,6 +58,8 @@ Table: `Views`
 
 **Input:** `Views` table
 
+<ScrollableTableContainer>
+
 | article_id | author_id | viewer_id | view_date  |
 | ---------- | --------- | --------- | ---------- |
 | 1          | 3         | 5         | 2019-08-01 |
@@ -64,12 +70,18 @@ Table: `Views`
 | 3          | 4         | 4         | 2019-07-21 |
 | 3          | 4         | 4         | 2019-07-21 |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | id  |
 | --- |
 | 4   |
 | 7   |
+
+</ScrollableTableContainer>
 
 ## Submissions
 

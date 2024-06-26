@@ -13,6 +13,7 @@ import MathExampleCard from "../components/MathExampleCard.vue"
 import CustomAccordion from "../components/CustomAccordion.vue"
 import CustomLayout from "../components/CustomLayout.vue"
 import CustomBadge from "../components/CustomBadge.vue"
+import ScrollableTableContainer from "../components/ScrollableTableContainer.vue"
 import VPSidebarItem from "../components/vitepress/VPSidebarItem.vue"
 import VPDocAside from "../components/vitepress/VPDocAside.vue"
 import VPDocAsideOutline from "../components/vitepress/VPDocAsideOutline.vue"
@@ -25,6 +26,7 @@ export default {
     app.component("MathExampleCard", MathExampleCard)
     app.component("CustomBadge", CustomBadge)
     app.component("ImageCard", ImageCard)
+    app.component("ScrollableTableContainer", ScrollableTableContainer)
     app.component("VPDoc", VPDoc)
     app.component("VPSidebarItem", VPSidebarItem)
     app.component("VPDocAside", VPDocAside)

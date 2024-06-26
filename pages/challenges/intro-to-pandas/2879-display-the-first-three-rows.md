@@ -29,12 +29,16 @@ contributors:
 
 DataFrame `employees`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | employee_id | int    |
 | name        | object |
 | department  | object |
 | salary      | int    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -46,6 +50,8 @@ DataFrame `employees`
 
 DataFrame `employees`
 
+<ScrollableTableContainer>
+
 | employee_id | name      | department            | salary |
 | ----------- | --------- | --------------------- | ------ |
 | 3           | Bob       | Operations            | 48675  |
@@ -55,13 +61,19 @@ DataFrame `employees`
 | 49          | Jonathan  | HumanResources        | 23793  |
 | 43          | Khaled    | Administration        | 40454  |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | employee_id | name    | department  | salary |
 | ----------- | ------- | ----------- | ------ |
 | 3           | Bob     | Operations  | 48675  |
 | 90          | Alice   | Sales       | 11096  |
 | 9           | Tatiana | Engineering | 33805  |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

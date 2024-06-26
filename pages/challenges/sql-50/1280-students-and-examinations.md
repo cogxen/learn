@@ -31,10 +31,14 @@ contributors:
 
 Table: `Students`
 
+<ScrollableTableContainer>
+
 | Column Name  | Type    |
 | ------------ | ------- |
 | student_id   | int     |
 | student_name | varchar |
+
+</ScrollableTableContainer>
 
 > `student_id` is the primary key (column with unique values) for this table.
 >
@@ -42,9 +46,13 @@ Table: `Students`
 
 Table: `Subjects`
 
+<ScrollableTableContainer>
+
 | Column Name  | Type    |
 | ------------ | ------- |
 | subject_name | varchar |
+
+</ScrollableTableContainer>
 
 > `subject_name` is the primary key (column with unique values) for this table.
 >
@@ -52,10 +60,14 @@ Table: `Subjects`
 
 Table: `Examinations`
 
+<ScrollableTableContainer>
+
 | Column Name  | Type    |
 | ------------ | ------- |
 | student_id   | int     |
 | subject_name | varchar |
+
+</ScrollableTableContainer>
 
 > There is no primary key for this table. It may contain duplicates.
 >
@@ -73,6 +85,8 @@ Table: `Examinations`
 
 **Input:** `Students` table
 
+<ScrollableTableContainer>
+
 | student_id | student_name |
 | ---------- | ------------ |
 | 1          | Alice        |
@@ -80,7 +94,11 @@ Table: `Examinations`
 | 13         | John         |
 | 6          | Alex         |
 
+</ScrollableTableContainer>
+
 **Input:** `Subjects` table
+
+<ScrollableTableContainer>
 
 | subject_name |
 | ------------ |
@@ -88,7 +106,11 @@ Table: `Examinations`
 | Physics      |
 | Programming  |
 
+</ScrollableTableContainer>
+
 **Input:** `Examinations` table
+
+<ScrollableTableContainer>
 
 | student_id | subject_name |
 | ---------- | ------------ |
@@ -104,7 +126,11 @@ Table: `Examinations`
 | 2          | Math         |
 | 1          | Math         |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | student_id | student_name | subject_name | attended_exams |
 | ---------- | ------------ | ------------ | -------------- |
@@ -120,6 +146,8 @@ Table: `Examinations`
 | 13         | John         | Math         | 1              |
 | 13         | John         | Physics      | 1              |
 | 13         | John         | Programming  | 1              |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

@@ -31,10 +31,14 @@ contributors:
 
 Table: `Employee`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | id          | int     |
 | name        | varchar |
+
+</ScrollableTableContainer>
 
 > `id` is the `primary key` (column with unique values) for this table.
 >
@@ -42,10 +46,14 @@ Table: `Employee`
 
 Table: `EmployeeUNI`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | id          | int  |
 | unique_id   | int  |
+
+</ScrollableTableContainer>
 
 > (`id`, `unique_id`) is the primary key (combination of columns with unique values) for this table.
 >
@@ -63,6 +71,8 @@ Table: `EmployeeUNI`
 
 `Employee` table
 
+<ScrollableTableContainer>
+
 | id  | name     |
 | --- | -------- |
 | 1   | Alice    |
@@ -71,7 +81,11 @@ Table: `EmployeeUNI`
 | 90  | Winston  |
 | 3   | Jonathan |
 
+</ScrollableTableContainer>
+
 `EmployeeUNI` table
+
+<ScrollableTableContainer>
 
 | id  | unique_id |
 | --- | --------- |
@@ -79,7 +93,11 @@ Table: `EmployeeUNI`
 | 11  | 2         |
 | 90  | 3         |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | unique_id | name     |
 | --------- | -------- |
@@ -88,6 +106,8 @@ Table: `EmployeeUNI`
 | 2         | Meir     |
 | 3         | Winston  |
 | 1         | Jonathan |
+
+<ScrollableTableContainer>
 
 **Explanation:**
 

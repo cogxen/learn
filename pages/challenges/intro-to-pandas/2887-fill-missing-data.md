@@ -29,11 +29,15 @@ contributors:
 
 DataFrame `products`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | name        | object |
 | quantity    | int    |
 | price       | int    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -44,6 +48,8 @@ DataFrame `products`
 
 **Input:**
 
+<ScrollableTableContainer>
+
 | name            | quantity | price |
 | --------------- | -------- | ----- |
 | Wristwatch      | None     | 135   |
@@ -51,7 +57,11 @@ DataFrame `products`
 | GolfClubs       | 779      | 9319  |
 | Printer         | 849      | 3051  |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | name            | quantity | price |
 | --------------- | -------- | ----- |
@@ -59,6 +69,8 @@ DataFrame `products`
 | WirelessEarbuds | 0        | 821   |
 | GolfClubs       | 779      | 9319  |
 | Printer         | 849      | 3051  |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

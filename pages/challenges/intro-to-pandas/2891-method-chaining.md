@@ -29,12 +29,16 @@ contributors:
 
 DataFrame `animals`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | name        | object |
 | species     | object |
 | age         | int    |
 | weight      | int    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -46,6 +50,8 @@ DataFrame `animals`
 
 **Input:**
 
+<ScrollableTableContainer>
+
 | name     | species | age | weight |
 | -------- | ------- | --- | ------ |
 | Tatiana  | Snake   | 98  | 464    |
@@ -55,7 +61,11 @@ DataFrame `animals`
 | Stefan   | Bear    | 100 | 50     |
 | Tommy    | Panda   | 26  | 349    |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | name     |
 | -------- |
@@ -63,6 +73,8 @@ DataFrame `animals`
 | Jonathan |
 | Tommy    |
 | Alex     |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

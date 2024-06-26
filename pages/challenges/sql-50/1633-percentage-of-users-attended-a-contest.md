@@ -31,10 +31,14 @@ contributors:
 
 Table: `Users`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | user_id     | int     |
 | user_name   | varchar |
+
+</ScrollableTableContainer>
 
 > `user_id` is the primary key (column with unique values) for this table.
 >
@@ -42,10 +46,14 @@ Table: `Users`
 
 Table: `Register`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | contest_id  | int  |
 | user_id     | int  |
+
+</ScrollableTableContainer>
 
 > (`contest_id`, `user_id`) is the primary key (combination of columns with unique values) for this table.
 >
@@ -63,13 +71,19 @@ Table: `Register`
 
 `Users` table:
 
-| user\*id | user_name |
-| -------- | --------- |
-| 6        | Alice     |
-| 2        | Bob       |
-| 7        | Alex      |
+<ScrollableTableContainer>
+
+| user_id | user_name |
+| ------- | --------- |
+| 6       | Alice     |
+| 2       | Bob       |
+| 7       | Alex      |
+
+</ScrollableTableContainer>
 
 `Register` table:
+
+<ScrollableTableContainer>
 
 | contest_id | user_id |
 | ---------- | ------- |
@@ -86,7 +100,11 @@ Table: `Register`
 | 207        | 2       |
 | 210        | 7       |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | contest_id | percentage |
 | ---------- | ---------- |
@@ -95,6 +113,8 @@ Table: `Register`
 | 210        | 100.0      |
 | 215        | 66.67      |
 | 207        | 33.33      |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

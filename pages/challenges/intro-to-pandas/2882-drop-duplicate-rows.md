@@ -29,11 +29,15 @@ contributors:
 
 DataFrame `customers`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | customer_id | int    |
 | name        | object |
 | email       | object |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -45,6 +49,8 @@ DataFrame `customers`
 
 **Input:**
 
+<ScrollableTableContainer>
+
 | customer_id | name    | email               |
 | ----------- | ------- | ------------------- |
 | 1           | Ella    | emily@example.com   |
@@ -54,7 +60,11 @@ DataFrame `customers`
 | 5           | Finn    | john@example.com    |
 | 6           | Violet  | alice@example.com   |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | customer_id | name    | email               |
 | ----------- | ------- | ------------------- |
@@ -63,6 +73,8 @@ DataFrame `customers`
 | 3           | Zachary | sarah@example.com   |
 | 4           | Alice   | john@example.com    |
 | 6           | Violet  | alice@example.com   |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

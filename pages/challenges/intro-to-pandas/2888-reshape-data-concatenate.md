@@ -29,19 +29,27 @@ contributors:
 
 DataFrame `df1`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | student_id  | int    |
 | name        | object |
 | age         | int    |
+
+</ScrollableTableContainer>
 
 DataFrame `df2`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | student_id  | int    |
 | name        | object |
 | age         | int    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -54,6 +62,8 @@ DataFrame `df2`
 
 DataFrame `df1`
 
+<ScrollableTableContainer>
+
 | student_id | name    | age |
 | ---------- | ------- | --- |
 | 1          | Mason   | 8   |
@@ -61,14 +71,22 @@ DataFrame `df1`
 | 3          | Taylor  | 15  |
 | 4          | Georgia | 17  |
 
+</ScrollableTableContainer>
+
 DataFrame `df2`
+
+<ScrollableTableContainer>
 
 | student_id | name | age |
 | ---------- | ---- | --- |
 | 5          | Leo  | 7   |
 | 6          | Alex | 7   |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | student_id | name    | age |
 | ---------- | ------- | --- |
@@ -78,6 +96,8 @@ DataFrame `df2`
 | 4          | Georgia | 17  |
 | 5          | Leo     | 7   |
 | 6          | Alex    | 7   |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

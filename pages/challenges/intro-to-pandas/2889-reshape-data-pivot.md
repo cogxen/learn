@@ -29,11 +29,15 @@ contributors:
 
 DataFrame `weather`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | city        | object |
 | month       | object |
 | temperature | int    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -43,6 +47,8 @@ DataFrame `weather`
 ## Example
 
 **Input:**
+
+<ScrollableTableContainer>
 
 | city         | month    | temperature |
 | ------------ | -------- | ----------- |
@@ -57,7 +63,11 @@ DataFrame `weather`
 | ElPaso       | April    | 2           |
 | ElPaso       | May      | 43          |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | month    | ElPaso | Jacksonville |
 | -------- | ------ | ------------ |
@@ -66,6 +76,8 @@ DataFrame `weather`
 | January  | 20     | 13           |
 | March    | 26     | 38           |
 | May      | 43     | 34           |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

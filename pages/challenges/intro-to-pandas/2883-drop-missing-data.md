@@ -29,11 +29,15 @@ contributors:
 
 DataFrame `students`
 
+<ScrollableTableContainer>
+
 | Column Name | Type   |
 | ----------- | ------ |
 | student_id  | int    |
 | name        | object |
 | age         | int    |
+
+</ScrollableTableContainer>
 
 ## Instructions
 
@@ -45,6 +49,8 @@ DataFrame `students`
 
 **Input:**
 
+<ScrollableTableContainer>
+
 | student_id | name    | age |
 | ---------- | ------- | --- |
 | 32         | Piper   | 5   |
@@ -52,13 +58,19 @@ DataFrame `students`
 | 779        | Georgia | 20  |
 | 849        | Willow  | 14  |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | student_id | name    | age |
 | ---------- | ------- | --- |
 | 32         | Piper   | 5   |
 | 779        | Georgia | 20  |
 | 849        | Willow  | 14  |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

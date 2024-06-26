@@ -31,6 +31,8 @@ contributors:
 
 Table: `Employee`
 
+<ScrollableTableContainer>
+
 | Column Name | Type    |
 | ----------- | ------- |
 | empId       | int     |
@@ -38,16 +40,22 @@ Table: `Employee`
 | supervisor  | int     |
 | salary      | int     |
 
+</ScrollableTableContainer>
+
 > `empId` is the primary key column for this table.
 >
 > Each row of this table indicates the name and the ID of an employee in addition to their `salary` and the id of their manager.
 
 Table: `Bonus`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | empId       | int  |
 | bonus       | int  |
+
+</ScrollableTableContainer>
 
 > `empId` is the primary key column for this table.
 >
@@ -65,6 +73,8 @@ Table: `Bonus`
 
 **Input:** `Employee` table
 
+<ScrollableTableContainer>
+
 | empId | name   | supervisor | salary |
 | ----- | ------ | ---------- | ------ |
 | 3     | Brad   | null       | 4000   |
@@ -72,20 +82,30 @@ Table: `Bonus`
 | 2     | Dan    | 3          | 2000   |
 | 4     | Thomas | 3          | 4000   |
 
+</ScrollableTableContainer>
+
 **Input:** `Bonus` table
+
+<ScrollableTableContainer>
 
 | empId | bonus |
 | ----- | ----- |
 | 2     | 500   |
 | 4     | 2000  |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | name | bonus |
 | ---- | ----- |
 | Brad | null  |
 | John | null  |
 | Dan  | 500   |
+
+</ScrollableTableContainer>
 
 ## Submissions
 

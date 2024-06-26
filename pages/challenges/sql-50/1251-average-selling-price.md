@@ -31,12 +31,16 @@ contributors:
 
 Table: `Prices`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | product_id  | int  |
 | start_date  | date |
 | end_date    | date |
 | price       | int  |
+
+</ScrollableTableContainer>
 
 > (`product_id`, `start_date`, `end_date`) is the primary key (combination of columns with unique values) for this table.
 >
@@ -46,11 +50,15 @@ Table: `Prices`
 
 Table: `UnitsSold`
 
+<ScrollableTableContainer>
+
 | Column Name   | Type |
 | ------------- | ---- |
 | product_id    | int  |
 | purchase_date | date |
 | units         | int  |
+
+</ScrollableTableContainer>
 
 > This table may contain duplicate rows.
 >
@@ -68,6 +76,8 @@ Table: `UnitsSold`
 
 `Prices` table
 
+<ScrollableTableContainer>
+
 | product_id | start_date | end_date   | price |
 | ---------- | ---------- | ---------- | ----- |
 | 1          | 2019-02-17 | 2019-02-28 | 5     |
@@ -75,7 +85,11 @@ Table: `UnitsSold`
 | 2          | 2019-02-01 | 2019-02-20 | 15    |
 | 2          | 2019-02-21 | 2019-03-31 | 30    |
 
+</ScrollableTableContainer>
+
 `UnitsSold` table
+
+<ScrollableTableContainer>
 
 | product_id | purchase_date | units |
 | ---------- | ------------- | ----- |
@@ -84,12 +98,18 @@ Table: `UnitsSold`
 | 2          | 2019-02-10    | 200   |
 | 2          | 2019-03-22    | 30    |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | product_id | average_price |
 | ---------- | ------------- |
 | 1          | 6.96          |
 | 2          | 16.96         |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

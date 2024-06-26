@@ -31,6 +31,8 @@ contributors:
 
 Table: `Sales`
 
+<ScrollableTableContainer>
+
 | Column Name | Type |
 | ----------- | ---- |
 | sale_id     | int  |
@@ -38,6 +40,8 @@ Table: `Sales`
 | year        | int  |
 | quantity    | int  |
 | price       | int  |
+
+</ScrollableTableContainer>
 
 > (`sale_id`, `year`) is the primary key (combination of columns with unique values) of this table.
 >
@@ -47,10 +51,14 @@ Table: `Sales`
 
 Table: `Product`
 
+<ScrollableTableContainer>
+
 | Column Name  | Type    |
 | ------------ | ------- |
 | product_id   | int     |
 | product_name | varchar |
+
+</ScrollableTableContainer>
 
 > `product_id` is the primary key of this table.
 >
@@ -68,13 +76,19 @@ Table: `Product`
 
 `Sales` table
 
+<ScrollableTableContainer>
+
 | sale_id | product_id | year | quantity | price |
 | ------- | ---------- | ---- | -------- | ----- |
 | 1       | 100        | 2008 | 10       | 5000  |
 | 2       | 100        | 2009 | 12       | 5000  |
 | 7       | 200        | 2011 | 15       | 9000  |
 
+</ScrollableTableContainer>
+
 `Product` table
+
+<ScrollableTableContainer>
 
 | product_id | product_name |
 | ---------- | ------------ |
@@ -82,13 +96,19 @@ Table: `Product`
 | 200        | Apple        |
 | 300        | Samsung      |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | product_name | year | price |
 | ------------ | ---- | ----- |
 | Nokia        | 2008 | 5000  |
 | Nokia        | 2009 | 5000  |
 | Apple        | 2011 | 9000  |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 

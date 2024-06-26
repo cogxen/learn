@@ -31,10 +31,14 @@ contributors:
 
 Table: `Signups`
 
+<ScrollableTableContainer>
+
 | Column Name | Type     |
 | ----------- | -------- |
 | user_id     | int      |
 | time_stamp  | datetime |
+
+</ScrollableTableContainer>
 
 > `user_id` is the primary key for this table.
 >
@@ -42,11 +46,15 @@ Table: `Signups`
 
 Table: `Confirmations`
 
+<ScrollableTableContainer>
+
 | Column Name | Type     |
 | ----------- | -------- |
 | user_id     | int      |
 | time_stamp  | datetime |
 | action      | ENUM     |
+
+</ScrollableTableContainer>
 
 > (`user_id`, `time_stamp`) is the primary key (combination of columns with unique values) for this table.
 >
@@ -70,6 +78,8 @@ NOTE: The **confirmation rate** of a user is the number of `'confirmed'` message
 
 `Signups` table
 
+<ScrollableTableContainer>
+
 | user_id | time_stamp          |
 | ------- | ------------------- |
 | 3       | 2020-03-21 10:16:13 |
@@ -77,7 +87,11 @@ NOTE: The **confirmation rate** of a user is the number of `'confirmed'` message
 | 2       | 2020-07-29 23:09:44 |
 | 6       | 2020-12-09 10:39:37 |
 
+</ScrollableTableContainer>
+
 `Confirmations` table
+
+<ScrollableTableContainer>
 
 | user_id | time_stamp          | action    |
 | ------- | ------------------- | --------- |
@@ -89,7 +103,11 @@ NOTE: The **confirmation rate** of a user is the number of `'confirmed'` message
 | 2       | 2021-01-22 00:00:00 | confirmed |
 | 2       | 2021-02-28 23:59:59 | timeout   |
 
+</ScrollableTableContainer>
+
 **Output:**
+
+<ScrollableTableContainer>
 
 | user_id | confirmation_rate |
 | ------- | ----------------- |
@@ -97,6 +115,8 @@ NOTE: The **confirmation rate** of a user is the number of `'confirmed'` message
 | 3       | 0.00              |
 | 7       | 1.00              |
 | 2       | 0.50              |
+
+</ScrollableTableContainer>
 
 **Explanation:**
 
