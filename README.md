@@ -2,13 +2,13 @@
 
 <div align="center">
 
-![Netlify Status](https://img.shields.io/netlify/09c12b80-f2e2-4dde-9a55-bbb263f6d17f?style=for-the-badge&labelColor=e3e8f1&color=10160c)
-![Vitepress Version](https://img.shields.io/github/package-json/dependency-version/cogxen/learn/dev/vitepress?style=for-the-badge&labelColor=e3e8f1&color=10160c)
-![Static Badge](https://img.shields.io/badge/university:%20HAU-hau_angel_university?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+![Netlify Status](https://img.shields.io/netlify/09c12b80-f2e2-4dde-9a55-bbb263f6d17f?style=flat-square&labelColor=e3e8f1&color=93e1be)
+![Vitepress Version](https://img.shields.io/github/package-json/dependency-version/cogxen/learn/dev/vitepress?style=flat-square&labelColor=e3e8f1&color=93e1be)
+![University](https://img.shields.io/badge/university-holy_angel_university-93e1be?style=flat-square&labelColor=e3e8f1&color=93e1be)
 
-![GitHub Commit Activity](https://img.shields.io/github/commit-activity/t/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
-![GitHub Issues](https://img.shields.io/github/issues/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/t/cogxen/learn?style=flat-square&labelColor=e3e8f1&color=93e1be)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/cogxen/learn?style=flat-square&labelColor=e3e8f1&color=93e1be)
+![GitHub Issues](https://img.shields.io/github/issues/cogxen/learn?style=flat-square&labelColor=e3e8f1&color=93e1be)
 
 </div>
 
@@ -52,7 +52,7 @@ Email us at [hello@cogxen.quest](mailto:hello@cogxen.quest). We'd love to hear f
 
 <div align="center">
 
-![GitHub Languages Count](https://img.shields.io/github/languages/count/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
-![GitHub License](https://img.shields.io/github/license/cogxen/learn?style=for-the-badge&labelColor=e3e8f1&color=10160c)
+![GitHub Languages Count](https://img.shields.io/github/languages/count/cogxen/learn?style=flat-square&labelColor=e3e8f1&color=93e1be)
+![GitHub License](https://img.shields.io/github/license/cogxen/learn?style=flat-square&labelColor=e3e8f1&color=93e1be)
 
 </div>
