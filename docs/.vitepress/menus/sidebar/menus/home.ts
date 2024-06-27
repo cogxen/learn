@@ -1,3 +1,9 @@
+import dataScience from "./data-science"
+import analytics from "./analytics"
+import math from "./math"
+import programming from "./programming"
+import ai from "./ai"
+
 export default [
   {
     text: "Welcome",
@@ -31,69 +37,6 @@ export default [
   },
   {
     text: "Lectures",
-    items: [
-      {
-        text: "Data Science",
-        icon: "TestTubeDiagonal",
-        collapsed: false,
-        items: [
-          {
-            text: "Blueprint to a Data Science Career",
-            link: "/lectures/data-science/blueprint-to-a-data-science-career/introduction",
-          },
-          {
-            text: "Non-Technical Skills",
-            link: "/lectures/data-science/non-technical-skills/introduction",
-            badge: { text: "New" },
-          },
-        ],
-      },
-      {
-        text: "Analytics",
-        icon: "BarChart2",
-        collapsed: false,
-        items: [
-          {
-            text: "What is Business Analysis?",
-            link: "/lectures/analytics/what-is-business-analysis/introduction",
-          },
-        ],
-      },
-      {
-        text: "Math",
-        collapsed: false,
-        icon: "Sigma",
-        items: [
-          {
-            text: "Linear Algebra",
-            link: "/lectures/math/linear-algebra/introduction",
-            badge: { text: "Working" },
-          },
-        ],
-      },
-      {
-        text: "Programming",
-        collapsed: false,
-        icon: "Code",
-        items: [
-          {
-            text: "SQL",
-            collapsed: false,
-            items: [
-              {
-                text: "Introduction",
-                link: "/lectures/programming/sql/introduction-to-sql/introduction",
-                badge: { text: "New" },
-              },
-              {
-                text: "Analyzing Data",
-                link: "/lectures/programming/sql/analyzing-data/introduction",
-                badge: { text: "Working" },
-              },
-            ],
-          },
-        ],
-      },
-    ],
+    items: [dataScience, ai, analytics, math, programming],
   },
 ]
