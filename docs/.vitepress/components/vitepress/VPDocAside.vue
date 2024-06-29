@@ -70,14 +70,14 @@ onContentUpdated(updateContributors)
 </script>
 
 <template>
-  <div class="VPDocAside gap-4">
+  <div class="VPDocAside gap-2">
     <slot name="aside-top">
       <!-- LeetCode Study Plan -->
       <a
         v-if="leetcodeStudyPlan.name && leetcodeStudyPlan.link"
         :href="leetcodeStudyPlan.link"
         target="_blank"
-        class="px-4 py-2 border border-dashed rounded-lg border-slate-300 dark:border-slate-700"
+        class="px-4 py-2 border border-dashed border-slate-300 dark:border-slate-700"
       >
         <div class="flex flex-row gap-2 justify-between items-center">
           <span
@@ -94,7 +94,7 @@ onContentUpdated(updateContributors)
         v-if="leetcodeInformation.number && leetcodeInformation.link"
         :href="leetcodeInformation.link"
         target="_blank"
-        class="px-4 py-2 border border-dashed rounded-lg border-slate-300 dark:border-slate-700"
+        class="px-4 py-2 border border-dashed border-slate-300 dark:border-slate-700"
       >
         <div
           class="flex flex-row gap-2 justify-between items-center text-slate-800 dark:text-slate-300"
@@ -115,7 +115,7 @@ onContentUpdated(updateContributors)
             :key="contributor.website_url"
             :href="contributor.website_url"
             target="_blank"
-            class="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden border border-dashed rounded-lg border-slate-300 dark:border-slate-700"
+            class="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden border border-dashed border-slate-300 dark:border-slate-700"
           >
             <span class="font-medium text-gray-600 dark:text-gray-300">{{ contributor.name }}</span>
           </a>

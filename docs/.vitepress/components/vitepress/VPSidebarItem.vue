@@ -59,10 +59,7 @@ function onCaretClick() {
       v-on="item.items ? { click: onItemInteraction, keydown: onItemInteraction } : {}"
       :tabindex="item.items && 0"
     >
-      <div
-        class="border p-1 border-slate-300 bg-slate-200 text-slate-800 rounded-md dark:bg-emerald-800 dark:text-emerald-200 dark:border-emerald-700"
-        v-if="iconComponent"
-      >
+      <div class="text-slate-800 dark:text-emerald-200" v-if="iconComponent">
         <component :is="iconComponent" class="w-4 h-4" />
       </div>
 

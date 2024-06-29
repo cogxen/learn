@@ -1,10 +1,38 @@
+<script setup lang="ts">
+import { ref } from "vue"
+import { ChevronDown, ChevronUp, BadgeCheck } from "lucide-vue-next"
+
+const props = defineProps({
+  title: {
+    type: String,
+    required: true,
+  },
+  submitted_by: {
+    type: String,
+    required: false,
+  },
+  submit_website_url: {
+    type: String,
+    required: false,
+  },
+  collapsed: {
+    type: Boolean,
+    required: false,
+    default: true,
+  },
+})
+
+let isOpen = ref(!props.collapsed)
+</script>
+
 <template>
-  <div class="mb-4 p-4 rounded-md bg-[#f6f5f2] dark:bg-[#064e3b]/25">
+  <div class="mb-4 p-4 border border-dashed border-slate-300 dark:border-slate-700">
     <div class="flex flex-row w-full items-center justify-between">
-      <div class="flex flex-row items-center gap-4">
-        <BookCopy class="w-8 h-8" />
+      <div class="flex flex-row items-center">
         <div class="flex flex-col items-start w-full">
-          <span class="font-bold">{{ title }}</span>
+          <div class="flex flex-row gap-2 items-center">
+            <span class="font-bold">{{ title }}</span>
+          </div>
           <div
             v-if="submitted_by"
             class="flex flex-row items-center gap-1 text-xs text-slate-500 w-full"
@@ -32,30 +60,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ref } from "vue"
-import { ChevronDown, ChevronUp, BookCopy } from "lucide-vue-next"
-
-const props = defineProps({
-  title: {
-    type: String,
-    required: true,
-  },
-  submitted_by: {
-    type: String,
-    required: false,
-  },
-  submit_website_url: {
-    type: String,
-    required: false,
-  },
-  collapsed: {
-    type: Boolean,
-    required: false,
-    default: true,
-  },
-})
-
-let isOpen = ref(!props.collapsed)
-</script>
