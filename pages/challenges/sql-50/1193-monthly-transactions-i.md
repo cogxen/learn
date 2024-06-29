@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1193
   - problemName: Monthly Transactions I
   - link: https://leetcode.com/problems/monthly-transactions-i/
+  - difficulty: Medium
 contributors:
   - - detail
     - name: Noey Ignacio

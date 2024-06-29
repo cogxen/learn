@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2881
   - problemName: Create a New Column
   - link: https://leetcode.com/problems/create-a-new-column/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

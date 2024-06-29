@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2884
   - problemName: Modify Columns
   - link: https://leetcode.com/problems/modify-columns/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2889
   - problemName: "Reshape Data: Pivot"
   - link: https://leetcode.com/problems/reshape-data-pivot/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

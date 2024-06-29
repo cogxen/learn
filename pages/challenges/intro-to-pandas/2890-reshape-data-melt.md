@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2890
   - problemName: "Reshape Data: Melt"
   - link: https://leetcode.com/problems/reshape-data-melt/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

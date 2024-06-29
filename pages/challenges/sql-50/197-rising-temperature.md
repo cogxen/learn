@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 197
   - problemName: Rising Temperature
   - link: https://leetcode.com/problems/rising-temperature/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

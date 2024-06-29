@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1633
   - problemName: Percentage of Users Attended a Contest
   - link: https://leetcode.com/problems/percentage-of-users-attended-a-contest/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

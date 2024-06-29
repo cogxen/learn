@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1211
   - problemName: Queries Quality and Percentage
   - link: https://leetcode.com/problems/queries-quality-and-percentage/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

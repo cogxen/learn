@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 570
   - problemName: Managers with at Least 5 Direct Reports
   - link: https://leetcode.com/problems/managers-with-at-least-5-direct-reports/
+  - difficulty: Medium
 contributors:
   - - detail
     - name: Noey Ignacio

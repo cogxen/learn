@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2883
   - problemName: Drop Missing Data
   - link: https://leetcode.com/problems/drop-missing-data/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

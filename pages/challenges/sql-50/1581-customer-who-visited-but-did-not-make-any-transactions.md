@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1581
   - problemName: Customer Who Visited but Did Not Make Any Transactions
   - link: https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

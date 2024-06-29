@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2882
   - problemName: Drop Duplicate Rows
   - link: https://leetcode.com/problems/drop-duplicate-rows/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

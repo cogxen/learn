@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2888
   - problemName: "Reshape Data: Concatenate"
   - link: https://leetcode.com/problems/reshape-data-concatenate/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

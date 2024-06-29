@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1280
   - problemName: Students and Examinations
   - link: https://leetcode.com/problems/students-and-examinations/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

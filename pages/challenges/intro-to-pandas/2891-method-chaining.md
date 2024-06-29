@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2891
   - problemName: Method Chaining
   - link: https://leetcode.com/problems/method-chaining/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

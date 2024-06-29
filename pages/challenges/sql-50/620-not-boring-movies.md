@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 620
   - problemName: Not Boring Movies
   - link: https://leetcode.com/problems/not-boring-movies/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

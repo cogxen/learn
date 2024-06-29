@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1075
   - problemName: Project Employees I
   - link: https://leetcode.com/problems/project-employees-i/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 577
   - problemName: Employee Bonus
   - link: https://leetcode.com/problems/employee-bonus/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio
