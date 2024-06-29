@@ -90,13 +90,27 @@ function onCaretClick() {
           :class="{ 'line-clamp-1': item.difficulty, 'line-clamp-2': !item.difficulty }"
           v-html="item.text"
         />
-        <span
-          v-if="item.badge"
-          class="rounded-md text-[10px] text-slate-800 px-2 bg-slate-200 border border-slate-300 dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
-          v-text="item.badge.text"
-        ></span>
+        <div v-if="item.badge" class="flex flex-row items-center gap-1">
+          <span class="relative flex h-2 w-2">
+            <span
+              class="animate-ping absolute inline-flex h-full w-full rounded-full bg-slate-400 dark:bg-emerald-200 opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex rounded-full h-2 w-2 bg-slate-500 dark:bg-emerald-300"
+            ></span>
+          </span>
+          <span
+            class="text-[10px] text-slate-800 dark:text-emerald-200"
+            v-text="item.badge.text"
+          ></span>
+        </div>
       </VPLink>
+
       <component v-else :is="textTag" class="text line-clamp-2" v-html="item.text" />
+
+      <span v-if="item.items && item.items.length && item.showNumber" class="text-xs">
+        ({{ item.items.length }})
+      </span>
 
       <div
         v-if="item.collapsed != null && item.items && item.items.length"
@@ -165,7 +179,7 @@ function onCaretClick() {
   flex-grow: 1;
   padding: 4px 0;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   transition: color 0.25s;
 }
 
