@@ -15,8 +15,6 @@ prev: false
 next: false
 ---
 
-![Image 1](https://i.imgur.com/Xbdc6li.png)
-
 <div class="text-center">
 
 Stay tuned! We'll be adding **Tools**, soon!

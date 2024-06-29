@@ -51,6 +51,14 @@ export default {
           text: "Understanding Data",
           link: "/lectures/ai/ai-foundations-machine-learning/preparing-data-for-machine-learning/understanding-data",
         },
+        {
+          text: "Data Visualization",
+          link: "/lectures/ai/ai-foundations-machine-learning/preparing-data-for-machine-learning/data-visualization",
+        },
+        {
+          text: "Feature Engineering",
+          link: "/lectures/ai/ai-foundations-machine-learning/preparing-data-for-machine-learning/feature-engineering",
+        },
       ],
     },
   ],

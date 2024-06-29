@@ -13,14 +13,12 @@ editLink: false
 footer: false
 prev: false
 next: false
+aside: false
 ---
 
 <ImageCard 
   img_url="/img/banner.png" 
-  caption="Cogxen Banner"
 />
-
-# Welcome, fellow explorers!
 
 Have you ever felt that surge of excitement when you crack a new data problem, a hidden gem unearthed from the vast data wilderness? That exhilarating "Eureka!" moment that ignites your curiosity and compels you to dig deeper? We have! That's exactly what ignited our journey into the world of data science, and this very website is our shared logbook on this thrilling adventure.
 

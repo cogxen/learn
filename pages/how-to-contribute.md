@@ -13,6 +13,7 @@ editLink: false
 footer: false
 prev: false
 next: false
+aside: false
 ---
 
 # How to Contribute?

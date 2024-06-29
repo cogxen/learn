@@ -95,7 +95,38 @@ Now, let’s see how we can load and explore this data using Python. We'll use l
 
 ```python
 import pandas as pd
+
+# Read the data
 housing_df = pd.read_csv('housing.csv')
 ```
 
 This code reads the CSV file and loads it into a Pandas DataFrame called `housing_df`.
+
+2. Show the features of the dataset
+
+```python
+# Display the features of the dataset
+housing_df.info()
+```
+
+This code displays the features of the dataset, including the data types and the number of non-null values.
+
+```plaintext
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype
+---  ------              --------------  -----
+ 0   longitude           20640 non-null  float64
+ 1   latitude            20640 non-null  float64
+ 2   housing_median_age  20640 non-null  float64
+ 3   total_rooms         20640 non-null  float64
+ 4   total_bedrooms      20433 non-null  float64
+ 5   population          20640 non-null  float64
+ 6   households          20640 non-null  float64
+ 7   median_income       20640 non-null  float64
+ 8   median_house_value  20640 non-null  float64
+ 9   ocean_proximity     20640 non-null  object
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+```

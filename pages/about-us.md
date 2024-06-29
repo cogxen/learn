@@ -12,6 +12,7 @@ lastUpdated: false
 editLink: false
 prev: false
 next: false
+aside: false
 ---
 
 # So what is Cogxen all about?
