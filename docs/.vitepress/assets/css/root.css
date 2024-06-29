@@ -737,3 +737,40 @@ kbd {
 .vp-block {
   padding: 20px 24px;
 }
+
+/**
+  * Component: Custom Block
+  * -------------------------------------------------------------------------- */
+.custom-block {
+  border: 1px solid transparent;
+  border-radius: 0 !important;
+  padding: 16px 16px 8px;
+  line-height: 24px;
+  font-size: var(--vp-custom-block-font-size);
+  color: var(--vp-c-text-2);
+}
+
+/**
+  * Component: Browser Highlight
+  * -------------------------------------------------------------------------- */
+/* Light Mode */
+::selection {
+  background-color: #0071c2; /* Green background for light mode */
+  color: whitesmoke; /* Black text for light mode */
+}
+
+::-webkit-selection {
+  background-color: #0071c2; /* Green background for light mode */
+  color: whitesmoke; /* Black text for light mode */
+}
+
+/* Dark Mode */
+.dark ::selection {
+  background-color: #65b294; /* Darker green background for dark mode */
+  color: black; /* White text for dark mode */
+}
+
+.dark ::-webkit-selection {
+  background-color: #65b294; /* Darker green background for dark mode */
+  color: black; /* White text for dark mode */
+}
