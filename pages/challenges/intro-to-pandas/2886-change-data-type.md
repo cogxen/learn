@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2886
   - problemName: Change Data Type
   - link: https://leetcode.com/problems/change-data-type/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

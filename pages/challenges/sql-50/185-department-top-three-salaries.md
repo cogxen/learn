@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 185
   - problemName: Department Top Three Salaries
   - link: https://leetcode.com/problems/department-top-three-salaries/
+  - difficulty: Hard
 contributors:
   - - detail
     - name: Noey Ignacio

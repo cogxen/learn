@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 595
   - problemName: Big Countries
   - link: https://leetcode.com/problems/big-countries/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

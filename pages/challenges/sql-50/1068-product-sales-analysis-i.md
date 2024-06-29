@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1068
   - problemName: Product Sales Analysis I
   - link: https://leetcode.com/problems/product-sales-analysis-i/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

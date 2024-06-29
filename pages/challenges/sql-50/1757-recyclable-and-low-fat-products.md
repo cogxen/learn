@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1757
   - problemName: Recyclable and Low Fat Products
   - link: https://leetcode.com/problems/recyclable-and-low-fat-products/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

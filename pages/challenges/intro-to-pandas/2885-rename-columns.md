@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2885
   - problemName: Rename Columns
   - link: https://leetcode.com/problems/rename-columns/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

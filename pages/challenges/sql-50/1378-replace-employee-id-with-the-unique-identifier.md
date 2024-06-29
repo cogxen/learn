@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1378
   - problemName: Replace Employee ID With The Unique Identifier
   - link: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

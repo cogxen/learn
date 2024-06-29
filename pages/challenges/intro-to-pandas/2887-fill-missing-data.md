@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2887
   - problemName: Fill Missing Data
   - link: https://leetcode.com/problems/fill-missing-data/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2879
   - problemName: Display the First Three Rows
   - link: https://leetcode.com/problems/display-the-first-three-rows/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

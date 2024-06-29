@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2880
   - problemName: Select Data
   - link: https://leetcode.com/problems/select-data/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

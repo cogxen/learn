@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1934
   - problemName: Confirmation Rate
   - link: https://leetcode.com/problems/confirmation-rate/
+  - difficulty: Medium
 contributors:
   - - detail
     - name: Noey Ignacio

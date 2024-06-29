@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1251
   - problemName: Average Selling Price
   - link: https://leetcode.com/problems/average-selling-price/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

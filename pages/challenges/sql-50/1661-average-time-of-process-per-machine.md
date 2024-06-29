@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1661
   - problemName: Average Time of Process per Machine
   - link: https://leetcode.com/problems/average-time-of-process-per-machine/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

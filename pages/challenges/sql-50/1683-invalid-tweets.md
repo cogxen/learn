@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1683
   - problemName: Invalid Tweets
   - link: https://leetcode.com/problems/invalid-tweets/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

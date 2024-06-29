@@ -14,6 +14,7 @@ const { hasSidebar, hasAside, leftAside } = useSidebar()
 const pageName = computed(() => route.path.replace(/[./]+/g, "_").replace(/_html$/, ""))
 
 const statusPage = ref({ status: "", color: "", textColor: "", text: "" })
+const leetcodeInformation = ref({ difficulty: "", color: "", textColor: "", text: "" })
 
 const updateStatusPage = () => {
   if (frontmatter.value.status) {
@@ -22,16 +23,16 @@ const updateStatusPage = () => {
     let textColor = ""
     let text = ""
     if (status === "wip") {
-      color = "bg-emerald-500 dark:bg-emerald-200"
-      textColor = "text-emerald-500 dark:text-emerald-200"
+      color = "bg-emerald-500 dark:bg-emerald-300"
+      textColor = "text-emerald-500 dark:text-emerald-300"
       text = "Work in progress"
     } else if (status === "updating") {
-      color = "bg-yellow-500 dark:bg-yellow-200"
-      textColor = "text-yellow-500 dark:text-yellow-200"
+      color = "bg-yellow-500"
+      textColor = "text-yellow-500"
       text = "Updating"
     } else {
-      color = "bg-slate-500 dark:bg-slate-200"
-      textColor = "text-slate-500 dark:text-slate-200"
+      color = "bg-slate-500 dark:bg-slate-300"
+      textColor = "text-slate-500 dark:text-slate-300"
     }
     statusPage.value = { status, color, textColor, text }
   } else {
@@ -39,7 +40,37 @@ const updateStatusPage = () => {
   }
 }
 
+const updateLeetcodeInformation = () => {
+  if (frontmatter.value.leetcodeInformation) {
+    const difficulty = frontmatter.value.leetcodeInformation[3].difficulty
+    let color = ""
+    let textColor = ""
+    let text = difficulty
+    switch (difficulty) {
+      case "Easy":
+        color = "bg-emerald-500 dark:bg-emerald-300"
+        textColor = "text-emerald-500 dark:text-emerald-300"
+        break
+      case "Medium":
+        color = "bg-yellow-500"
+        textColor = "text-yellow-500"
+        break
+      case "Hard":
+        color = "bg-red-500 dark:bg-red-500"
+        textColor = "text-red-500 dark:text-red-500"
+        break
+      default:
+        color = "bg-slate-500 dark:bg-slate-300"
+        textColor = "text-slate-500 dark:text-slate-300"
+    }
+    leetcodeInformation.value = { difficulty, color, text, textColor }
+  } else {
+    leetcodeInformation.value = { difficulty: "", color: "", textColor: "", text: "" }
+  }
+}
+
 onContentUpdated(updateStatusPage)
+onContentUpdated(updateLeetcodeInformation)
 </script>
 
 <template>
@@ -81,6 +112,24 @@ onContentUpdated(updateStatusPage)
               </span>
               <span :class="[statusPage.textColor, 'text-sm font-space-grotesk']">
                 {{ statusPage.text }}
+              </span>
+            </div>
+
+            <!-- LeetCode Difficulty Status -->
+            <div v-if="leetcodeInformation.difficulty" class="flex flex-row items-center gap-2">
+              <span class="relative flex h-2 w-2">
+                <span
+                  :class="[
+                    'animate-ping absolute inline-flex h-full w-full rounded-full opacity-75',
+                    leetcodeInformation.color,
+                  ]"
+                ></span>
+                <span
+                  :class="['relative inline-flex rounded-full h-2 w-2', leetcodeInformation.color]"
+                ></span>
+              </span>
+              <span :class="[leetcodeInformation.textColor, 'text-sm font-space-grotesk']">
+                {{ leetcodeInformation.text }}
               </span>
             </div>
 

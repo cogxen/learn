@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 1148
   - problemName: Article Views I
   - link: https://leetcode.com/problems/article-views-i/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

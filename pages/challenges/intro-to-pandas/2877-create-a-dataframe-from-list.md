@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 2877
   - problemName: Create a DataFrame from List
   - link: https://leetcode.com/problems/create-a-dataframe-from-list/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio

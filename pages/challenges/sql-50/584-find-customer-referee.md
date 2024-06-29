@@ -19,6 +19,7 @@ leetcodeInformation:
   - number: 584
   - problemName: Find Customer Referee
   - link: https://leetcode.com/problems/find-customer-referee/
+  - difficulty: Easy
 contributors:
   - - detail
     - name: Noey Ignacio
