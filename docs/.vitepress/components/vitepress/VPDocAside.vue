@@ -3,8 +3,6 @@ import { onContentUpdated } from "vitepress"
 import { ref, type Ref } from "vue"
 import { useData } from "vitepress/dist/client/theme-default/composables/data.js"
 
-import { ArrowUpRight } from "lucide-vue-next"
-
 // Components
 import VPDocAsideOutline from "./VPDocAsideOutline.vue"
 import VPDocAsideCarbonAds from "./VPDocAsideCarbonAds.vue"
@@ -109,7 +107,7 @@ onContentUpdated(updateContributors)
       <!-- Contributors -->
       <div class="flex flex-col gap-2 items-start" v-if="contributors.length">
         <span class="text-xs text-slate-800 dark:text-slate-300">Contributors</span>
-        <div class="flex flex-row gap-1 items-center">
+        <div class="flex flex-row flex-wrap gap-1 items-center">
           <a
             v-for="contributor in contributors"
             :key="contributor.website_url"

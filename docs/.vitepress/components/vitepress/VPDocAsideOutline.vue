@@ -35,7 +35,6 @@ useActiveAnchor(container, marker)
       <div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading">
         {{ resolveTitle(theme) }}
       </div>
-
       <VPDocOutlineItem :headers="headers" :root="true" />
     </div>
   </nav>
