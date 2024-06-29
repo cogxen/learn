@@ -59,7 +59,10 @@ function onCaretClick() {
       v-on="item.items ? { click: onItemInteraction, keydown: onItemInteraction } : {}"
       :tabindex="item.items && 0"
     >
-      <div class="text-slate-800 dark:text-emerald-200" v-if="iconComponent">
+      <div
+        class="border p-1 border-slate-300 bg-slate-200 text-slate-800 rounded-md dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
+        v-if="iconComponent"
+      >
         <component :is="iconComponent" class="w-4 h-4" />
       </div>
 
@@ -108,7 +111,10 @@ function onCaretClick() {
 
       <component v-else :is="textTag" class="text line-clamp-2" v-html="item.text" />
 
-      <span v-if="item.items && item.items.length && item.showNumber" class="text-xs">
+      <span
+        v-if="item.items && item.items.length && item.showNumber"
+        class="text-xs text-slate-800 dark:text-emerald-200"
+      >
         ({{ item.items.length }})
       </span>
 
@@ -179,21 +185,26 @@ function onCaretClick() {
   flex-grow: 1;
   padding: 4px 0;
   font-size: 14px;
-  line-height: 20px;
   transition: color 0.25s;
 }
 
 .VPSidebarItem.level-0 .text {
   font-weight: 700;
+  line-height: 24px !important;
   color: var(--vp-c-text-1);
 }
 
-.VPSidebarItem.level-1 .text,
+.VPSidebarItem.level-1 .text {
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+}
+
 .VPSidebarItem.level-2 .text,
 .VPSidebarItem.level-3 .text,
 .VPSidebarItem.level-4 .text,
 .VPSidebarItem.level-5 .text {
   font-weight: 500;
+  line-height: 20px !important;
   color: var(--vp-c-text-2);
 }
 
