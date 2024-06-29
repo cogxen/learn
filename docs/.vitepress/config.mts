@@ -110,6 +110,12 @@ export default defineConfigWithTheme({
           find: /^.*\/VPDoc\.vue$/,
           replacement: fileURLToPath(new URL("./components/vitepress/VPDoc.vue", import.meta.url)),
         },
+        {
+          find: /^.*\/VPSidebar\.vue$/,
+          replacement: fileURLToPath(
+            new URL("./components/vitepress/VPSidebar.vue", import.meta.url),
+          ),
+        },
       ],
     },
   },
