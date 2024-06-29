@@ -4,4 +4,12 @@ export default [
     text: "Challenges",
     link: "/challenges/",
   },
+  {
+    text: "Projects",
+    link: "/projects/",
+  },
+  {
+    text: "Leaderboards",
+    link: "/leaderboards/",
+  },
 ]
