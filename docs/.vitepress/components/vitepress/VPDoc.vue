@@ -1,17 +1,45 @@
 <script setup lang="ts">
-import { useRoute } from "vitepress"
-import { computed } from "vue"
+import { useRoute, onContentUpdated } from "vitepress"
+import { ref, computed } from "vue"
 import { useData } from "vitepress/dist/client/theme-default/composables/data.js"
 import { useSidebar } from "vitepress/dist/client/theme-default/composables/sidebar.js"
 import VPDocAside from "./VPDocAside.vue"
 import VPDocFooter from "./VPFooter.vue"
 
-const { theme } = useData()
+const { frontmatter, theme } = useData()
 
 const route = useRoute()
 const { hasSidebar, hasAside, leftAside } = useSidebar()
 
 const pageName = computed(() => route.path.replace(/[./]+/g, "_").replace(/_html$/, ""))
+
+const statusPage = ref({ status: "", color: "", textColor: "", text: "" })
+
+const updateStatusPage = () => {
+  if (frontmatter.value.status) {
+    const status = frontmatter.value.status
+    let color = ""
+    let textColor = ""
+    let text = ""
+    if (status === "wip") {
+      color = "bg-emerald-500 dark:bg-emerald-200"
+      textColor = "text-emerald-500 dark:text-emerald-200"
+      text = "Work in progress"
+    } else if (status === "updating") {
+      color = "bg-yellow-500 dark:bg-yellow-200"
+      textColor = "text-yellow-500 dark:text-yellow-200"
+      text = "Updating"
+    } else {
+      color = "bg-slate-500 dark:bg-slate-200"
+      textColor = "text-slate-500 dark:text-slate-200"
+    }
+    statusPage.value = { status, color, textColor, text }
+  } else {
+    statusPage.value = { status: "", color: "", textColor: "", text: "" }
+  }
+}
+
+onContentUpdated(updateStatusPage)
 </script>
 
 <template>
@@ -38,6 +66,25 @@ const pageName = computed(() => route.path.replace(/[./]+/g, "_").replace(/_html
         <div class="content-container">
           <slot name="doc-before" />
           <main class="main">
+            <!-- Page's Status -->
+            <div v-if="statusPage.status !== ''" class="flex flex-row items-center gap-2">
+              <span class="relative flex h-2 w-2">
+                <span
+                  :class="[
+                    'animate-ping absolute inline-flex h-full w-full rounded-full opacity-75',
+                    statusPage.color,
+                  ]"
+                ></span>
+                <span
+                  :class="['relative inline-flex rounded-full h-2 w-2', statusPage.color]"
+                ></span>
+              </span>
+              <span :class="[statusPage.textColor, 'text-sm font-space-grotesk']">
+                {{ statusPage.text }}
+              </span>
+            </div>
+
+            <!-- Page's Content -->
             <Content
               class="vp-doc"
               :class="[pageName, theme.externalLinkIcon && 'external-link-icon-enabled']"

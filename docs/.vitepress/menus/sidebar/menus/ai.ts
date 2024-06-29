@@ -6,6 +6,7 @@ export default {
     {
       text: "AI Foundations: Machine Learning",
       link: "/lectures/ai/ai-foundations-machine-learning/introduction",
+      badge: { text: "Working" },
     },
   ],
 }

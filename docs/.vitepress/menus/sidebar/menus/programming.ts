@@ -10,7 +10,6 @@ export default {
         {
           text: "Introduction",
           link: "/lectures/programming/sql/introduction-to-sql/introduction",
-          badge: { text: "New" },
         },
         {
           text: "Analyzing Data",

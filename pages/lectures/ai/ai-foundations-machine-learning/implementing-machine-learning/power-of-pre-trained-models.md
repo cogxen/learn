@@ -11,6 +11,7 @@ head:
 lastUpdated: false
 editLink: false
 footer: false
+status: wip
 contributors:
   - - detail
     - name: Noey Ignacio
