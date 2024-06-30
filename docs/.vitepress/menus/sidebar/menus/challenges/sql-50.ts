@@ -104,4 +104,9 @@ export default [
     link: "/challenges/sql-50/1193-monthly-transactions-i",
     difficulty: { level: "Medium" },
   },
+  {
+    text: "1174. Immediate Food Delivery II",
+    link: "/challenges/sql-50/1174-immediate-food-delivery-ii",
+    difficulty: { level: "Medium" },
+  },
 ]
