@@ -59,10 +59,7 @@ function onCaretClick() {
       v-on="item.items ? { click: onItemInteraction, keydown: onItemInteraction } : {}"
       :tabindex="item.items && 0"
     >
-      <div
-        class="border p-1 border-slate-300 bg-slate-200 text-slate-800 rounded-md dark:bg-emerald-900 dark:text-emerald-200 dark:border-emerald-700"
-        v-if="iconComponent"
-      >
+      <div class="text-slate-800 rounded-md dark:text-emerald-200" v-if="iconComponent">
         <component :is="iconComponent" class="w-4 h-4" />
       </div>
 
@@ -71,14 +68,13 @@ function onCaretClick() {
       <VPLink
         v-if="item.link"
         :tag="linkTag"
-        class="link flex flex-row items-center gap-1"
+        class="link flex flex-row items-center gap-2"
         :href="item.link"
         :rel="item.rel"
         :target="item.target"
       >
-        <span
+        <div
           v-if="item.difficulty"
-          class="rounded-md text-[10px] px-2"
           :class="{
             'text-emerald-500 dark:text-emerald-600': item.difficulty.level === 'Easy',
             'text-yellow-500  dark:text-yellow-600': item.difficulty.level === 'Medium',
@@ -86,7 +82,7 @@ function onCaretClick() {
           }"
         >
           <CircleCheck class="w-4 h-4" />
-        </span>
+        </div>
         <component
           :is="textTag"
           class="text"
@@ -196,6 +192,7 @@ function onCaretClick() {
 
 .VPSidebarItem.level-1 .text {
   font-weight: 500;
+  line-height: 22px !important;
   color: var(--vp-c-text-2);
 }
 
@@ -204,7 +201,6 @@ function onCaretClick() {
 .VPSidebarItem.level-4 .text,
 .VPSidebarItem.level-5 .text {
   font-weight: 500;
-  line-height: 20px !important;
   color: var(--vp-c-text-2);
 }
 
