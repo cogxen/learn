@@ -46,10 +46,6 @@ Join us on this exhilarating voyage of discovery! Let's embark on a collaborativ
 
 Email us at [hello@cogxen.quest](mailto:hello@cogxen.quest). We'd love to hear from you!
 
-## 🔥 Activity
-
-![Alt](https://repobeats.axiom.co/api/embed/7d1c6454ff2d4933f99ff81bcb3dc13b245bc614.svg "Repobeats analytics image")
-
 <div align="center">
 
 ![GitHub Languages Count](https://img.shields.io/github/languages/count/cogxen/learn?style=flat-square&labelColor=e3e8f1&color=93e1be)
