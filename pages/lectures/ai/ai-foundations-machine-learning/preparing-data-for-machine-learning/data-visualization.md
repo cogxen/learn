@@ -109,7 +109,7 @@ corr = housing_df[numeric_cols].corr()
 print(corr)
 ```
 
-```platintext
+```text
                     longitude  latitude  ...  median_income  median_house_value
 longitude            1.000000 -0.924664  ...      -0.015176           -0.045967
 latitude            -0.924664  1.000000  ...      -0.079809           -0.144160
