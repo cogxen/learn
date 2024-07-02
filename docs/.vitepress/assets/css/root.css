@@ -760,12 +760,12 @@ kbd {
   * -------------------------------------------------------------------------- */
 /* Light Mode */
 ::selection {
-  background-color: #0071c2; /* Green background for light mode */
+  background-color: #64748b; /* Green background for light mode */
   color: whitesmoke; /* Black text for light mode */
 }
 
 ::-webkit-selection {
-  background-color: #0071c2; /* Green background for light mode */
+  background-color: #64748b; /* Green background for light mode */
   color: whitesmoke; /* Black text for light mode */
 }
 
