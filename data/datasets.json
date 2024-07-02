@@ -4,259 +4,241 @@
       "title": "IPL 2024 RCB Vs DC Analysis",
       "description": "Learning about the use of data science in cricket analytics, this article is for you. The match between RCB and Delhi Capitals was one of my favourite matches in the IPL this year.",
       "github_url": "https://github.com/cogxen/datasets/blob/main/ipl-2024-rcb-vs-dc/dataset.csv",
-      "google_drive_url": null
+      "student_name": "GANA, DARREN UZZIEL TANGLAO"
     },
     {
       "title": "Metro Operations Optimization",
       "description": "Metro Operations Optimization refers to the systematic process of enhancing the efficiency, reliability, and effectiveness of Metro services through various data-driven techniques and operational adjustments.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "VITAL, BRYAN CARLO DE GUZMAN"
     },
     {
       "title": "Electric Vehicles Market Size Analysis",
       "description": "Electric Vehicles Market Size Analysis refers to the systematic process of analyzing the market size, trends, and growth potential of the electric vehicles industry through various data-driven techniques and market research.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "MALLARI, JUSTIN GUINTO"
     },
     {
       "title": "Music Recommendation System using Spotify API",
       "description": "Music Recommendation System using Spotify API refers to the systematic process of building a music recommendation system that suggests songs based on user preferences and listening history using the Spotify API.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "DEOCAREZA, DEAN IRISH PECSON"
     },
     {
       "title": "Youtube Data Collection and Analysis",
       "description": "Youtube Data Collection and Analysis refers to the systematic process of collecting and analyzing data from Youtube videos, channels, and users to gain insights into user behavior, content trends, and engagement metrics.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Website Performance Analysis",
       "description": "Website Performance Analysis refers to the systematic process of analyzing the performance, speed, and user experience of a website through various data-driven techniques and tools.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "User Profiling & Segmentation",
       "description": "User Profiling & Segmentation refers to the systematic process of creating user profiles and segments based on demographic, behavioral, and psychographic data to personalize marketing strategies and improve user engagement.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Food Delivery Cost and Profitability Analysis",
       "description": "Food Delivery Cost and Profitability Analysis refers to the systematic process of analyzing the cost structure, revenue streams, and profitability of food delivery services through various data-driven techniques and financial metrics.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "RAGANIT, GABRIEL CLAUDIO"
     },
     {
       "title": "Delhi Metro Network Analysis",
       "description": "Delhi Metro Network Analysis refers to the systematic process of analyzing the network structure, connectivity, and performance of the Delhi Metro system through various data-driven techniques and network analysis tools.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "REYES, MARCK JHOVEN CRUZ"
     },
     {
       "title": "Quantitative Analysis of Stock Market",
       "description": "Quantitative Analysis of Stock Market refers to the systematic process of analyzing stock prices, market trends, and investment opportunities through various data-driven techniques and statistical models.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Health Monitoring & Analysis",
       "description": "Health Monitoring & Analysis refers to the systematic process of monitoring and analyzing health data, medical records, and patient information to improve healthcare services and patient outcomes.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Stock Market Anomaly Detection",
       "description": "Stock Market Anomaly Detection refers to the systematic process of detecting unusual patterns, outliers, and anomalies in stock market data to identify potential risks and opportunities for investors.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "DAVID, RON LORENZ LOIS GUNDRAN"
     },
     {
       "title": "Car Insurance Modelling",
       "description": "Car Insurance Modelling refers to the systematic process of building predictive models to estimate the risk, premium, and claims frequency of car insurance policies based on historical data and customer profiles.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "NUCUM, RAPHAEL SYRRUS DAYRIT"
     },
     {
       "title": "App Reviews Sentiment Analysis",
       "description": "App Reviews Sentiment Analysis refers to the systematic process of analyzing user reviews, ratings, and feedback on mobile apps to understand user sentiment, satisfaction levels, and feature preferences.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "MANALESE, MARK LORENZ YABUT"
     },
     {
       "title": "Real Estate Price Prediction",
       "description": "Real Estate Price Prediction refers to the systematic process of building predictive models to estimate the market value, rental yield, and price trends of real estate properties based on location, size, and other features.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "LISING , JUSTINE NAPO"
     },
     {
       "title": "Stock Market Comparison Analysis",
       "description": "Stock Market Comparison Analysis refers to the systematic process of comparing the performance, volatility, and risk-return profiles of different stock markets to identify investment opportunities and diversification strategies.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Netflix Subscriptions Forecasting",
       "description": "App Reviews Sentiment Analysis refers to the systematic process of analyzing user reviews, ratings, and feedback on mobile apps to understand user sentiment, satisfaction levels, and feature preferences.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Consumer Behaviour Analysis",
       "description": "Consumer Behaviour Analysis refers to the systematic process of analyzing consumer preferences, purchase patterns, and decision-making processes to understand market trends, customer segments, and marketing strategies.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "HENSON, FRANCIS LUIS BRIONES"
     },
     {
       "title": "Market Basket Analysis",
       "description": "Market Basket Analysis refers to the systematic process of analyzing customer purchase data to identify product associations, cross-selling opportunities, and promotional strategies for retail businesses.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "GUEVARRA, MARTIN JOSEPH GARCIA"
     },
     {
       "title": "Book Recommendation System",
       "description": "Book Recommendation System refers to the systematic process of building a recommendation system that suggests books based on user preferences, reading history, and genre preferences.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "GOMEZ, ASKELON LUPINES"
     },
     {
       "title": "Credit Scoring & Segmentation",
       "description": "Credit Scoring & Segmentation refers to the systematic process of evaluating the creditworthiness of individuals and segmenting customers based on their risk profiles, payment history, and financial behavior.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Dynamic Pricing Strategy",
       "description": "Dynamic Pricing Strategy refers to the systematic process of setting prices based on real-time market conditions, demand-supply dynamics, and customer preferences to maximize revenue and profitability.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Demand Forecasting & Inventory Optimization",
       "description": "Demand Forecasting & Inventory Optimization refers to the systematic process of predicting customer demand, optimizing inventory levels, and improving supply chain efficiency through data-driven forecasting models and inventory management techniques.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "REYES, MARK JAYSON"
     },
     {
       "title": "User Engagement Analysis",
       "description": "User Engagement Analysis refers to the systematic process of analyzing user interactions, engagement metrics, and retention rates to improve product usability, customer satisfaction, and user experience.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "VISDA, EDRICK JUSTINE BARREDO"
     },
     {
       "title": "Currency Exchange Rate Forecasting",
       "description": "Currency Exchange Rate Forecasting refers to the systematic process of predicting the future exchange rates of different currencies based on economic indicators, market trends, and geopolitical events.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Instagram Reach Analysis & Forecasting",
       "description": "Instagram Reach Analysis & Forecasting refers to the systematic process of analyzing the reach, engagement, and performance of Instagram posts to optimize content strategy, audience targeting, and social media marketing campaigns.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "DIZON, JOHN IVAN DAVID"
     },
     {
       "title": "Retail Price Optimization",
       "description": "Retail Price Optimization refers to the systematic process of setting optimal prices for retail products based on market demand, competitor pricing, and customer willingness to pay to maximize sales and profitability.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "PINGOL, JUSTIN ANGELO GULAPA"
     },
     {
       "title": "Loan Approval Prediction",
       "description": "Loan Approval Prediction refers to the systematic process of building predictive models to assess the credit risk of loan applicants and predict the likelihood of loan approval based on financial data, credit history, and risk factors.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "PINEDA, ARLO MIGUEL DE GUZMAN"
     },
     {
       "title": "Store Sales & Profit Analysis",
       "description": "Store Sales & Profit Analysis refers to the systematic process of analyzing sales data, profit margins, and revenue streams of retail stores to identify growth opportunities, cost-saving measures, and performance metrics.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Recession Analysis",
       "description": "Recession Analysis refers to the systematic process of analyzing economic indicators, market trends, and business cycles to identify signs of an impending recession, assess its impact on industries, and develop risk mitigation strategies.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "CATAQUIAN, IVAN JOSHUA DAMIAN"
     },
     {
       "title": "Demand & Supply Analysis",
       "description": "Demand & Supply Analysis refers to the systematic process of analyzing market demand, supply chain dynamics, and inventory levels to optimize production, distribution, and pricing strategies for businesses.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "BAGSIC, JERALD FRANCIS SANTILLAN"
     },
     {
       "title": "Food Delivery Time Prediction",
       "description": "Food Delivery Time Prediction refers to the systematic process of predicting the delivery time of food orders based on historical data, traffic conditions, and order details to improve customer satisfaction and service efficiency.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "SORIANO, PETER JAMES QUIZON"
     },
     {
       "title": "Weather Forecasting",
       "description": "Weather Forecasting refers to the systematic process of predicting weather conditions, temperature trends, and precipitation levels based on meteorological data, climate models, and satellite imagery.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Screen Time Analysis",
       "description": "Screen Time Analysis refers to the systematic process of analyzing the time spent on digital devices, social media platforms, and entertainment apps to understand user behavior, screen addiction, and digital wellness.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Job Recommendation System",
       "description": "Job Recommendation System refers to the systematic process of building a recommendation system that suggests job openings based on user profiles, skills, and career preferences to improve job search efficiency and recruitment outcomes.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "DAVID, BRIENNE KHAYLA CANLAS"
     },
     {
       "title": "Business Forecasting",
       "description": "Business Forecasting refers to the systematic process of predicting future business trends, market conditions, and financial performance based on historical data, economic indicators, and industry analysis.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Salary Prediction",
       "description": "Salary Prediction refers to the systematic process of predicting the salary of an employee based on various factors such as experience, education, location, and industry.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "House Rent Prediction",
       "description": "House Rent Prediction refers to the systematic process of predicting the rent of a house based on various factors such as location, size, amenities, and neighborhood.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "FLORES, ZACK RUSSELL AVILA"
     },
     {
       "title": "Spam Comments Detection",
       "description": "Spam Comments Detection refers to the systematic process of detecting and filtering out spam comments on websites, social media platforms, and online forums to improve user experience and content quality.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "ORDIALES, BARLO RODRIGUEZ"
     },
     {
       "title": "Restaurant Recommendation System",
       "description": "Restaurant Recommendation System refers to the systematic process of building a recommendation system that suggests restaurants based on user preferences, cuisine choices, and location.",
       "github_url": null,
-      "google_drive_url": null
+      "student_name": "TUAZON, KYLE ANGELO OCAMPO"
     },
     {
       "title": "Covid-19 Spread and Impacts Analysis",
       "description": "Covid-19 Spread and Impacts Analysis refers to the systematic process of analyzing the spread, transmission, and impacts of the Covid-19 pandemic on public health, economies, and social systems.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Student Marks Prediction",
       "description": "Student Marks Prediction refers to the systematic process of predicting the marks of students based on various factors such as study hours, attendance, and previous performance.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     },
     {
       "title": "Covid-19 Deaths Prediction",
       "description": "Covid-19 Deaths Prediction refers to the systematic process of predicting the number of deaths due to Covid-19 based on epidemiological data, healthcare capacity, and public health interventions.",
-      "github_url": null,
-      "google_drive_url": null
+      "github_url": null
     }
   ]
 }
