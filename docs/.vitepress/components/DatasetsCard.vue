@@ -32,7 +32,19 @@ const sortedDatasets = computed(() => {
           <div class="mb-4 text-slate-500 line-clamp-2 text-xs">{{ dataset.description }}</div>
         </div>
         <div class="mt-auto flex flex-col gap-1">
-          <div class="text-xs text-emerald-500">{{ dataset.student_name }}</div>
+          <div v-if="dataset.student_name" class="flex flex-row items-center gap-1">
+            <span class="relative flex h-2 w-2">
+              <span
+                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-slate-400 dark:bg-emerald-200 opacity-75"
+              ></span>
+              <span
+                class="relative inline-flex rounded-full h-2 w-2 bg-slate-500 dark:bg-emerald-300"
+              ></span>
+            </span>
+            <span class="text-[10px] text-slate-800 dark:text-emerald-200">
+              {{ dataset.student_name }} ({{ dataset.student_year }} Year)
+            </span>
+          </div>
           <div class="flex flex-row items-center gap-2">
             <a
               v-if="dataset.github_url"
