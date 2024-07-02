@@ -8,6 +8,7 @@ import "../assets/css/tailwind.postcss"
 
 /** Components */
 import Card from "../components/Card.vue"
+import DatasetsCard from "../components/DatasetsCard.vue"
 import ImageCard from "../components/ImageCard.vue"
 import MathExampleCard from "../components/MathExampleCard.vue"
 import CustomAccordion from "../components/CustomAccordion.vue"
@@ -23,6 +24,7 @@ export default {
   ...DefaultTheme,
   enhanceApp({ app }: EnhanceAppContext) {
     app.component("Card", Card)
+    app.component("DatasetsCard", DatasetsCard)
     app.component("MathExampleCard", MathExampleCard)
     app.component("CustomBadge", CustomBadge)
     app.component("ImageCard", ImageCard)
