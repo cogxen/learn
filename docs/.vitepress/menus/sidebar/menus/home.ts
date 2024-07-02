@@ -3,6 +3,7 @@ import analytics from "./analytics"
 import math from "./math"
 import programming from "./programming"
 import ai from "./ai"
+import datasets from "./datasets"
 
 export default [
   {
@@ -25,7 +26,8 @@ export default [
     items: [
       {
         text: "Datasets",
-        link: "/resources/datasets",
+        items: datasets,
+        collapsed: false,
         icon: "DatabaseZap",
       },
       {
