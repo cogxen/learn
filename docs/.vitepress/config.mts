@@ -5,6 +5,9 @@ import { defineConfigWithTheme, createContentLoader, type SiteConfig } from "vit
 import { transformerTwoslash } from "@shikijs/vitepress-twoslash"
 import { addMarkdownPlugins } from "./theme/plugins/markdown"
 
+/** Configuration */
+import { head } from "../../config/head"
+
 /** Menus (Modularized) */
 import nav from "./menus/nav"
 import sidebar from "./menus/sidebar"
@@ -13,6 +16,7 @@ import { fileURLToPath, URL } from "url"
 const hostname: string = "https://cogxen.quest"
 
 export default defineConfigWithTheme({
+  head,
   title: "Cogxen",
   description:
     "Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.",
