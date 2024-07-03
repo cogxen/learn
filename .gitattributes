@@ -1,5 +1,18 @@
-docs/.vitepress/**/*.ts linguist-detectable=true
-docs/.vitepress/**/*.ts linguist-language=TypeScript
-docs/.vitepress/**/*.ts linguist-vendored=false
+# Markdown
+*.md linguist-detectable=true
+*.md linguist-documentation=false
 
-* text=auto eol=lf
+# JSON
+*.json linguist-detectable=true
+
+# YAML
+*.yml linguist-detectable=true
+
+# vue
+*.vue linguist-detectable=true
+
+# typescript
+*.typescript linguist-detectable=true
+
+# scss
+*.scss linguist-detectable=true
