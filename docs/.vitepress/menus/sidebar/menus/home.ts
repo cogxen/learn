@@ -12,16 +12,6 @@ export default [
     icon: "Home",
   },
   {
-    text: "About Us",
-    link: "/about-us",
-    icon: "UserSearch",
-  },
-  {
-    text: "How to Contribute?",
-    link: "/how-to-contribute",
-    icon: "GitPullRequestCreateArrow",
-  },
-  {
     text: "Resources",
     items: [
       {
