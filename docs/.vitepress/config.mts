@@ -120,6 +120,18 @@ export default defineConfigWithTheme({
             new URL("./components/vitepress/VPSidebar.vue", import.meta.url),
           ),
         },
+        {
+          find: /^.*\/VPFeature\.vue$/,
+          replacement: fileURLToPath(
+            new URL("./components/vitepress/VPFeature.vue", import.meta.url),
+          ),
+        },
+        {
+          find: /^.*\/VPButton\.vue$/,
+          replacement: fileURLToPath(
+            new URL("./components/vitepress/VPButton.vue", import.meta.url),
+          ),
+        },
       ],
     },
   },
