@@ -1,5 +1,5 @@
-import sql50 from "./sql-50"
-import introToPandas from "./intro-to-pandas"
+import sql from "./sql"
+import pandas from "./pandas"
 import arraysAndHashing from "./arrays-and-hashing"
 
 export default {
@@ -16,16 +16,16 @@ export default {
           showNumber: true,
         },
         {
-          text: "SQL 50",
+          text: "SQL",
           icon: "Code",
-          items: sql50,
+          items: sql,
           collapsed: true,
           showNumber: true,
         },
         {
-          text: "Intro to Pandas",
+          text: "Pandas",
           icon: "BarChart2",
-          items: introToPandas,
+          items: pandas,
           collapsed: true,
           showNumber: true,
         },
