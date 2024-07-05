@@ -98,7 +98,7 @@ onContentUpdated(updateLeetcodeInformation)
           <slot name="doc-before" />
           <main class="main">
             <!-- Page's Status -->
-            <div v-if="statusPage.status !== ''" class="flex flex-row items-center gap-2">
+            <div v-if="statusPage.status !== ''" class="pb-4 flex flex-row items-center gap-2">
               <span class="relative flex h-2 w-2">
                 <span
                   :class="[
@@ -116,7 +116,10 @@ onContentUpdated(updateLeetcodeInformation)
             </div>
 
             <!-- LeetCode Difficulty Status -->
-            <div v-if="leetcodeInformation.difficulty" class="flex flex-row items-center gap-2">
+            <div
+              v-if="leetcodeInformation.difficulty"
+              class="pb-4 flex flex-row items-center gap-2"
+            >
               <span class="relative flex h-2 w-2">
                 <span
                   :class="[
