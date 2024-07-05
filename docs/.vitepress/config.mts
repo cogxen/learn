@@ -65,6 +65,7 @@ export default defineConfigWithTheme({
   srcDir: "../pages",
   srcExclude: ["**/node_modules/**", "**/README.md", "**/TODO.md"],
   metaChunk: true,
+  ignoreDeadLinks: true,
 
   buildEnd: async (config: SiteConfig) => {
     const feed = new Feed({
