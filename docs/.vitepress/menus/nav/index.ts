@@ -23,6 +23,15 @@ export default [
   },
   {
     text: "Resources",
-    link: "/resources/",
+    items: [
+      {
+        text: "Datasets",
+        link: "/resources/datasets/",
+      },
+      {
+        text: "Blogs",
+        link: "/resources/blogs/",
+      },
+    ],
   },
 ]
