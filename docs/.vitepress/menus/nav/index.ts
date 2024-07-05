@@ -1,15 +1,37 @@
 export default [
-  { text: "Home", link: "/" },
+  {
+    text: "Lectures",
+    link: "/lectures/",
+  },
   {
     text: "Challenges",
     link: "/challenges/",
   },
+
   {
-    text: "Projects",
-    link: "/projects/",
+    text: "Academics",
+    items: [
+      {
+        text: "Projects",
+        link: "/academics/projects/",
+      },
+      {
+        text: "Leaderboards",
+        link: "/academics/leaderboards/",
+      },
+    ],
   },
   {
-    text: "Leaderboards",
-    link: "/leaderboards/",
+    text: "Resources",
+    items: [
+      {
+        text: "Datasets",
+        link: "/resources/datasets/",
+      },
+      {
+        text: "Blogs",
+        link: "/resources/blogs/",
+      },
+    ],
   },
 ]

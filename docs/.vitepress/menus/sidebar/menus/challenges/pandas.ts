@@ -1,77 +1,77 @@
 export default [
   {
     text: "2877. Create a DataFrame from List",
-    link: "/challenges/intro-to-pandas/2877-create-a-dataframe-from-list",
+    link: "/challenges/leetcode/pandas/2877-create-a-dataframe-from-list",
     difficulty: { level: "Easy" },
   },
   {
     text: "2878. Get the Size of a DataFrame",
-    link: "/challenges/intro-to-pandas/2878-get-the-size-of-a-dataframe",
+    link: "/challenges/leetcode/pandas/2878-get-the-size-of-a-dataframe",
     difficulty: { level: "Easy" },
   },
   {
     text: "2879. Display the First Three Rows",
-    link: "/challenges/intro-to-pandas/2879-display-the-first-three-rows",
+    link: "/challenges/leetcode/pandas/2879-display-the-first-three-rows",
     difficulty: { level: "Easy" },
   },
   {
     text: "2880. Select Data",
-    link: "/challenges/intro-to-pandas/2880-select-data",
+    link: "/challenges/leetcode/pandas/2880-select-data",
     difficulty: { level: "Easy" },
   },
   {
     text: "2881. Create a New Column",
-    link: "/challenges/intro-to-pandas/2881-create-a-new-column",
+    link: "/challenges/leetcode/pandas/2881-create-a-new-column",
     difficulty: { level: "Easy" },
   },
   {
     text: "2882. Drop Duplicate Rows",
-    link: "/challenges/intro-to-pandas/2882-drop-duplicate-rows",
+    link: "/challenges/leetcode/pandas/2882-drop-duplicate-rows",
     difficulty: { level: "Easy" },
   },
   {
     text: "2883. Drop Missing Data",
-    link: "/challenges/intro-to-pandas/2883-drop-missing-data",
+    link: "/challenges/leetcode/pandas/2883-drop-missing-data",
     difficulty: { level: "Easy" },
   },
   {
     text: "2884. Modify Columns",
-    link: "/challenges/intro-to-pandas/2884-modify-columns",
+    link: "/challenges/leetcode/pandas/2884-modify-columns",
     difficulty: { level: "Easy" },
   },
   {
     text: "2885. Rename Columns",
-    link: "/challenges/intro-to-pandas/2885-rename-columns",
+    link: "/challenges/leetcode/pandas/2885-rename-columns",
     difficulty: { level: "Easy" },
   },
   {
     text: "2886. Change Data Type",
-    link: "/challenges/intro-to-pandas/2886-change-data-type",
+    link: "/challenges/leetcode/pandas/2886-change-data-type",
     difficulty: { level: "Easy" },
   },
   {
     text: "2887. Fill Missing Data",
-    link: "/challenges/intro-to-pandas/2887-fill-missing-data",
+    link: "/challenges/leetcode/pandas/2887-fill-missing-data",
     difficulty: { level: "Easy" },
   },
   {
     text: "2888. Reshape Data: Concatenate",
-    link: "/challenges/intro-to-pandas/2888-reshape-data-concatenate",
+    link: "/challenges/leetcode/pandas/2888-reshape-data-concatenate",
     difficulty: { level: "Easy" },
   },
   {
     text: "2889. Reshape Data: Pivot",
-    link: "/challenges/intro-to-pandas/2889-reshape-data-pivot",
+    link: "/challenges/leetcode/pandas/2889-reshape-data-pivot",
     difficulty: { level: "Easy" },
   },
   {
     text: "2890. Reshape Data: Melt",
-    link: "/challenges/intro-to-pandas/2890-reshape-data-melt",
+    link: "/challenges/leetcode/pandas/2890-reshape-data-melt",
     difficulty: { level: "Easy" },
   },
   {
     text: "2891. Method Chaining",
-    link: "/challenges/intro-to-pandas/2891-method-chaining",
+    link: "/challenges/leetcode/pandas/2891-method-chaining",
     difficulty: { level: "Easy" },
   },
 ]
