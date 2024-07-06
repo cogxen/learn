@@ -11,6 +11,7 @@ export interface CustomSidebarItem extends DefaultTheme.SidebarItem {
     custom?: string
   }
   showNumber?: boolean
+  dataset?: boolean
 }
 
 export type ExtendedIcons = typeof Icons & {

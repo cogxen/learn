@@ -86,7 +86,10 @@ function onCaretClick() {
         <component
           :is="textTag"
           class="text"
-          :class="{ 'line-clamp-1': item.difficulty, 'line-clamp-2': !item.difficulty }"
+          :class="{
+            'line-clamp-1': item.difficulty || item.dataset,
+            'line-clamp-2': !item.difficulty && !item.dataset,
+          }"
           v-html="item.text"
         />
         <div v-if="item.badge" class="flex flex-row items-center gap-1">
