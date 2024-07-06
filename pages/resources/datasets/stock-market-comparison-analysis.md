@@ -1,5 +1,5 @@
 ---
-title: Demand & Supply Analysis | Resources | Cogxen
+title: Stock Market Comparison Analysis | Resources | Cogxen
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -19,7 +19,7 @@ contributors:
     - website_url: https://github.com/noeyislearning
 ---
 
-# Demand & Supply Analysis
+# Stock Market Comparison Analysis
 
 <DownloadBadge githubURL=""></DownloadBadge>
 
