@@ -87,8 +87,8 @@ function onCaretClick() {
           :is="textTag"
           class="text"
           :class="{
-            'line-clamp-1': item.difficulty || item.dataset,
-            'line-clamp-2': !item.difficulty && !item.dataset,
+            'line-clamp-1': item.difficulty || item.isDataset,
+            'line-clamp-2': !item.difficulty && !item.isDataset,
           }"
           v-html="item.text"
         />
@@ -105,6 +105,18 @@ function onCaretClick() {
             class="text-[10px] text-slate-800 dark:text-emerald-200"
             v-text="item.badge.text"
           ></span>
+        </div>
+
+        <!-- Is Assigned To Student Indication Badge -->
+        <div v-if="item.isAssigned">
+          <span class="relative flex h-2 w-2">
+            <span
+              class="animate-ping absolute inline-flex h-full w-full rounded-full bg-slate-400 dark:bg-emerald-200 opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex rounded-full h-2 w-2 bg-slate-500 dark:bg-emerald-300"
+            ></span>
+          </span>
         </div>
       </VPLink>
 
