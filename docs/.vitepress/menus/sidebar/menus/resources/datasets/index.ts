@@ -9,7 +9,7 @@ export default {
         {
           text: "Statso",
           items: statso,
-          collapsed: true,
+          collapsed: false,
           showNumber: true,
           icon: "DatabaseZap",
         },
