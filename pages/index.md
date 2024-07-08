@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: alt
       text: Start Learning
-      link: /development/file-naming-convention
+      link: /lectures/
     - theme: bordered
       text: ⭐ Star on GitHub
       link: https://github.com/cogxen/learn
