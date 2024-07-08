@@ -5,6 +5,7 @@ import whatIsBusinessAnalysis from "../lectures/analytics/what-is-business-analy
 import analyzingData from "../lectures/programming/sql/analyzing-data"
 import introductionToSql from "../lectures/programming/sql/introduction-to-sql"
 import linearAlgebra from "../lectures/math/linear-algebra"
+import sdlc from "../lectures/software-development/sdlc"
 
 export default {
   text: "Lectures",
@@ -27,7 +28,7 @@ export default {
       ],
     },
     {
-      text: "AI",
+      text: "Artificial Intelligence",
       items: [
         {
           text: "Machine Learning",
@@ -79,6 +80,17 @@ export default {
           items: linearAlgebra,
           collapsed: true,
           icon: "Sigma",
+        },
+      ],
+    },
+    {
+      text: "Software Development",
+      items: [
+        {
+          text: "SDLC",
+          items: sdlc,
+          collapsed: true,
+          icon: "RefreshCcw",
         },
       ],
     },
