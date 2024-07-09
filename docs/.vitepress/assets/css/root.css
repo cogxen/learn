@@ -657,7 +657,7 @@ kbd {
     margin: 16px 0 !important;
     border-style: solid !important;
     border-color: var(--vp-code-tab-divider) !important;
-    border-width: 0 1px 1px 1px !important;
+    border-width: 1px 1px 1px 1px !important;
   }
 }
 
