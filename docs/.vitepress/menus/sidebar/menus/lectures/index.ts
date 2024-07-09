@@ -1,7 +1,7 @@
 import dataScienceCareer from "../lectures/data-science/data-science-career"
 import nonTechnicalSkills from "../lectures/data-science/non-technical-skills"
-import aiFoundationsMachineLearning from "../lectures/ai/ai-foundations-machine-learning"
-import whatIsBusinessAnalysis from "../lectures/analytics/what-is-business-analysis"
+import machineLearning from "./artificial-intelligence/ai-foundations-machine-learning"
+import businessAnalysis from "../lectures/analytics/business-analysis"
 import analyzingData from "../lectures/programming/sql/analyzing-data"
 import introductionToSql from "../lectures/programming/sql/introduction-to-sql"
 import linearAlgebra from "../lectures/math/linear-algebra"
@@ -32,7 +32,7 @@ export default {
       items: [
         {
           text: "Machine Learning",
-          items: aiFoundationsMachineLearning,
+          items: machineLearning,
           collapsed: true,
           icon: "BrainCircuit",
         },
@@ -43,7 +43,7 @@ export default {
       items: [
         {
           text: "Business Analysis",
-          items: whatIsBusinessAnalysis,
+          items: businessAnalysis,
           collapsed: true,
           icon: "Briefcase",
         },
@@ -73,7 +73,7 @@ export default {
       ],
     },
     {
-      text: "Math",
+      text: "Mathematics",
       items: [
         {
           text: "Linear Algebra",

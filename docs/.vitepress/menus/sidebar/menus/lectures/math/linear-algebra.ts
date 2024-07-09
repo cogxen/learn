@@ -8,7 +8,7 @@ export default [
         items: [
           {
             text: "Definition",
-            link: "/lectures/linear-algebra/vectors/definition",
+            link: "/lectures/mathematics/linear-algebra/vectors/definition",
           },
         ],
       },

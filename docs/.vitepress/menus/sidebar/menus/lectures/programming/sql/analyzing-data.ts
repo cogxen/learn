@@ -5,15 +5,15 @@ export default [
     items: [
       {
         text: "Exploring Data",
-        link: "/lectures/sql/analyzing-data/what-is-sql/exploring-data",
+        link: "/lectures/programming/sql/analyzing-data/what-is-sql/exploring-data",
       },
       {
         text: "Creating Usage Funnels",
-        link: "/lectures/sql/analyzing-data/what-is-sql/creating-usage-funnels",
+        link: "/lectures/programming/sql/analyzing-data/what-is-sql/creating-usage-funnels",
       },
       {
         text: "Analyzing User Churn",
-        link: "/lectures/sql/analyzing-data/what-is-sql/analyzing-user-churn",
+        link: "/lectures/programming/sql/analyzing-data/what-is-sql/analyzing-user-churn",
       },
     ],
   },
