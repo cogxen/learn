@@ -1,5 +1,6 @@
 import dataScienceCareer from "../lectures/data-science/data-science-career"
 import nonTechnicalSkills from "../lectures/data-science/non-technical-skills"
+import dataScience from "./data-science/data-science"
 import machineLearning from "./artificial-intelligence/ai-foundations-machine-learning"
 import businessAnalysis from "../lectures/analytics/business-analysis"
 import analyzingData from "../lectures/programming/sql/analyzing-data"
@@ -24,6 +25,12 @@ export default {
           items: nonTechnicalSkills,
           collapsed: true,
           icon: "WandSparkles",
+        },
+        {
+          text: "Data Science",
+          items: dataScience,
+          collapsed: true,
+          icon: "LineChart",
         },
       ],
     },
