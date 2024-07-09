@@ -15,10 +15,6 @@ export default [
         text: "Projects",
         link: "/academics/projects/",
       },
-      {
-        text: "Leaderboards",
-        link: "/academics/leaderboards/",
-      },
     ],
   },
   {
