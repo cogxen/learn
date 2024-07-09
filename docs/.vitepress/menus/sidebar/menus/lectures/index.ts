@@ -5,6 +5,7 @@ import machineLearning from "./artificial-intelligence/ai-foundations-machine-le
 import businessAnalysis from "../lectures/analytics/business-analysis"
 import analyzingData from "../lectures/programming/sql/analyzing-data"
 import introductionToSql from "../lectures/programming/sql/introduction-to-sql"
+import pythonForDataScience from "./programming/python/python-for-data-science"
 import linearAlgebra from "../lectures/math/linear-algebra"
 import sdlc from "../lectures/software-development/sdlc"
 
@@ -67,13 +68,25 @@ export default {
               text: "Introduction to SQL",
               items: introductionToSql,
               collapsed: true,
-              icon: "CodeSquare",
+              icon: "BookCopy",
             },
             {
               text: "Analyzing Data",
               items: analyzingData,
               collapsed: true,
-              icon: "BetweenHorizontalStart",
+              icon: "BookCopy",
+            },
+          ],
+        },
+        {
+          text: "Python",
+          icon: "Code",
+          items: [
+            {
+              text: "Python for Data Science",
+              items: pythonForDataScience,
+              collapsed: true,
+              icon: "BookCopy",
             },
           ],
         },
