@@ -15,6 +15,10 @@ export default [
         text: "Projects",
         link: "/academics/projects/",
       },
+      {
+        text: "Activities",
+        link: "/academics/activities/",
+      },
     ],
   },
   {
