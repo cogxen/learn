@@ -1,5 +1,5 @@
 ---
-title: "2890. Reshape Data: Melt | Challenges | Cogxen"
+title: "2890. Reshape Data: Melt"
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

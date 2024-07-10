@@ -1,5 +1,5 @@
 ---
-title: What is Data Science? | Lectures | Cogxen
+title: What is Data Science?
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

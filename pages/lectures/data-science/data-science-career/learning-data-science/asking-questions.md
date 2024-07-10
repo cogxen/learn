@@ -1,5 +1,5 @@
 ---
-title: Asking Questions | Lectures | Cogxen
+title: Asking Questions
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

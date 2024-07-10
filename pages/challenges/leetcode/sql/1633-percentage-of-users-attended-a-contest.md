@@ -1,5 +1,5 @@
 ---
-title: 1633. Percentage of Users Attended a Contest | Challenges | Cogxen
+title: 1633. Percentage of Users Attended a Contest
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: Navigating Up and Down the Management Ladder | Lectures | Cogxen
+title: Navigating Up and Down the Management Ladder
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: 197. Rising Temperature | Challenges | Cogxen
+title: 197. Rising Temperature
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

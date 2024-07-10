@@ -1,5 +1,5 @@
 ---
-title: "Exploring Data | Lectures | Cogxen"
+title: "Exploring Data"
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

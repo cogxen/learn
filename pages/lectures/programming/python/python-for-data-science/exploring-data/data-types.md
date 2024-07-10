@@ -1,5 +1,5 @@
 ---
-title: Data Types | Lectures | Cogxen
+title: Data Types
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

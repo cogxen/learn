@@ -1,5 +1,5 @@
 ---
-title: "2891. Method Chaining | Challenges | Cogxen"
+title: "2891. Method Chaining"
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: 1280. Students and Examinations | Challenges | Cogxen
+title: 1280. Students and Examinations
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

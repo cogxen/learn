@@ -1,5 +1,5 @@
 ---
-title: Data Engineer vs Data Scientist | Lectures | Cogxen
+title: Data Engineer vs Data Scientist
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

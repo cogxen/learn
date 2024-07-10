@@ -1,5 +1,5 @@
 ---
-title: Lists | Lectures | Cogxen
+title: Lists
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

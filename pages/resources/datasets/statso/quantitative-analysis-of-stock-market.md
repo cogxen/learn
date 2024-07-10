@@ -1,5 +1,5 @@
 ---
-title: Quantitative Analysis of Stock Market | Resources | Cogxen
+title: Quantitative Analysis of Stock Market
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: Highlighting Your Expertise | Lectures | Cogxen
+title: Highlighting Your Expertise
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

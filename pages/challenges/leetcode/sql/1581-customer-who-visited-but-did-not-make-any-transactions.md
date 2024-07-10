@@ -1,5 +1,5 @@
 ---
-title: 1581. Customer Who Visited but Did Not Make Any Transactions | Challenges | Cogxen
+title: 1581. Customer Who Visited but Did Not Make Any Transactions
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

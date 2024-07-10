@@ -1,5 +1,5 @@
 ---
-title: Data Gaps | Lectures | Cogxen
+title: Data Gaps
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: 2877. Create a DataFrame from List | Challenges | Cogxen
+title: 2877. Create a DataFrame from List
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

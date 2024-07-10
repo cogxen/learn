@@ -1,5 +1,5 @@
 ---
-title: 217. Contains Duplicate | Challenges | Cogxen
+title: 217. Contains Duplicate
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

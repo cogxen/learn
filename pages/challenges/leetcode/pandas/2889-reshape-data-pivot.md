@@ -1,5 +1,5 @@
 ---
-title: "2889. Reshape Data: Pivot | Challenges | Cogxen"
+title: "2889. Reshape Data: Pivot"
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

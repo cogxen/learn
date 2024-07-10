@@ -1,5 +1,5 @@
 ---
-title: 1174. Immediate Food Delivery II | Challenges | Cogxen
+title: 1174. Immediate Food Delivery II
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: 185. Department Top Three Salaries | Challenges | Cogxen
+title: 185. Department Top Three Salaries
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

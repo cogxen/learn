@@ -1,5 +1,5 @@
 ---
-title: Food Delivery Cost and Profitability Analysis | Resources | Cogxen
+title: Food Delivery Cost and Profitability Analysis
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

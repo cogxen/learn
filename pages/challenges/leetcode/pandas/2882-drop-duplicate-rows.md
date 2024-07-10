@@ -1,5 +1,5 @@
 ---
-title: 2882. Drop Duplicate Rows | Challenges | Cogxen
+title: 2882. Drop Duplicate Rows
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

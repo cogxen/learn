@@ -1,5 +1,5 @@
 ---
-title: Youtube Data Collection and Analysis | Resources | Cogxen
+title: Youtube Data Collection and Analysis
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

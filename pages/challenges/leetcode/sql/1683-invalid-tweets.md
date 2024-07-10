@@ -1,5 +1,5 @@
 ---
-title: 1683. Invalid Tweets | Challenges | Cogxen
+title: 1683. Invalid Tweets
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

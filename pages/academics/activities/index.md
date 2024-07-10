@@ -1,5 +1,5 @@
 ---
-title: Magnitude
+title: Activities
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -13,4 +13,10 @@ editLink: false
 footer: false
 prev: false
 next: false
+contributors:
+  - - detail
+    - name: Noey Ignacio
+    - website_url: https://github.com/noeyislearning
 ---
+
+# Activities

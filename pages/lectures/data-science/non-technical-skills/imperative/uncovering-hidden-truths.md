@@ -1,5 +1,5 @@
 ---
-title: Uncovering Hidden Truths | Lectures | Cogxen
+title: Uncovering Hidden Truths
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: 1211. Queries Quality and Percentage | Challenges | Cogxen
+title: 1211. Queries Quality and Percentage
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

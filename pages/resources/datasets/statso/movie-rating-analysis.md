@@ -1,5 +1,5 @@
 ---
-title: Movie Rating Analysis | Resources | Cogxen
+title: Movie Rating Analysis
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

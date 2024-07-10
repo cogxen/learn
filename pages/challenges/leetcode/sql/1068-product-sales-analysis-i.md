@@ -1,5 +1,5 @@
 ---
-title: 1068. Product Sales Analysis I | Challenges | Cogxen
+title: 1068. Product Sales Analysis I
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

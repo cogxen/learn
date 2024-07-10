@@ -1,5 +1,5 @@
 ---
-title: Instagram Reach Analysis & Forecasting | Resources | Cogxen
+title: Instagram Reach Analysis & Forecasting
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

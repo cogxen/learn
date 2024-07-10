@@ -1,5 +1,5 @@
 ---
-title: Car Insurance Modelling | Resources | Cogxen
+title: Car Insurance Modelling
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

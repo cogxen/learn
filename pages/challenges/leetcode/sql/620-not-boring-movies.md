@@ -1,5 +1,5 @@
 ---
-title: 620. Not Boring Movies | Challenges | Cogxen
+title: 620. Not Boring Movies
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

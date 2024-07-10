@@ -1,5 +1,5 @@
 ---
-title: 1378. Replace Employee ID With The Unique Identifier | Challenges | Cogxen
+title: 1378. Replace Employee ID With The Unique Identifier
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

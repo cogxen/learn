@@ -1,5 +1,5 @@
 ---
-title: 577. Employee Bonus | Challenges | Cogxen
+title: 577. Employee Bonus
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

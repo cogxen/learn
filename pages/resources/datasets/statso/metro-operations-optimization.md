@@ -1,5 +1,5 @@
 ---
-title: Metro Operations Optimization | Resources | Cogxen
+title: Metro Operations Optimization
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

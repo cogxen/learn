@@ -1,5 +1,5 @@
 ---
-title: "ORDER BY | Lectures | Cogxen"
+title: "ORDER BY"
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

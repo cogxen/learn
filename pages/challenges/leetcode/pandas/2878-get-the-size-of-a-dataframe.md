@@ -1,5 +1,5 @@
 ---
-title: 2878. Get the Size of a DataFrame | Challenges | Cogxen
+title: 2878. Get the Size of a DataFrame
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

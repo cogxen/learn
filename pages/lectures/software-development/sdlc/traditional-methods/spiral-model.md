@@ -1,5 +1,5 @@
 ---
-title: Spiral Model | Lectures | Cogxen
+title: Spiral Model
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

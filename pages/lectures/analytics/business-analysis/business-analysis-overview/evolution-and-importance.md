@@ -1,5 +1,5 @@
 ---
-title: Evolution and Importance | Lectures | Cogxen
+title: Evolution and Importance
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
