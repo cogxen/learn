@@ -1,6 +1,7 @@
 export default [
   {
     text: "Exploring Data",
+    collapsed: true,
     items: [
       {
         text: "Data Workspace",
@@ -37,6 +38,20 @@ export default [
       {
         text: "Numeric Data",
         link: "/lectures/programming/python/python-for-data-science/exploring-data/numeric-data",
+      },
+    ],
+  },
+  {
+    text: "Sorting and Filtering Data",
+    collapsed: true,
+    items: [
+      {
+        text: "Row Indexes",
+        link: "/lectures/programming/python/python-for-data-science/sorting-and-filtering-data/row-indexes",
+      },
+      {
+        text: "Sorting Rows",
+        link: "/lectures/programming/python/python-for-data-science/sorting-and-filtering-data/sorting-rows",
       },
     ],
   },
