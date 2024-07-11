@@ -14,6 +14,9 @@ footer: false
 prev: false
 next: false
 status: wip
+activityInformation:
+  - name: Exploring Data with Python
+  - link:
 contributors:
   - - detail
     - name: Noey Ignacio
