@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Developer vs Data Scientist | Lectures | Cogxen
+title: Machine Learning Developer vs Data Scientist
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

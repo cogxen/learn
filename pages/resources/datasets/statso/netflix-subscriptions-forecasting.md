@@ -1,5 +1,5 @@
 ---
-title: Netflix Subscriptions Forecasting | Resources | Cogxen
+title: Netflix Subscriptions Forecasting
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

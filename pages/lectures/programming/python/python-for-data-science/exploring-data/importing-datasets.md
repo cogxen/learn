@@ -1,5 +1,5 @@
 ---
-title: Importing Datasets | Lectures | Cogxen
+title: Importing Datasets
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -13,7 +13,6 @@ editLink: false
 footer: false
 prev: false
 next: false
-status: wip
 contributors:
   - - detail
     - name: Noey Ignacio

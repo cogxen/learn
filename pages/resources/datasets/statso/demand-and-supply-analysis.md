@@ -1,5 +1,5 @@
 ---
-title: Demand & Supply Analysis | Resources | Cogxen
+title: Demand & Supply Analysis
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: 1251. Average Selling Price | Challenges | Cogxen
+title: 1251. Average Selling Price
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

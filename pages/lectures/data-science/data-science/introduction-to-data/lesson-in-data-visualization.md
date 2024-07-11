@@ -1,5 +1,5 @@
 ---
-title: Lesson in Data Visualization | Lectures | Cogxen
+title: Lesson in Data Visualization
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

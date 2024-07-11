@@ -1,5 +1,5 @@
 ---
-title: Salary Prediction | Resources | Cogxen
+title: Salary Prediction
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

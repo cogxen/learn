@@ -1,5 +1,5 @@
 ---
-title: User Profiling & Segmentation | Resources | Cogxen
+title: User Profiling & Segmentation
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

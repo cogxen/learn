@@ -1,5 +1,5 @@
 ---
-title: Crucial Role of Data Visualizations | Lectures | Cogxen
+title: Crucial Role of Data Visualizations
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

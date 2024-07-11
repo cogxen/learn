@@ -3,7 +3,7 @@ import { onContentUpdated } from "vitepress"
 import { ref, type Ref } from "vue"
 import { useData } from "vitepress/dist/client/theme-default/composables/data.js"
 import type { Contributor, AssignedTo } from "../../../../types/doc-aside"
-import { Link2 } from "lucide-vue-next"
+import { Link2, GitBranch } from "lucide-vue-next"
 
 // Components
 import VPDocAsideOutline from "./VPDocAsideOutline.vue"
@@ -14,6 +14,7 @@ const leetcodeStudyPlan = ref({ name: "", link: "", planImg: "" })
 const leetcodeInformation = ref({ number: "", problemName: "", link: "" })
 const contributors: Ref<Contributor[]> = ref([])
 const assignedTo: Ref<AssignedTo[]> = ref([])
+const activityInformation = ref({ name: "", link: "" })
 
 const updateleetcodeStudyPlan = () => {
   if (frontmatter.value.leetcodeStudyPlan !== undefined) {
@@ -77,10 +78,21 @@ const updateAssignedTo = () => {
   }
 }
 
+const updateActivityInformation = () => {
+  if (frontmatter.value.activityInformation !== undefined) {
+    const activityName = frontmatter.value.activityInformation[0].name
+    const activityLink = frontmatter.value.activityInformation[1].link
+    activityInformation.value = { name: activityName, link: activityLink }
+  } else {
+    activityInformation.value = { name: "", link: "" }
+  }
+}
+
 onContentUpdated(updateleetcodeStudyPlan)
 onContentUpdated(updateleetcodeInformation)
 onContentUpdated(updateContributors)
 onContentUpdated(updateAssignedTo)
+onContentUpdated(updateActivityInformation)
 </script>
 
 <template>
@@ -119,6 +131,28 @@ onContentUpdated(updateAssignedTo)
           </div>
         </div>
       </a>
+
+      <!-- Activity Information -->
+      <div
+        class="flex flex-col gap-2 items-start"
+        v-if="activityInformation.name && activityInformation.link"
+      >
+        <span class="text-xs text-slate-800 dark:text-slate-300">Activity link</span>
+        <a
+          v-if="activityInformation.name && activityInformation.link"
+          :href="activityInformation.link"
+          target="_blank"
+          class="px-4 py-2 border border-dashed border-slate-300 dark:border-slate-700"
+        >
+          <div class="flex flex-row gap-2 justify-between items-center">
+            <span
+              class="text-sm text-slate-800 font-space-grotesk font-medium line-clamp-1 dark:text-slate-300"
+            >
+              {{ activityInformation.name }}
+            </span>
+          </div>
+        </a>
+      </div>
 
       <!-- Contributors -->
       <div class="flex flex-col gap-2 items-start" v-if="contributors.length">

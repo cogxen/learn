@@ -1,5 +1,5 @@
 ---
-title: COVID-19 Deaths Prediction | Resources | Cogxen
+title: COVID-19 Deaths Prediction
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

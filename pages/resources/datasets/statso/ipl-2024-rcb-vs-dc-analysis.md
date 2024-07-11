@@ -1,5 +1,5 @@
 ---
-title: IPL 2024 RCB vs DC Analysis | Resources | Cogxen
+title: IPL 2024 RCB vs DC Analysis
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

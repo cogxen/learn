@@ -1,5 +1,5 @@
 ---
-title: Electric Vehicles Market Size Analysis | Resources | Cogxen
+title: Electric Vehicles Market Size Analysis
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

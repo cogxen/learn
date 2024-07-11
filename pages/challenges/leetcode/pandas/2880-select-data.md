@@ -1,5 +1,5 @@
 ---
-title: 2880. Select Data | Challenges | Cogxen
+title: 2880. Select Data
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: Befriending the Maybe | Lectures | Cogxen
+title: Befriending the Maybe
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: What is Business Analysis? | Lectures | Cogxen
+title: What is Business Analysis?
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

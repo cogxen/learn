@@ -1,5 +1,5 @@
 ---
-title: 2886. Change Data Type | Challenges | Cogxen
+title: 2886. Change Data Type
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

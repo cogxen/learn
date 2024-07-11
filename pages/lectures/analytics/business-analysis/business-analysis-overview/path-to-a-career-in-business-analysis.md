@@ -1,5 +1,5 @@
 ---
-title: Path to a Career in Business Analysis | Lectures | Cogxen
+title: Path to a Career in Business Analysis
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

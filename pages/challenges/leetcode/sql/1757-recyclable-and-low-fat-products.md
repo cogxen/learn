@@ -1,5 +1,5 @@
 ---
-title: 1757. Recyclable and Low Fat Products | Challenges | Cogxen
+title: 1757. Recyclable and Low Fat Products
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

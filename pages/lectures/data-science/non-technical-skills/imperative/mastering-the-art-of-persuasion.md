@@ -1,5 +1,5 @@
 ---
-title: Mastering the Art of Persuasion | Lectures | Cogxen
+title: Mastering the Art of Persuasion
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

@@ -1,5 +1,5 @@
 ---
-title: 1661. Average Time of Process per Machin | Challenges | Cogxen
+title: 1661. Average Time of Process per Machin
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

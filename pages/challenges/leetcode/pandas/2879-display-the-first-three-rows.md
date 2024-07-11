@@ -1,5 +1,5 @@
 ---
-title: 2879. Display the First Three Rows | Challenges | Cogxen
+title: 2879. Display the First Three Rows
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

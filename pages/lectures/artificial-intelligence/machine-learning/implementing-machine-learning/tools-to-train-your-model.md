@@ -1,5 +1,5 @@
 ---
-title: Tools to Train your Model | Lectures | Cogxen
+title: Tools to Train your Model
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

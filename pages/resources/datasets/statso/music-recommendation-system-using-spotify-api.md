@@ -1,5 +1,5 @@
 ---
-title: Music Recommendation System Using Spotify API | Resources | Cogxen
+title: Music Recommendation System Using Spotify API
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

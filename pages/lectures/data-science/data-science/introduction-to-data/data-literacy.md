@@ -1,5 +1,5 @@
 ---
-title: Data Literacy | Lectures | Cogxen
+title: Data Literacy
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

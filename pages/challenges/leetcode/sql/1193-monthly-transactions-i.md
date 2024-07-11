@@ -1,5 +1,5 @@
 ---
-title: 1193. Monthly Transactions I | Challenges | Cogxen
+title: 1193. Monthly Transactions I
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta

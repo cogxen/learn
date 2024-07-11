@@ -1,5 +1,5 @@
 ---
-title: Credit Scoring & Segmentation | Resources | Cogxen
+title: Credit Scoring & Segmentation
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
