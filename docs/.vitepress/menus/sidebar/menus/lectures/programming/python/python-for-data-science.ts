@@ -53,6 +53,22 @@ export default [
         text: "Sorting Rows",
         link: "/lectures/programming/python/python-for-data-science/sorting-and-filtering-data/sorting-rows",
       },
+      {
+        text: "Selecting Rows",
+        link: "/lectures/programming/python/python-for-data-science/sorting-and-filtering-data/selecting-rows",
+      },
+      {
+        text: "Selecting Ranges of Rows",
+        link: "/lectures/programming/python/python-for-data-science/sorting-and-filtering-data/selecting-ranges-of-rows",
+      },
+      {
+        text: "Boolean",
+        link: "/lectures/programming/python/python-for-data-science/sorting-and-filtering-data/boolean",
+      },
+      {
+        text: "Filtering Rows",
+        link: "/lectures/programming/python/python-for-data-science/sorting-and-filtering-data/filtering-rows",
+      },
     ],
   },
 ]
