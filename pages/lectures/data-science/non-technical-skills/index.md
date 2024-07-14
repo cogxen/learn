@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Overview
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -19,7 +19,9 @@ contributors:
     - website_url: https://github.com/noeyislearning
 ---
 
-# Introduction
+<ImageCard 
+  img_url="https://i.imgur.com/mMTrVe7.png" 
+/>
 
 You are about to explore the realm where technical prowess meets human insight. In the ever-evolving field of data science, mastering key technologies is essential, but to truly excel, you must also develop a set of crucial non-technical skills. These are the skills that will transform you from a proficient data scientist into an influential leader and a catalyst for business transformation.
 

@@ -19,7 +19,7 @@ contributors:
     - website_url: https://github.com/noeyislearning
 ---
 
-## Overview
+# Overview
 
 The Rational Unified Process (RUP) is an innovative and comprehensive iterative software development framework. Think of RUP as a vast pool of knowledge designed to streamline and enhance the process of software development. It encompasses a variety of artifacts, processes, templates, phases, and disciplines. This extensive framework includes detailed documentation, guidelines, sample artifacts, and deliverables, making it a highly customizable tool suitable for projects of all sizes.
 
