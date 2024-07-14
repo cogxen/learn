@@ -98,9 +98,10 @@ Here's a breakdown of the query:
 NOTE:
 The `ROUND` function is used to round the resulting percentages to the nearest whole number.
 
-<ImageCard
-img_url="https://i.imgur.com/WQMniRK.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<ScrollableTableContainer>
+
+| browse_to_checkout_percent | checkout_to_purchase_percent |
+| -------------------------- | ---------------------------- |
+| 24                         | 89                           |
+
+</ScrollableTableContainer>

@@ -1,7 +1,15 @@
 export default [
   {
+    text: "Python For Data Science",
+    items: [
+      {
+        text: "Overview",
+        link: "/lectures/programming/python/for-data-science/",
+      },
+    ],
+  },
+  {
     text: "Exploring Data",
-    collapsed: true,
     items: [
       {
         text: "Data Workspace",
@@ -43,7 +51,6 @@ export default [
   },
   {
     text: "Sorting and Filtering Data",
-    collapsed: true,
     items: [
       {
         text: "Row Indexes",
@@ -71,7 +78,7 @@ export default [
       },
       {
         text: "Operators",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "Booleans with And",

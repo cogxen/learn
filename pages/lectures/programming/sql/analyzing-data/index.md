@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: Overview
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -20,7 +20,9 @@ contributors:
     - website_url: https://github.com/noeyislearning
 ---
 
-# Introduction
+<ImageCard 
+  img_url="https://i.imgur.com/JrdHp1y.png" 
+/>
 
 In today's world, all companies use data, and most of this data is stored in something called databases. Imagine a giant library where all the books are stored neatly on shelves. Databases are like those shelves, but instead of books, they store information.
 

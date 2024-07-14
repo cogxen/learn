@@ -1,7 +1,16 @@
 export default [
   {
+    text: "Introduction to SQL",
+    items: [
+      {
+        text: "Overview",
+        link: "/lectures/programming/sql/introduction-to-sql/",
+      },
+      { text: "Introduction", link: "/lectures/programming/sql/introduction-to-sql/introduction" },
+    ],
+  },
+  {
     text: "Manupulation",
-    collapsed: true,
     items: [
       {
         text: "Relational Databases",
@@ -77,7 +86,6 @@ export default [
   },
   {
     text: "Queries",
-    collapsed: true,
     items: [
       {
         text: "SELECT",

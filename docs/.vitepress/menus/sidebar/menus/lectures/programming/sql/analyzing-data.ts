@@ -1,7 +1,15 @@
 export default [
   {
+    text: "Analyzing Data",
+    items: [
+      {
+        text: "Overview",
+        link: "/lectures/programming/sql/analyzing-data/",
+      },
+    ],
+  },
+  {
     text: "What is SQL?",
-    collapsed: true,
     items: [
       {
         text: "Exploring Data",

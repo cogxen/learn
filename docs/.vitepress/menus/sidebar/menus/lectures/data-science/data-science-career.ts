@@ -1,7 +1,15 @@
 export default [
   {
+    text: "Data Science Career",
+    items: [
+      {
+        text: "Overview",
+        link: "/lectures/data-science/data-science-career/",
+      },
+    ],
+  },
+  {
     text: "Data Science",
-    collapsed: false,
     items: [
       {
         text: "What is Data Science?",
@@ -15,7 +23,6 @@ export default [
   },
   {
     text: "Understanding the Data Science Profession",
-    collapsed: false,
     items: [
       {
         text: "Confusion Around the Data Science Profession",
@@ -37,7 +44,6 @@ export default [
   },
   {
     text: "Data Science and You",
-    collapsed: false,
     items: [
       {
         text: "Start with Research",
@@ -51,7 +57,6 @@ export default [
   },
   {
     text: "Learning Data Science",
-    collapsed: false,
     items: [
       {
         text: "Asking Questions",
@@ -73,7 +78,6 @@ export default [
   },
   {
     text: "Creating Your Resume",
-    collapsed: false,
     items: [
       {
         text: "Resume With No Experience",

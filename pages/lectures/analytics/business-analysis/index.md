@@ -19,7 +19,9 @@ contributors:
     - website_url: https://github.com/noeyislearning
 ---
 
-# Business Analysis
+<ImageCard 
+  img_url="https://i.imgur.com/8h2oaI5.png" 
+/>
 
 First, let's think about a simple question: Have you ever been on a project or worked on something with others and heard them talk about _"business analysis"_? Maybe you didn't quite get what it meant or why it was important. Well, guess what? You're not alone! Lots of people find this term confusing.
 

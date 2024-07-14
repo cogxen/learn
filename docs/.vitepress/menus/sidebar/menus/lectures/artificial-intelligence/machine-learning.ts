@@ -1,7 +1,15 @@
 export default [
   {
+    text: "Machine Learning",
+    items: [
+      {
+        text: "Overview",
+        link: "/lectures/artificial-intelligence/machine-learning/",
+      },
+    ],
+  },
+  {
     text: "Understanding Machine Learning",
-    collapsed: false,
     items: [
       {
         text: "Delving into Machine Learning",
@@ -15,7 +23,6 @@ export default [
   },
   {
     text: "Implementing Machine Learning",
-    collapsed: false,
     items: [
       {
         text: "Lifecycle",
@@ -37,7 +44,6 @@ export default [
   },
   {
     text: "Preparing Data for Machine Learning",
-    collapsed: false,
     items: [
       {
         text: "Understanding Data",

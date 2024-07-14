@@ -60,9 +60,19 @@ LIMIT 10;
 
 - This code will select all (`*`) columns from `browse` for the first 10 records.
 
-<ImageCard
-img_url="https://i.imgur.com/cSSqAbB.png"
-caption="Query Results"
-copyright_owner="codecademy.com"
-:bordered="true"
-/>
+<ScrollableTableContainer>
+
+| user_id | browse_date | item_id |
+| ------- | ----------- | ------- |
+| 336...  | 2017-12-20  | 3       |
+| 336...  | 2017-12-20  | 22      |
+| 336...  | 2017-12-20  | 25      |
+| 336...  | 2017-12-20  | 24      |
+| 459...  | 2017-12-20  | 0       |
+| 459...  | 2017-12-20  | 2       |
+| 2fd...  | 2017-12-20  | 26      |
+| 2fd...  | 2017-12-20  | 24      |
+| fc3...  | 2017-12-20  | 12      |
+| fc3...  | 2017-12-20  | 24      |
+
+</ScrollableTableContainer>

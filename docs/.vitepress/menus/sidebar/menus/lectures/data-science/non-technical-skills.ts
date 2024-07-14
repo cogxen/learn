@@ -1,7 +1,15 @@
 export default [
   {
+    text: "Non-Technical Skills",
+    items: [
+      {
+        text: "Overview",
+        link: "/lectures/data-science/non-technical-skills/",
+      },
+    ],
+  },
+  {
     text: "What is Data Science?",
-    collapsed: false,
     items: [
       {
         text: "Inference and Prediction",
@@ -15,7 +23,6 @@ export default [
   },
   {
     text: "Imperative",
-    collapsed: false,
     items: [
       {
         text: "Protecting Your Domain",

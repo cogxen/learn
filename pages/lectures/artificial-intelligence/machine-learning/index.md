@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Overview
 description: Empowers data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data.
 head:
   - - meta
@@ -18,7 +18,9 @@ contributors:
     - website_url: https://github.com/noeyislearning
 ---
 
-# Introduction
+<ImageCard 
+  img_url="https://i.imgur.com/ksvkYKt.png" 
+/>
 
 Machine learning stands as the cornerstone of artificial intelligence, revolutionizing how we interact with technology and interpret data. Imagine a world where systems can autonomously learn and make decisions, significantly reducing the need for constant human oversight. This is the world of machine learning, where the potential to innovate and solve complex problems is boundless.
 
