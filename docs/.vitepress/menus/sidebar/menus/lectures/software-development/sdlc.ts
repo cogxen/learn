@@ -1,11 +1,19 @@
 export default [
   {
+    text: "Software Development Lifecycle",
+    items: [
+      {
+        text: "Overview",
+        link: "/lectures/software-development/sdlc/",
+      },
+    ],
+  },
+  {
     text: "Traditional Methods",
-    collapsed: true,
     items: [
       {
         text: "Waterfall Model",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "Overview",
@@ -23,7 +31,7 @@ export default [
       },
       {
         text: "Rational Unified Process",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "Overview",

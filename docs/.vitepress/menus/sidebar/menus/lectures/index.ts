@@ -1,14 +1,3 @@
-import dataScienceCareer from "../lectures/data-science/data-science-career"
-import nonTechnicalSkills from "../lectures/data-science/non-technical-skills"
-
-import machineLearning from "./artificial-intelligence/ai-foundations-machine-learning"
-import businessAnalysis from "../lectures/analytics/business-analysis"
-import analyzingData from "../lectures/programming/sql/analyzing-data"
-import introductionToSql from "../lectures/programming/sql/introduction-to-sql"
-import forDataScience from "./programming/python/for-data-science"
-import linearAlgebra from "../lectures/math/linear-algebra"
-import sdlc from "../lectures/software-development/sdlc"
-
 export default {
   text: "Lectures",
   items: [
@@ -17,20 +6,19 @@ export default {
       items: [
         {
           text: "Data Science Career",
-          items: dataScienceCareer,
-          collapsed: true,
+          link: "/lectures/data-science/data-science-career",
           icon: "BarChart2",
         },
         {
           text: "Non-Technical Skills",
-          items: nonTechnicalSkills,
-          collapsed: true,
+          link: "/lectures/data-science/non-technical-skills",
           icon: "WandSparkles",
         },
         {
           text: "Data Foundations",
           link: "/lectures/data-science/data-foundations",
           icon: "LineChart",
+          badge: { text: "Working" },
         },
       ],
     },
@@ -39,8 +27,7 @@ export default {
       items: [
         {
           text: "Machine Learning",
-          items: machineLearning,
-          collapsed: true,
+          link: "/lectures/artificial-intelligence/machine-learning",
           icon: "BrainCircuit",
         },
       ],
@@ -50,8 +37,7 @@ export default {
       items: [
         {
           text: "Business Analysis",
-          items: businessAnalysis,
-          collapsed: true,
+          link: "/lectures/analytics/business-analysis",
           icon: "Briefcase",
         },
       ],
@@ -65,13 +51,12 @@ export default {
           items: [
             {
               text: "Introduction to SQL",
-              items: introductionToSql,
-              collapsed: true,
+              link: "/lectures/programming/sql/introduction-to-sql",
             },
             {
               text: "Analyzing Data",
-              items: analyzingData,
-              collapsed: true,
+              link: "/lectures/programming/sql/analyzing-data",
+              badge: { text: "Working" },
             },
           ],
         },
@@ -81,21 +66,10 @@ export default {
           items: [
             {
               text: "For Data Science",
-              items: forDataScience,
-              collapsed: true,
+              link: "/lectures/programming/python/for-data-science",
+              badge: { text: "Working" },
             },
           ],
-        },
-      ],
-    },
-    {
-      text: "Mathematics",
-      items: [
-        {
-          text: "Linear Algebra",
-          items: linearAlgebra,
-          collapsed: true,
-          icon: "Sigma",
         },
       ],
     },
@@ -104,8 +78,8 @@ export default {
       items: [
         {
           text: "SDLC",
-          items: sdlc,
-          collapsed: true,
+          link: "/lectures/software-development/sdlc",
+          badge: { text: "Working" },
           icon: "RefreshCcw",
         },
       ],
