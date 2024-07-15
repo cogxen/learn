@@ -9,7 +9,40 @@ export default [
     ],
   },
   {
-    text: "Traditional Methods",
+    text: "Phases",
+    items: [
+      {
+        text: "Planning",
+        link: "/lectures/software-development/sdlc/phases/planning",
+      },
+      {
+        text: "Analysis",
+        link: "/lectures/software-development/sdlc/phases/analysis",
+      },
+      {
+        text: "Design",
+        link: "/lectures/software-development/sdlc/phases/design",
+      },
+      {
+        text: "Develop",
+        link: "/lectures/software-development/sdlc/phases/develop",
+      },
+      {
+        text: "Test and Integration",
+        link: "/lectures/software-development/sdlc/phases/test-and-integration",
+      },
+      {
+        text: "Deployment",
+        link: "/lectures/software-development/sdlc/phases/deployment",
+      },
+      {
+        text: "Maintenance",
+        link: "/lectures/software-development/sdlc/phases/maintenance",
+      },
+    ],
+  },
+  {
+    text: "Models",
     items: [
       {
         text: "Waterfall Model",
@@ -17,29 +50,15 @@ export default [
         items: [
           {
             text: "Overview",
-            link: "/lectures/software-development/sdlc/traditional-methods/waterfall-model/overview",
+            link: "/lectures/software-development/sdlc/models/waterfall-model/overview",
           },
           {
-            text: "Applications and Limitations",
-            link: "/lectures/software-development/sdlc/traditional-methods/waterfall-model/applications-and-limitations",
-          },
-        ],
-      },
-      {
-        text: "Spiral Model",
-        link: "/lectures/software-development/sdlc/traditional-methods/spiral-model",
-      },
-      {
-        text: "Rational Unified Process",
-        collapsed: false,
-        items: [
-          {
-            text: "Overview",
-            link: "/lectures/software-development/sdlc/traditional-methods/rational-unified-process/overview",
+            text: "Phases",
+            link: "/lectures/software-development/sdlc/models/waterfall-model/phases",
           },
           {
-            text: "Lifecycle",
-            link: "/lectures/software-development/sdlc/traditional-methods/rational-unified-process/lifecycle",
+            text: "Advantages and Disadvantages",
+            link: "/lectures/software-development/sdlc/models/waterfall-model/advantages-and-disadvantages",
           },
         ],
       },
