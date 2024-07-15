@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1211. Queries Quality and Percentage
@@ -120,7 +120,7 @@ GROUP BY
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT query_name`: Select the `query_name` from the `Queries` table.
   - `ROUND(AVG(rating * 1.0 / position), 2) AS quality`: Calculate the `quality` by getting the average of the ratio between `rating` and `position` and round it to two decimal places.

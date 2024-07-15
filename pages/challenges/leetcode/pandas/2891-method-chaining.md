@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 2891. Method Chaining
@@ -98,7 +98,7 @@ def findHeavyAnimals(animals: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanation
 
-<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `import pandas as pd`: This line imports the pandas library, which is a powerful tool for data manipulation and analysis in Python, and aliases it as pd.
 - `def findHeavyAnimals(animals: pd.DataFrame) -> pd.DataFrame:`: The function `findHeavyAnimals` takes one parameter, `animals`, which is expected to be a pandas DataFrame. The type hint `pd.DataFrame` is used for both the parameter and the return type, indicating that the function accepts a DataFrame as input and returns a DataFrame.

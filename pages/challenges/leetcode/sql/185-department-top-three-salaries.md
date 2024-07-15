@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 185. Department Top Three Salaries
@@ -174,7 +174,7 @@ def top_three_salaries(employee: pd.DataFrame, department: pd.DataFrame) -> pd.D
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 This SQL code snippet is designed to retrieve the top three highest salaries in each department from a database that contains `Employee` and `Department` tables. Here's a step-by-step explanation of how it works:
 
@@ -191,7 +191,7 @@ Overall, this SQL query efficiently identifies and lists the top three earners i
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library, which provides data structures and data analysis tools for Python. It's commonly imported under the alias `pd`.
 - `def top_three_salaries(employee: pd.DataFrame, department: pd.DataFrame) -> pd.DataFrame:`: This function takes two pandas DataFrames, `employee` and `department`, as input and returns a DataFrame.

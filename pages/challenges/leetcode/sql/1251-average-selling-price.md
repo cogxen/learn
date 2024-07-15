@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1251. Average Selling Price
@@ -141,7 +141,7 @@ GROUP BY
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT p.product_id`: Select the `product_id` from the `Prices` table.
   - `COALESCE(ROUND(SUM(u.units * p.price) / NULLIF(SUM(u.units), 0)::decimal, 2), 0) AS average_price`: Calculate the `average_price` for each `product_id`.

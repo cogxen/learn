@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1633. Percentage of Users Attended a Contest
@@ -158,7 +158,7 @@ ORDER BY
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `WITH ContestRegistrations AS (...)`: Create a Common Table Expression (CTE) named `ContestRegistrations` to get the count of registered users for each contest.
   - `SELECT contest_id, COUNT(DISTINCT user_id) AS registered_users`: Select the `contest_id` and the count of distinct `user_id` from the `Register` table.

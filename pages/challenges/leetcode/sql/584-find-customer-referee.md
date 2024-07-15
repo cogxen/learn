@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 584. Find Customer Referee
@@ -103,7 +103,7 @@ def find_customer_referee(customer: pd.DataFrame) -pd.DataFrame:
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT name`: This is the `SELECT` statement, which specifies the data you want to retrieve from the database. In this case, you're selecting the `name` column, so the query will return the names of customers.
 - `FROM Customer`: This is the `FROM` clause, which specifies the table you want to retrieve data from. In this case, you're retrieving data from the `Customer` table.
@@ -114,7 +114,7 @@ def find_customer_referee(customer: pd.DataFrame) -pd.DataFrame:
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library and gives it the alias pd. Pandas is a powerful data manipulation library in Python that provides data structures and functions needed for manipulating structured data.
 - `def find_customer_referee(customer: pd.DataFrame) -pd.DataFrame:`: This line defines a function called `find_customer_referee` that takes a pandas DataFrame `customer` as input and returns a pandas DataFrame. A DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It's similar to a spreadsheet or SQL table, or a dictionary of Series objects.

@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1280. Students and Examinations
@@ -202,7 +202,7 @@ ORDER BY
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `WITH AllCombinations AS (...)`: Create a Common Table Expression (CTE) named `AllCombinations` that contains all possible combinations of students and subjects.
   - `SELECT s.student_id, s.student_name, sub.subject_name`: Select the `student_id` and `student_name` from the `Students` table and the `subject_name` from the `Subjects` table.

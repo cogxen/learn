@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1174. Immediate Food Delivery II
@@ -133,7 +133,7 @@ FROM
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `WITH FirstOrders AS (...)`: Create a Common Table Expression (CTE) named `FirstOrders` that contains the `customer_id`, the earliest `order_date` as `first_order_date`, and the earliest `customer_pref_delivery_date` as `first_pref_delivery_date` for each customer.
   - `SELECT customer_id, MIN(order_date) AS first_order_date, MIN(customer_pref_delivery_date) AS first_pref_delivery_date`: Select the `customer_id`, the earliest `order_date` as `first_order_date`, and the earliest `customer_pref_delivery_date` as `first_pref_delivery_date` from the `Delivery` table.

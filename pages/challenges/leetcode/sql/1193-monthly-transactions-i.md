@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1193. Monthly Transactions I
@@ -114,7 +114,7 @@ GROUP BY
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `WITH MonthlyTransactions AS (...)`: Create a Common Table Expression (CTE) named `MonthlyTransactions` that selects the `month`, `country`, `state`, and `amount` columns from the `Transactions` table.
   - `SELECT TO_CHAR(trans_data, 'YYYY-MM') AS month`: Extract the year and month from the `trans_date` column and format it as `YYYY-MM`.

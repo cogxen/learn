@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 570. Managers with at Least 5 Direct Reports
@@ -108,7 +108,7 @@ def find_managers(employee: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT t1.name`: This part of the statement specifies the column that you want to retrieve from the database. In this case, you're retrieving the `name` column from the alias `t1` which represents the `Employee` table.
 - `FROM Employee t1`: This part of the statement specifies the table from which you want to retrieve the data. Here, `Employee` is the table and `t1` is an alias used to refer to this table in the rest of the query.
@@ -120,7 +120,7 @@ In the SQL query, `t1` and `t2` are aliases for the `Employee` table. When you j
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library, which provides data structures and data analysis tools for Python. It's commonly imported under the alias `pd`.
 - `def find_managers(employee: pd.DataFrame) -> pd.DataFrame:`: This line defines a function named `find_managers` that takes a pandas DataFrame `employee` as input and returns a DataFrame.
