@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 2877. Create a DataFrame from List
@@ -78,7 +78,7 @@ def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
 
 ## Explanation
 
-<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `import pandas as pd`: Import the pandas library to work with DataFrames.
 - `def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:`: Define a function called `createDataframe` that takes a 2D list `student_data` as input and returns a DataFrame.

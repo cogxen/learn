@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 577. Employee Bonus
@@ -128,7 +128,7 @@ WHERE
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT e.name, b.bonus`: Select the `name` and `bonus` from the `Employee` and `Bonus` tables.
 - `FROM Employee e`: Select the `Employee` table and alias it as `e`.

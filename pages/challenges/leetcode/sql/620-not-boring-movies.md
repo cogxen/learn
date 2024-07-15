@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 620. Not Boring Movies
@@ -101,7 +101,7 @@ ORDER BY rating DESC;
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT id, movie, description, rating`: selects the columns `id`, `movie`, `description`, and `rating`.
 - `FROM Cinema`: selects the `Cinema` table.

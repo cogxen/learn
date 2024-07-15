@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 2887. Fill Missing Data
@@ -89,7 +89,7 @@ def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanation
 
-<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `import pandas as pd`: Import the pandas library to work with DataFrames.
 - `def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame`: Define a function that takes a DataFrame as input and returns a DataFrame.

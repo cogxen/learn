@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1661. Average Time of Process per Machine
@@ -132,7 +132,7 @@ GROUP BY machine_id;
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT machine_id`: Select the `machine_id` from the `Activity` table.
 - `ROUND(AVG(end_time - start_time)::numeric, 3) AS processing_time`: Calculate the average time it takes to complete a process by subtracting the `'start' timestamp` from the `'end' timestamp` and rounding it to 3 decimal places.

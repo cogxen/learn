@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 2885. Rename Columns
@@ -102,7 +102,7 @@ def renameColumns(students: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanation
 
-<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `import pandas as pd`: Import the pandas library to work with DataFrames.
 - `def renameColumns(students: pd.DataFrame) -> pd.DataFrame:`: Define a function called `renameColumns` that takes a DataFrame `students` as input and returns a DataFrame.

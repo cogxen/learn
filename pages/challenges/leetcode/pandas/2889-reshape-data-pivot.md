@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 2889. Reshape Data: Pivot
@@ -95,7 +95,7 @@ def pivotTable(weather: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanation
 
-<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `import pandas as pd`: This line imports the pandas library and aliases it as pd. Pandas is a popular Python library for data manipulation and analysis.
 - `def pivotTable(weather: pd.DataFrame) -> pd.DataFrame`:

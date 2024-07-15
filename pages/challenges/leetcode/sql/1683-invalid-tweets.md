@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1683. Invalid Tweets
@@ -100,7 +100,7 @@ def invalid_tweets(tweets: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT tweet_id`: This part of the statement specifies the column that you want to retrieve from the database. In this case, you're retrieving the `tweet_id` column.
 - `FROM Tweets`: This part of the statement specifies the table from which you want to retrieve the data. Here, `Tweets` is the table.
@@ -108,7 +108,7 @@ def invalid_tweets(tweets: pd.DataFrame) -> pd.DataFrame:
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library, which provides data structures and data analysis tools for Python. It's commonly imported under the alias `pd`.
 - `def invalid_tweets(tweets: pd.DataFrame) -> pd.DataFrame:`: This line defines a function named invalid_tweets that takes a pandas DataFrame `tweets` as input and returns a DataFrame.

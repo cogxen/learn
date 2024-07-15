@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 2882. Drop Duplicate Rows
@@ -92,7 +92,7 @@ def dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanation
 
-<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="Python (Pandas)" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `import pandas as pd`: Import the pandas library to work with DataFrames.
 - `def dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:`: Define a function called `dropDuplicateEmails` that takes a DataFrame `customers` as input and returns a DataFrame.

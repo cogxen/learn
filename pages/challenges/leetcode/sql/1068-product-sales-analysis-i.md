@@ -23,7 +23,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 1068. Product Sales Analysis I
@@ -155,7 +155,7 @@ def sales_analysis(sales: pd.DataFrame, product: pd.DataFrame) -> pd.DataFrame:
 
 ## Explanations
 
-<CustomAccordion title="PostgreSQL, MySQL, & MS SQL Server" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="PostgreSQL, MySQL, & MS SQL Server" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `SELECT p.product_name, s.year, s.price`: This query selects the `product_name`, `year`, and `price` columns from the `Product` and `Sales` tables.
 - `FROM Sales s`: This part of the statement specifies the table from which you want to retrieve the data. Here, `Sales` is the table, and it's aliased as `s`.
@@ -163,7 +163,7 @@ def sales_analysis(sales: pd.DataFrame, product: pd.DataFrame) -> pd.DataFrame:
 
 </CustomAccordion>
 
-<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning">
+<CustomAccordion title="Pandas" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning">
 
 - `import pandas as pd`: This line imports the pandas library, which provides data structures and data analysis tools for Python. It's commonly imported under the alias `pd`.
 - `def sales_analysis(sales: pd.DataFrame, product: pd.DataFrame) -> pd.DataFrame`: This function takes two pandas DataFrames (`sales` and `product`) as input and returns a pandas DataFrame as output.

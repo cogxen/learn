@@ -19,7 +19,7 @@ leetcodeInformation:
 contributors:
   - - detail
     - name: Noey Ignacio
-    - website_url: https://github.com/noeyislearning
+    - website_url: https://www.linkedin.com/in/noeyislearning
 ---
 
 # 242. Valid Anagram
@@ -78,7 +78,7 @@ class Solution:
 
 ## Explanations
 
-<CustomAccordion title="Python" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=false>
+<CustomAccordion title="Python" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=false>
 
 - `class Solution:`: This is the class that contains the function `containsDuplicate`.
 - `def isAnagram(self, s: str, t: str) -> bool:`: This function takes two strings `s` and `t` as input and returns a boolean value.
@@ -87,7 +87,7 @@ class Solution:
 
 </CustomAccordion>
 
-<CustomAccordion title="Python" submitted_by="@noeyislearning" submit_website_url="https://github.com/noeyislearning" :collapsed=true>
+<CustomAccordion title="Python" submitted_by="@noeyislearning" submit_website_url="https://www.linkedin.com/in/noeyislearning" :collapsed=true>
 
 - `class Solution:`: This is the class that contains the function `containsDuplicate`.
 - `def isAnagram(self, s: str, t: str) -> bool:`: This function takes two strings `s` and `t` as input and returns a boolean value.
