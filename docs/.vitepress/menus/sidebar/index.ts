@@ -4,6 +4,7 @@ import lectures from "./menus/lectures"
 import activities from "./menus/academics/activities"
 
 /** Lectures */
+import foundations from "./menus/lectures/data-science/foundations"
 import dataScienceCareer from "./menus/lectures/data-science/data-science-career"
 import nonTechnicalSkills from "./menus/lectures/data-science/non-technical-skills"
 import dataFoundations from "./menus/lectures/data-science/data-foundations"
@@ -24,6 +25,7 @@ export default {
 
   /** Lectures */
   "/lectures/": lectures,
+  "/lectures/data-science/foundations/": foundations,
   "/lectures/data-science/data-science-career/": dataScienceCareer,
   "/lectures/data-science/non-technical-skills/": nonTechnicalSkills,
   "/lectures/data-science/data-foundations/": dataFoundations,
