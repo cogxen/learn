@@ -1,9 +1,10 @@
 import challenges from "./menus/challenges"
 import lectures from "./menus/lectures"
-import datasets from "./menus/resources/datasets"
+
 import activities from "./menus/academics/activities"
 
 /** Lectures */
+import foundations from "./menus/lectures/data-science/foundations"
 import dataScienceCareer from "./menus/lectures/data-science/data-science-career"
 import nonTechnicalSkills from "./menus/lectures/data-science/non-technical-skills"
 import dataFoundations from "./menus/lectures/data-science/data-foundations"
@@ -14,12 +15,17 @@ import analyzingData from "./menus/lectures/programming/sql/analyzing-data"
 import forDataScience from "./menus/lectures/programming/python/for-data-science"
 import sdlc from "./menus/lectures/software-development/sdlc"
 
+/** Resources */
+import datasets from "./menus/resources/datasets"
+import tools from "./menus/resources/tools"
+
 export default {
   /** Challenges */
   "/challenges/": challenges,
 
   /** Lectures */
   "/lectures/": lectures,
+  "/lectures/data-science/foundations/": foundations,
   "/lectures/data-science/data-science-career/": dataScienceCareer,
   "/lectures/data-science/non-technical-skills/": nonTechnicalSkills,
   "/lectures/data-science/data-foundations/": dataFoundations,
@@ -32,6 +38,7 @@ export default {
 
   /** Resources */
   "/resources/datasets/": datasets,
+  "/resources/tools/": tools,
 
   /** Academics */
   "/academics/activities/": activities,

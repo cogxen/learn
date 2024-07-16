@@ -5,6 +5,12 @@ export default {
       text: "Data Science",
       items: [
         {
+          text: "Foundations",
+          link: "/lectures/data-science/foundations",
+          icon: "Cuboid",
+          badge: { text: "Working" },
+        },
+        {
           text: "Data Science Career",
           link: "/lectures/data-science/data-science-career",
           icon: "BarChart2",

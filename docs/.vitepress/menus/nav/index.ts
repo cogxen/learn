@@ -32,6 +32,10 @@ export default [
         text: "Blogs",
         link: "/resources/blogs/",
       },
+      {
+        text: "Tools",
+        link: "/resources/tools/",
+      },
     ],
   },
 ]

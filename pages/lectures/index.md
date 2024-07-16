@@ -19,7 +19,9 @@ next: false
   img_url="https://i.imgur.com/DUVh9qH.png" 
 />
 
-Welcome to the Cogxen Lectures! Here, we aim to empower data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data. Our lectures are designed to be accessible to all, regardless of your background or experience level. Whether you're a seasoned data scientist or just starting out, we have something for you.
+Here, we aim to empower data enthusiasts and practitioners with the tools and knowledge to unlock the potential of data. Our lectures are designed to be accessible to all, regardless of your background or experience level. Whether you're a seasoned data scientist or just starting out, we have something for you.
+
+In collaboration with students from [Holy Angel University](https://hau.edu.ph/), we offer a diverse array of lectures and notes. Rest assured, all materials are thoroughly proofread before being posted to ensure clarity and accuracy.
 
 ## Resources and Materials
 
@@ -27,8 +29,5 @@ Welcome to the Cogxen Lectures! Here, we aim to empower data enthusiasts and pra
 - **Presentations:** Slide decks used during lectures to illustrate important points and facilitate understanding.
 - **Summaries:** Concise summaries of each class session, highlighting the main takeaways and any assignments or projects.
 
-## Additional Support
-
-- **Discussions:** Engage with peers and instructors to discuss topics, share resources, and seek help.
-- **Office Hours:** Schedule one-on-one sessions with instructors for personalized guidance and support.
-- **Project Work:** Participate in hands-on projects that allow you to apply what you've learned in a practical context.
+<br />
+Expect a variety of perspectives and insights as our student contributors bring their unique experiences and ideas to the table.
