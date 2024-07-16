@@ -1,6 +1,6 @@
 import challenges from "./menus/challenges"
 import lectures from "./menus/lectures"
-import datasets from "./menus/resources/datasets"
+
 import activities from "./menus/academics/activities"
 
 /** Lectures */
@@ -13,6 +13,10 @@ import introductionToSql from "./menus/lectures/programming/sql/introduction-to-
 import analyzingData from "./menus/lectures/programming/sql/analyzing-data"
 import forDataScience from "./menus/lectures/programming/python/for-data-science"
 import sdlc from "./menus/lectures/software-development/sdlc"
+
+/** Resources */
+import datasets from "./menus/resources/datasets"
+import tools from "./menus/resources/tools"
 
 export default {
   /** Challenges */
@@ -32,6 +36,7 @@ export default {
 
   /** Resources */
   "/resources/datasets/": datasets,
+  "/resources/tools/": tools,
 
   /** Academics */
   "/academics/activities/": activities,
