@@ -35,7 +35,7 @@ defineProps({
       {{ copyright_owner }}
     </div>
     <div class="flex pt-1 flex-col items-center">
-      <div class="text-sm text-slate-400">{{ caption }}</div>
+      <div class="text-xs text-slate-400 text-center">{{ caption }}</div>
     </div>
     <teleport to="body">
       <div
