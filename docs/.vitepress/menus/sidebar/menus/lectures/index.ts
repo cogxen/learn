@@ -35,6 +35,17 @@ export default {
           text: "Machine Learning",
           link: "/lectures/artificial-intelligence/machine-learning",
           icon: "BrainCircuit",
+          badge: { text: "Working" },
+        },
+      ],
+    },
+    {
+      text: "Algorithm",
+      items: [
+        {
+          text: "Machine Learning Guide",
+          link: "/lectures/algorithm/machine-learning-guide",
+          icon: "GitBranchPlus",
         },
       ],
     },

@@ -14,6 +14,7 @@ import introductionToSql from "./menus/lectures/programming/sql/introduction-to-
 import analyzingData from "./menus/lectures/programming/sql/analyzing-data"
 import forDataScience from "./menus/lectures/programming/python/for-data-science"
 import sdlc from "./menus/lectures/software-development/sdlc"
+import machineLearningGuide from "./menus/lectures/algorithm/machine-learning-guide"
 
 /** Resources */
 import datasets from "./menus/resources/datasets"
@@ -35,6 +36,7 @@ export default {
   "/lectures/programming/sql/analyzing-data/": analyzingData,
   "/lectures/programming/python/for-data-science/": forDataScience,
   "/lectures/software-development/sdlc/": sdlc,
+  "/lectures/algorithm/machine-learning-guide/": machineLearningGuide,
 
   /** Resources */
   "/resources/datasets/": datasets,
