@@ -3,7 +3,7 @@ import { onContentUpdated } from "vitepress"
 import { ref, type Ref } from "vue"
 import { useData } from "vitepress/dist/client/theme-default/composables/data.js"
 import type { Contributor, AssignedTo } from "../../../../types/doc-aside"
-import { Link2, GitBranch } from "lucide-vue-next"
+import { Link2 } from "lucide-vue-next"
 
 // Components
 import VPDocAsideOutline from "./VPDocAsideOutline.vue"
@@ -15,6 +15,7 @@ const leetcodeInformation = ref({ number: "", problemName: "", link: "" })
 const contributors: Ref<Contributor[]> = ref([])
 const assignedTo: Ref<AssignedTo[]> = ref([])
 const activityInformation = ref({ name: "", link: "" })
+const github = ref({ link: "" })
 
 const updateleetcodeStudyPlan = () => {
   if (frontmatter.value.leetcodeStudyPlan !== undefined) {
@@ -88,11 +89,31 @@ const updateActivityInformation = () => {
   }
 }
 
+function simplifiedLink(link: string): string {
+  if (!link) return ""
+  const urlParts = link.split("/")
+  if (urlParts.length > 5 && urlParts[2] === "github.com" && urlParts[5] === "blob") {
+    const pathAfterBranch = urlParts.slice(5).join("/")
+    return `${urlParts[2]}/${urlParts[3]}/${urlParts[4]}/${pathAfterBranch}`
+  }
+  return link
+}
+
+const updateGithubLink = () => {
+  if (frontmatter.value.github !== undefined) {
+    const githubLink = frontmatter.value.github[0].link
+    github.value = { link: githubLink }
+  } else {
+    github.value = { link: "" }
+  }
+}
+
 onContentUpdated(updateleetcodeStudyPlan)
 onContentUpdated(updateleetcodeInformation)
 onContentUpdated(updateContributors)
 onContentUpdated(updateAssignedTo)
 onContentUpdated(updateActivityInformation)
+onContentUpdated(updateGithubLink)
 </script>
 
 <template>
@@ -149,6 +170,24 @@ onContentUpdated(updateActivityInformation)
               class="text-sm text-slate-800 font-space-grotesk font-medium line-clamp-1 dark:text-slate-300"
             >
               {{ activityInformation.name }}
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <!-- GitHub Link -->
+      <div class="flex flex-col gap-2 items-start" v-if="github">
+        <span class="text-xs text-slate-800 dark:text-slate-300">Repository</span>
+        <a
+          :href="github.link"
+          target="_blank"
+          class="px-4 py-2 w-full border border-dashed border-slate-300 dark:border-slate-700"
+        >
+          <div class="flex flex-row gap-2 justify-between items-center">
+            <span
+              class="text-xs text-slate-800 font-space-grotesk font-medium line-clamp-1 dark:text-slate-300"
+            >
+              {{ simplifiedLink(github.link) }}
             </span>
           </div>
         </a>
