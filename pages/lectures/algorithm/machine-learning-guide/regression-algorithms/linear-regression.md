@@ -13,8 +13,6 @@ editLink: false
 footer: false
 prev: false
 next: false
-github:
-  - link: https://github.com/cogxen/machine-learning-algorithms/blob/main/linear-regression/notebook.ipynb
 contributors:
   - - detail
     - name: Noey Ignacio
