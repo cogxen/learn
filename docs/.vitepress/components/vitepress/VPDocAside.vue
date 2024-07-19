@@ -176,7 +176,7 @@ onContentUpdated(updateGithubLink)
       </div>
 
       <!-- GitHub Link -->
-      <div class="flex flex-col gap-2 items-start" v-if="github">
+      <div class="flex flex-col gap-2 items-start" v-if="github.link">
         <span class="text-xs text-slate-800 dark:text-slate-300">Repository</span>
         <a
           :href="github.link"
