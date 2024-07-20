@@ -9,72 +9,72 @@ export default [
     ],
   },
   {
-    text: "Exploring Data",
+    text: "Exploring",
     items: [
       {
         text: "Data Workspace",
-        link: "/lectures/programming/python/for-data-science/exploring-data/data-workspace",
+        link: "/lectures/programming/python/for-data-science/exploring/data-workspace",
       },
       {
         text: "Importing Datasets",
-        link: "/lectures/programming/python/for-data-science/exploring-data/importing-datasets",
+        link: "/lectures/programming/python/for-data-science/exploring/importing-datasets",
       },
       {
         text: "Data Types",
-        link: "/lectures/programming/python/for-data-science/exploring-data/data-types",
+        link: "/lectures/programming/python/for-data-science/exploring/data-types",
       },
       {
         text: "Variables",
-        link: "/lectures/programming/python/for-data-science/exploring-data/variables",
+        link: "/lectures/programming/python/for-data-science/exploring/variables",
       },
       {
         text: "Lists",
-        link: "/lectures/programming/python/for-data-science/exploring-data/lists",
+        link: "/lectures/programming/python/for-data-science/exploring/lists",
       },
       {
         text: "Dictionaries",
-        link: "/lectures/programming/python/for-data-science/exploring-data/dictionaries",
+        link: "/lectures/programming/python/for-data-science/exploring/dictionaries",
       },
       {
         text: "Methods",
-        link: "/lectures/programming/python/for-data-science/exploring-data/methods",
+        link: "/lectures/programming/python/for-data-science/exploring/methods",
       },
       {
         text: "Categorical Data",
-        link: "/lectures/programming/python/for-data-science/exploring-data/categorical-data",
+        link: "/lectures/programming/python/for-data-science/exploring/categorical-data",
       },
       {
         text: "Numeric Data",
-        link: "/lectures/programming/python/for-data-science/exploring-data/numeric-data",
+        link: "/lectures/programming/python/for-data-science/exploring/numeric-data",
       },
     ],
   },
   {
-    text: "Sorting and Filtering Data",
+    text: "Sorting and Filtering",
     items: [
       {
         text: "Row Indexes",
-        link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/row-indexes",
+        link: "/lectures/programming/python/for-data-science/sorting-and-filtering/row-indexes",
       },
       {
         text: "Sorting Rows",
-        link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/sorting-rows",
+        link: "/lectures/programming/python/for-data-science/sorting-and-filtering/sorting-rows",
       },
       {
         text: "Selecting Rows",
-        link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/selecting-rows",
+        link: "/lectures/programming/python/for-data-science/sorting-and-filtering/selecting-rows",
       },
       {
         text: "Selecting Ranges of Rows",
-        link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/selecting-ranges-of-rows",
+        link: "/lectures/programming/python/for-data-science/sorting-and-filtering/selecting-ranges-of-rows",
       },
       {
         text: "Boolean",
-        link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/boolean",
+        link: "/lectures/programming/python/for-data-science/sorting-and-filtering/boolean",
       },
       {
         text: "Filtering Rows",
-        link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/filtering-rows",
+        link: "/lectures/programming/python/for-data-science/sorting-and-filtering/filtering-rows",
       },
       {
         text: "Operators",
@@ -82,17 +82,50 @@ export default [
         items: [
           {
             text: "Booleans with And",
-            link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/operators/booleans-with-and",
+            link: "/lectures/programming/python/for-data-science/sorting-and-filtering/operators/booleans-with-and",
           },
           {
             text: "Booleans with Or",
-            link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/operators/booleans-with-or",
+            link: "/lectures/programming/python/for-data-science/sorting-and-filtering/operators/booleans-with-or",
           },
           {
             text: "Booleans with Not",
-            link: "/lectures/programming/python/for-data-science/sorting-and-filtering-data/operators/booleans-with-not",
+            link: "/lectures/programming/python/for-data-science/sorting-and-filtering/operators/booleans-with-not",
           },
         ],
+      },
+    ],
+  },
+  {
+    text: "Cleaning and Transforming",
+    items: [
+      {
+        text: "Column Information",
+        link: "/lectures/programming/python/for-data-science/cleaning-and-transforming/column-information",
+      },
+      {
+        text: "Renaming and Removing Columns",
+        link: "/lectures/programming/python/for-data-science/cleaning-and-transforming/renaming-and-removing-columns",
+      },
+      {
+        text: "Calculations",
+        link: "/lectures/programming/python/for-data-science/cleaning-and-transforming/calculations",
+      },
+      {
+        text: "Column Calculations",
+        link: "/lectures/programming/python/for-data-science/cleaning-and-transforming/column-calculations",
+      },
+      {
+        text: "Splitting and Combining Columns",
+        link: "/lectures/programming/python/for-data-science/cleaning-and-transforming/splitting-and-combining-columns",
+      },
+      {
+        text: "Modifying Text Data",
+        link: "/lectures/programming/python/for-data-science/cleaning-and-transforming/modifying-text-data",
+      },
+      {
+        text: "Changing Data Types",
+        link: "/lectures/programming/python/for-data-science/cleaning-and-transforming/changing-data-types",
       },
     ],
   },
