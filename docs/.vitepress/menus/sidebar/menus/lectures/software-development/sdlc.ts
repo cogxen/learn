@@ -12,12 +12,12 @@ export default [
     text: "Phases",
     items: [
       {
-        text: "Planning",
-        link: "/lectures/software-development/sdlc/phases/planning",
+        text: "Planning & Analysis",
+        link: "/lectures/software-development/sdlc/phases/planning-and-analysis",
       },
       {
-        text: "Analysis",
-        link: "/lectures/software-development/sdlc/phases/analysis",
+        text: "Define",
+        link: "/lectures/software-development/sdlc/phases/define",
       },
       {
         text: "Design",

@@ -55,7 +55,16 @@ export default [
             items: [
               {
                 text: "Simple",
-                link: "/lectures/algorithm/machine-learning-guide/regression-algorithms/linear-regression/examples/simple",
+                items: [
+                  {
+                    text: "Cupcakes Sold",
+                    link: "https://github.com/cogxen/machine-learning-algorithms/blob/main/linear-regression/simple/cupcakes.ipynb",
+                  },
+                  {
+                    text: "House Prediction",
+                    link: "https://github.com/cogxen/machine-learning-algorithms/blob/main/linear-regression/simple/house_prediction.ipynb",
+                  },
+                ],
               },
               {
                 text: "Multiple",

@@ -96,7 +96,7 @@ export default {
         {
           text: "SDLC",
           link: "/lectures/software-development/sdlc",
-          badge: { text: "Working" },
+          badge: { text: "Updated" },
           icon: "RefreshCcw",
         },
       ],
