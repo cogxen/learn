@@ -129,4 +129,33 @@ export default [
       },
     ],
   },
+  {
+    text: "Merging",
+    items: [
+      {
+        text: "Inner",
+        link: "/lectures/programming/python/for-data-science/merging/inner",
+      },
+      {
+        text: "Left",
+        link: "/lectures/programming/python/for-data-science/merging/left",
+      },
+      {
+        text: "Right",
+        link: "/lectures/programming/python/for-data-science/merging/right",
+      },
+      {
+        text: "Outer",
+        link: "/lectures/programming/python/for-data-science/merging/outer",
+      },
+      {
+        text: "Multiple Columns",
+        link: "/lectures/programming/python/for-data-science/merging/multiple-columns",
+      },
+      {
+        text: "Choosing a Merge Method",
+        link: "/lectures/programming/python/for-data-science/merging/choosing-a-merge-method",
+      },
+    ],
+  },
 ]
