@@ -158,4 +158,51 @@ export default [
       },
     ],
   },
+  {
+    text: "Aggregating",
+    items: [
+      {
+        text: "Functions",
+        link: "/lectures/programming/python/for-data-science/aggregating/functions",
+      },
+      {
+        text: "Booleans",
+        link: "/lectures/programming/python/for-data-science/aggregating/booleans",
+      },
+      {
+        text: "NumPy Functions",
+        link: "/lectures/programming/python/for-data-science/aggregating/numpy-functions",
+      },
+      {
+        text: "GroupBy",
+        collapsed: false,
+        items: [
+          {
+            text: "One Column",
+            link: "/lectures/programming/python/for-data-science/aggregating/groupby/one-column",
+          },
+          {
+            text: "Multiple Columns",
+            link: "/lectures/programming/python/for-data-science/aggregating/groupby/multiple-columns",
+          },
+          {
+            text: "Multiple Functions",
+            link: "/lectures/programming/python/for-data-science/aggregating/groupby/multiple-functions",
+          },
+          {
+            text: "Clearing Output",
+            link: "/lectures/programming/python/for-data-science/aggregating/groupby/clearing-output",
+          },
+        ],
+      },
+      {
+        text: "Pivot",
+        link: "/lectures/programming/python/for-data-science/aggregating/pivot",
+      },
+      {
+        text: "Split-Apply-Combine",
+        link: "/lectures/programming/python/for-data-science/aggregating/split-apply-combine",
+      },
+    ],
+  },
 ]
