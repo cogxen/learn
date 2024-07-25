@@ -19,6 +19,8 @@ import machineLearningGuide from "./menus/lectures/algorithm/machine-learning-gu
 /** Resources */
 import datasets from "./menus/resources/datasets"
 import tools from "./menus/resources/tools"
+import blogs from "./menus/resources/blogs"
+import whatIsCrispDm from "./menus/resources/blogs/what-is-crisp-dm"
 
 export default {
   /** Challenges */
@@ -41,6 +43,8 @@ export default {
   /** Resources */
   "/resources/datasets/": datasets,
   "/resources/tools/": tools,
+  "/resources/blogs/": blogs,
+  "/resources/blogs/what-is-crisp-dm/": whatIsCrispDm,
 
   /** Academics */
   "/academics/activities/": activities,
