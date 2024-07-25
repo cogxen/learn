@@ -75,23 +75,23 @@ export default [
     items: [
       {
         text: "Data Collection",
-        link: "/lectures/data-science/foundations/data-collection",
+        link: "/lectures/data-science/foundations/life-cylce/data-collection",
       },
       {
         text: "Data Cleaning",
-        link: "/lectures/data-science/foundations/data-cleaning",
+        link: "/lectures/data-science/foundations/life-cylce/data-cleaning",
       },
       {
         text: "Data Analysis",
-        link: "/lectures/data-science/foundations/data-analysis",
+        link: "/lectures/data-science/foundations/life-cylce/data-analysis",
       },
       {
         text: "Model Building",
-        link: "/lectures/data-science/foundations/model-building",
+        link: "/lectures/data-science/foundations/life-cylce/model-building",
       },
       {
         text: "Model Deployment",
-        link: "/lectures/data-science/foundations/model-deployment",
+        link: "/lectures/data-science/foundations/life-cylce/model-deployment",
       },
     ],
   },
