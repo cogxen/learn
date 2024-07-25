@@ -9,28 +9,89 @@ export default [
     ],
   },
   {
-    text: "Introduction",
+    text: "Roles and Impact",
     items: [
       {
-        text: "Roles and Impact",
-        link: "/lectures/data-science/foundations/introduction/roles-and-impact",
+        text: "Data Scientist",
+        link: "/lectures/data-science/foundations/roles-and-impact/data-scientist",
       },
       {
-        text: "Power of Data Science",
-        link: "/lectures/data-science/foundations/introduction/power-of-data-science",
+        text: "Data Analyst",
+        link: "/lectures/data-science/foundations/roles-and-impact/data-analyst",
       },
       {
-        text: "Life Cycle",
-        link: "/lectures/data-science/foundations/introduction/life-cycle",
+        text: "Data Engineer",
+        link: "/lectures/data-science/foundations/roles-and-impact/data-engineer",
+      },
+      {
+        text: "Machine Learning Engineer",
+        link: "/lectures/data-science/foundations/roles-and-impact/machine-learning-engineer",
       },
     ],
   },
   {
-    text: "Data",
+    text: "Power of Data Science",
     items: [
       {
-        text: "Quality Data",
-        link: "/lectures/data-science/foundations/data/quality-data",
+        text: "In Business",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-business",
+      },
+      {
+        text: "In Healthcare",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-healthcare",
+      },
+      {
+        text: "In Government",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-government",
+      },
+      {
+        text: "In Education",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-education",
+      },
+      {
+        text: "In Energy",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-energy",
+      },
+      {
+        text: "In Sports",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-sports",
+      },
+      {
+        text: "In Manufacturing",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-manufacturing",
+      },
+      {
+        text: "In Agriculture",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-agriculture",
+      },
+      {
+        text: "In Cybersecurity",
+        link: "/lectures/data-science/foundations/power-of-data-science/in-cybersecurity",
+      },
+    ],
+  },
+  {
+    text: "Life Cycle",
+    items: [
+      {
+        text: "Data Collection",
+        link: "/lectures/data-science/foundations/life-cylce/data-collection",
+      },
+      {
+        text: "Data Cleaning",
+        link: "/lectures/data-science/foundations/life-cylce/data-cleaning",
+      },
+      {
+        text: "Data Analysis",
+        link: "/lectures/data-science/foundations/life-cylce/data-analysis",
+      },
+      {
+        text: "Model Building",
+        link: "/lectures/data-science/foundations/life-cylce/model-building",
+      },
+      {
+        text: "Model Deployment",
+        link: "/lectures/data-science/foundations/life-cylce/model-deployment",
       },
     ],
   },
